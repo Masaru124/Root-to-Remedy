@@ -7,6 +7,7 @@ export default function ManufacturerPage() {
   const [approvedBatches, setApprovedBatches] = useState([]);
   const [selectedBatchId, setSelectedBatchId] = useState('');
   const [productName, setProductName] = useState('Organic Ashwagandha Extract Capsules');
+  const [unitsRequested, setUnitsRequested] = useState('500');
   
   const [loading, setLoading] = useState(false);
   const [submitting, setSubmitting] = useState(false);
@@ -34,6 +35,8 @@ export default function ManufacturerPage() {
     fetchApprovedBatches();
   }, []);
 
+  const selectedBatch = approvedBatches.find(b => b.batchId === selectedBatchId);
+
   const handleCreateProduct = async (e) => {
     e.preventDefault();
     setError('');
@@ -44,16 +47,23 @@ export default function ManufacturerPage() {
       return;
     }
 
+    if (!unitsRequested || Number(unitsRequested) <= 0) {
+      setError('Please enter a valid positive number of units to manufacture.');
+      return;
+    }
+
     setSubmitting(true);
 
     try {
       const res = await API.post('/manufacture', {
         batchId: selectedBatchId,
-        productName
+        productName,
+        unitsRequested: Number(unitsRequested)
       });
 
       if (res.success) {
         setCreatedProduct(res.data);
+        fetchApprovedBatches();
       }
     } catch (err) {
       setError(err.message || 'Product creation failed.');
@@ -97,17 +107,34 @@ export default function ManufacturerPage() {
                     No APPROVED batches available. Upload a passing lab test in the Lab Portal first.
                   </div>
                 ) : (
-                  <select
-                    className="form-select"
-                    value={selectedBatchId}
-                    onChange={(e) => setSelectedBatchId(e.target.value)}
-                  >
-                    {approvedBatches.map((b) => (
-                      <option key={b.batchId} value={b.batchId}>
-                        {b.batchId} — {b.herbName} (Purity: {b.labReport?.purity}%)
-                      </option>
-                    ))}
-                  </select>
+                  <>
+                    <select
+                      className="form-select"
+                      value={selectedBatchId}
+                      onChange={(e) => setSelectedBatchId(e.target.value)}
+                    >
+                      {approvedBatches.map((b) => (
+                        <option key={b.batchId} value={b.batchId}>
+                          {b.batchId} — {b.herbName} ({b.species})
+                        </option>
+                      ))}
+                    </select>
+
+                    {selectedBatch && (
+                      <div style={{ marginTop: '0.5rem', padding: '0.6rem 0.8rem', background: 'rgba(16, 185, 129, 0.08)', borderRadius: 'var(--radius-sm)', fontSize: '0.8rem', border: '1px solid var(--border-color)' }}>
+                        <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.2rem' }}>
+                          <span style={{ color: 'var(--text-muted)' }}>Remaining Biomass:</span>
+                          <strong style={{ color: 'var(--emerald-light)' }}>
+                            {((selectedBatch.remainingWeightMg || 0) / 1000000).toFixed(2)} kg
+                          </strong>
+                        </div>
+                        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                          <span style={{ color: 'var(--text-muted)' }}>Lab CoA Purity:</span>
+                          <strong>{selectedBatch.labReport?.purity}% (Clean)</strong>
+                        </div>
+                      </div>
+                    )}
+                  </>
                 )}
               </div>
 
@@ -123,13 +150,30 @@ export default function ManufacturerPage() {
                 />
               </div>
 
+              <div className="form-group">
+                <label>Units / Bottles to Manufacture</label>
+                <input
+                  type="number"
+                  min="1"
+                  step="1"
+                  required
+                  className="form-input"
+                  value={unitsRequested}
+                  onChange={(e) => setUnitsRequested(e.target.value)}
+                  placeholder="e.g. 500"
+                />
+                <span style={{ fontSize: '0.72rem', color: 'var(--text-dim)' }}>
+                  Chaincode enforces mass balance based on API monograph dosage & yield.
+                </span>
+              </div>
+
               <button
                 type="submit"
                 className="btn btn-primary"
                 disabled={submitting || approvedBatches.length === 0}
                 style={{ width: '100%', padding: '0.85rem', marginTop: '1rem', fontSize: '0.95rem' }}
               >
-                {submitting ? 'Verifying Batch & Generating QR...' : 'Create Product & Render QR Code'}
+                {submitting ? 'Verifying Mass Balance & Minting...' : 'Mint Product & Render QR Code'}
               </button>
             </form>
           </div>
@@ -148,9 +192,14 @@ export default function ManufacturerPage() {
                 <div style={{ fontFamily: 'monospace', fontSize: '1rem', fontWeight: 700, color: 'var(--emerald-light)', marginBottom: '0.2rem' }}>
                   {createdProduct.productId}
                 </div>
-                <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginBottom: '1rem' }}>
+                <p style={{ fontSize: '0.85rem', color: 'var(--text-main)', fontWeight: 600, margin: '0.2rem 0' }}>
                   {createdProduct.productName}
                 </p>
+                <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginBottom: '1rem' }}>
+                  <div>Units: <strong>{createdProduct.unitsProduced}</strong></div>
+                  <div>Biomass Consumed: <strong>{(createdProduct.biomassConsumedMg / 1000000).toFixed(3)} kg</strong></div>
+                  <div>Remaining Batch Balance: <strong>{(createdProduct.remainingBatchWeightMg / 1000000).toFixed(3)} kg</strong></div>
+                </div>
                 <a
                   href={createdProduct.qrCodeDataUrl}
                   download={`${createdProduct.productId}_QR.png`}
@@ -163,7 +212,7 @@ export default function ManufacturerPage() {
             ) : (
               <div style={{ padding: '2rem 1rem', color: 'var(--text-dim)' }}>
                 <QrCode size={48} style={{ opacity: 0.3, marginBottom: '0.5rem' }} />
-                <p style={{ fontSize: '0.85rem' }}>Select an approved batch and click Create Product to render a downloadable QR image.</p>
+                <p style={{ fontSize: '0.85rem' }}>Select an approved batch and click Mint Product to verify mass balance and render a QR image.</p>
               </div>
             )}
           </div>

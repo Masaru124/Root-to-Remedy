@@ -1,0 +1,3700 @@
+{
+  "nodes": [
+    {
+      "id": "g0",
+      "type": "group",
+      "label": "productController.js",
+      "x": 0,
+      "y": 0,
+      "width": 1540,
+      "height": 820,
+      "color": "1"
+    },
+    {
+      "id": "n_backend_controllers_batchcontroller_batchcache",
+      "type": "file",
+      "file": "BatchCache.md",
+      "x": 20,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_controllers_labcontroller_batchcache",
+      "type": "file",
+      "file": "BatchCache_1.md",
+      "x": 220,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_controllers_productcontroller_batchcache",
+      "type": "file",
+      "file": "BatchCache_2.md",
+      "x": 420,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_models_batchcache",
+      "type": "file",
+      "file": "BatchCache.js.md",
+      "x": 620,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_services_ipfsservice_formdata",
+      "type": "file",
+      "file": "FormData.md",
+      "x": 820,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_services_qrservice_qrcode",
+      "type": "file",
+      "file": "QRCode.md",
+      "x": 1020,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_services_ipfsservice_axios",
+      "type": "file",
+      "file": "axios.md",
+      "x": 1220,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_models_batchcache_batchcacheschema",
+      "type": "file",
+      "file": "batchCacheSchema.md",
+      "x": 20,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_controllers_batchcontroller",
+      "type": "file",
+      "file": "batchController.js.md",
+      "x": 220,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_routes_batchroutes",
+      "type": "file",
+      "file": "batchRoutes.js.md",
+      "x": 420,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_controllers_productcontroller_createproduct",
+      "type": "file",
+      "file": "createProduct().md",
+      "x": 620,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_services_ipfsservice_crypto",
+      "type": "file",
+      "file": "crypto.md",
+      "x": 820,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_config_db",
+      "type": "file",
+      "file": "db.js.md",
+      "x": 1020,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_routes_batchroutes_express",
+      "type": "file",
+      "file": "express.md",
+      "x": 1220,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_form_data",
+      "type": "file",
+      "file": "form-data.md",
+      "x": 20,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_services_qrservice_generateqr",
+      "type": "file",
+      "file": "generateQR().md",
+      "x": 220,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_controllers_batchcontroller_getallbatches",
+      "type": "file",
+      "file": "getAllBatches().md",
+      "x": 420,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_controllers_productcontroller_getapprovedbatches",
+      "type": "file",
+      "file": "getApprovedBatches().md",
+      "x": 620,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_controllers_batchcontroller_getbatchbyid",
+      "type": "file",
+      "file": "getBatchById().md",
+      "x": 820,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_config_fabricconnection_getfabricgateway",
+      "type": "file",
+      "file": "getFabricGateway().md",
+      "x": 1020,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_config_db_getmongostatus",
+      "type": "file",
+      "file": "getMongoStatus().md",
+      "x": 1220,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_services_ipfsservice",
+      "type": "file",
+      "file": "ipfsService.js.md",
+      "x": 20,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_controllers_labcontroller",
+      "type": "file",
+      "file": "labController.js.md",
+      "x": 220,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_config_db_mongoose",
+      "type": "file",
+      "file": "mongoose.md",
+      "x": 420,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_models_batchcache_mongoose",
+      "type": "file",
+      "file": "mongoose_1.md",
+      "x": 620,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_controllers_productcontroller",
+      "type": "file",
+      "file": "productController.js.md",
+      "x": 820,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_services_qrservice",
+      "type": "file",
+      "file": "qrService.js.md",
+      "x": 1020,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_qrcode",
+      "type": "file",
+      "file": "qrcode_1.md",
+      "x": 1220,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_controllers_batchcontroller_registerbatch",
+      "type": "file",
+      "file": "registerBatch().md",
+      "x": 20,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_routes_batchroutes_router",
+      "type": "file",
+      "file": "router.md",
+      "x": 220,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_controllers_labcontroller_uploadlabreport",
+      "type": "file",
+      "file": "uploadLabReport().md",
+      "x": 420,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_services_ipfsservice_uploadtoipfs",
+      "type": "file",
+      "file": "uploadToIPFS().md",
+      "x": 620,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_uuid",
+      "type": "file",
+      "file": "uuid.md",
+      "x": 820,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_routes_batchroutes_authenticatetoken_requirerole",
+      "type": "file",
+      "file": "{ authenticateToken, requireRole }.md",
+      "x": 1020,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_controllers_productcontroller_generateqr",
+      "type": "file",
+      "file": "{ generateQR }.md",
+      "x": 1220,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_routes_batchroutes_getapprovedbatches",
+      "type": "file",
+      "file": "{ getApprovedBatches }.md",
+      "x": 20,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_controllers_batchcontroller_getfabricgateway",
+      "type": "file",
+      "file": "{ getFabricGateway }.md",
+      "x": 220,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_controllers_labcontroller_getfabricgateway",
+      "type": "file",
+      "file": "{ getFabricGateway }_1.md",
+      "x": 420,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_controllers_productcontroller_getfabricgateway",
+      "type": "file",
+      "file": "{ getFabricGateway }_2.md",
+      "x": 620,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_controllers_batchcontroller_getmongostatus",
+      "type": "file",
+      "file": "{ getMongoStatus }.md",
+      "x": 820,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_controllers_labcontroller_getmongostatus",
+      "type": "file",
+      "file": "{ getMongoStatus }_1.md",
+      "x": 1020,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_controllers_productcontroller_getmongostatus",
+      "type": "file",
+      "file": "{ getMongoStatus }_2.md",
+      "x": 1220,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_routes_batchroutes_registerbatch_getallbatches_getbatchbyid",
+      "type": "file",
+      "file": "{ registerBatch, getAllBatches, getBatchById }.md",
+      "x": 20,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_controllers_labcontroller_uploadtoipfs",
+      "type": "file",
+      "file": "{ uploadToIPFS }.md",
+      "x": 220,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_controllers_batchcontroller_v4_uuidv4",
+      "type": "file",
+      "file": "{ v4 uuidv4 }.md",
+      "x": 420,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_controllers_productcontroller_v4_uuidv4",
+      "type": "file",
+      "file": "{ v4 uuidv4 }_1.md",
+      "x": 620,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g1",
+      "type": "group",
+      "label": "fabricConnection.js",
+      "x": 1620,
+      "y": 0,
+      "width": 1320,
+      "height": 720,
+      "color": "2"
+    },
+    {
+      "id": "n_chaincode_lib_herbcontract_herbcontract_createproduct",
+      "type": "file",
+      "file": "dot-CreateProduct().md",
+      "x": 1640,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_lib_herbcontract_herbcontract_registerbatch",
+      "type": "file",
+      "file": "dot-RegisterBatch().md",
+      "x": 1840,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_lib_herbcontract_herbcontract_updatetransport",
+      "type": "file",
+      "file": "dot-UpdateTransport().md",
+      "x": 2040,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_lib_herbcontract_herbcontract_uploadlabreport",
+      "type": "file",
+      "file": "dot-UploadLabReport().md",
+      "x": 2240,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_lib_herbcontract_herbcontract_verifyproduct",
+      "type": "file",
+      "file": "dot-VerifyProduct().md",
+      "x": 2440,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_lib_herbcontract_herbcontract_batchexists",
+      "type": "file",
+      "file": "dot-batchExists().md",
+      "x": 2640,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_config_fabricconnection_mockledgeradapter_constructor",
+      "type": "file",
+      "file": "dot-constructor().md",
+      "x": 1640,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_config_fabricconnection_mockledgeradapter_evaluatetransaction",
+      "type": "file",
+      "file": "dot-evaluateTransaction().md",
+      "x": 1840,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_config_fabricconnection_mockledgeradapter_getallbatches",
+      "type": "file",
+      "file": "dot-getAllBatches().md",
+      "x": 2040,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_lib_herbcontract_herbcontract_initledger",
+      "type": "file",
+      "file": "dot-initLedger().md",
+      "x": 2240,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_lib_herbcontract_herbcontract_productexists",
+      "type": "file",
+      "file": "dot-productExists().md",
+      "x": 2440,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_config_fabricconnection_mockledgeradapter_seeddemodata",
+      "type": "file",
+      "file": "dot-seedDemoData().md",
+      "x": 2640,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_config_fabricconnection_mockledgeradapter_submittransaction",
+      "type": "file",
+      "file": "dot-submitTransaction().md",
+      "x": 1640,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_index_herbcontract",
+      "type": "file",
+      "file": "HerbContract_1.md",
+      "x": 1840,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_lib_herbcontract_herbcontract",
+      "type": "file",
+      "file": "HerbContract.md",
+      "x": 2040,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_test_herbcontract_test_herbcontract",
+      "type": "file",
+      "file": "HerbContract_2.md",
+      "x": 2240,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_config_fabricconnection_mockledgeradapter",
+      "type": "file",
+      "file": "MockLedgerAdapter.md",
+      "x": 2440,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_lib_rules_cancreateproduct",
+      "type": "file",
+      "file": "canCreateProduct().md",
+      "x": 2640,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_test_herbcontract_test_chai",
+      "type": "file",
+      "file": "chai.md",
+      "x": 1640,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_lib_rules_evaluatelabresult",
+      "type": "file",
+      "file": "evaluateLabResult().md",
+      "x": 1840,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_fabric_contract_api",
+      "type": "file",
+      "file": "fabric-contract-api.md",
+      "x": 2040,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_config_fabricconnection",
+      "type": "file",
+      "file": "fabricConnection.js.md",
+      "x": 2240,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_config_fabricconnection_fs",
+      "type": "file",
+      "file": "fs.md",
+      "x": 2440,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_lib_herbcontract",
+      "type": "file",
+      "file": "herbContract.js.md",
+      "x": 2640,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_test_herbcontract_test",
+      "type": "file",
+      "file": "herbContract.test.js.md",
+      "x": 1640,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_index",
+      "type": "file",
+      "file": "index.js.md",
+      "x": 1840,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_config_fabricconnection_path",
+      "type": "file",
+      "file": "path.md",
+      "x": 2040,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_lib_rules",
+      "type": "file",
+      "file": "rules.js.md",
+      "x": 2240,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_test_herbcontract_test_sinon",
+      "type": "file",
+      "file": "sinon.md",
+      "x": 2440,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_sinon",
+      "type": "file",
+      "file": "sinon_1.md",
+      "x": 2640,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_sinon_chai",
+      "type": "file",
+      "file": "sinon-chai.md",
+      "x": 1640,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_test_herbcontract_test_sinonchai",
+      "type": "file",
+      "file": "sinonChai.md",
+      "x": 1840,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_lib_herbcontract_contract",
+      "type": "file",
+      "file": "{ Contract }.md",
+      "x": 2040,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_config_fabricconnection_evaluatelabresult_cancreateproduct",
+      "type": "file",
+      "file": "{ evaluateLabResult, canCreateProduct }.md",
+      "x": 2240,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_lib_herbcontract_evaluatelabresult_cancreateproduct",
+      "type": "file",
+      "file": "{ evaluateLabResult, canCreateProduct }_1.md",
+      "x": 2440,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_test_herbcontract_test_evaluatelabresult_cancreateproduct",
+      "type": "file",
+      "file": "{ evaluateLabResult, canCreateProduct }_2.md",
+      "x": 2640,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g2",
+      "type": "group",
+      "label": "App.jsx",
+      "x": 3020,
+      "y": 0,
+      "width": 1320,
+      "height": 720,
+      "color": "3"
+    },
+    {
+      "id": "n_frontend_src_services_api_api",
+      "type": "file",
+      "file": "API.md",
+      "x": 3040,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_app_app",
+      "type": "file",
+      "file": "App().md",
+      "x": 3240,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_app",
+      "type": "file",
+      "file": "App.jsx.md",
+      "x": 3440,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_context_authcontext_authcontext",
+      "type": "file",
+      "file": "AuthContext.md",
+      "x": 3640,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_context_authcontext",
+      "type": "file",
+      "file": "AuthContext.jsx.md",
+      "x": 3840,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_context_authcontext_authprovider",
+      "type": "file",
+      "file": "AuthProvider().md",
+      "x": 4040,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_pages_consumerpage_consumerpage",
+      "type": "file",
+      "file": "ConsumerPage().md",
+      "x": 3040,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_pages_consumerpage",
+      "type": "file",
+      "file": "ConsumerPage.jsx.md",
+      "x": 3240,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_pages_farmerpage_farmerpage",
+      "type": "file",
+      "file": "FarmerPage().md",
+      "x": 3440,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_pages_farmerpage",
+      "type": "file",
+      "file": "FarmerPage.jsx.md",
+      "x": 3640,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_pages_labpage_labpage",
+      "type": "file",
+      "file": "LabPage().md",
+      "x": 3840,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_pages_labpage",
+      "type": "file",
+      "file": "LabPage.jsx.md",
+      "x": 4040,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_pages_loginpage_loginpage",
+      "type": "file",
+      "file": "LoginPage().md",
+      "x": 3040,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_pages_loginpage",
+      "type": "file",
+      "file": "LoginPage.jsx.md",
+      "x": 3240,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_pages_manufacturerpage_manufacturerpage",
+      "type": "file",
+      "file": "ManufacturerPage().md",
+      "x": 3440,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_pages_manufacturerpage",
+      "type": "file",
+      "file": "ManufacturerPage.jsx.md",
+      "x": 3640,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_components_navbar_navbar",
+      "type": "file",
+      "file": "Navbar().md",
+      "x": 3840,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_components_navbar",
+      "type": "file",
+      "file": "Navbar.jsx.md",
+      "x": 4040,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_app_protectedroute",
+      "type": "file",
+      "file": "ProtectedRoute().md",
+      "x": 3040,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_components_provenancecard_provenancecard",
+      "type": "file",
+      "file": "ProvenanceCard().md",
+      "x": 3240,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_components_provenancecard",
+      "type": "file",
+      "file": "ProvenanceCard.jsx.md",
+      "x": 3440,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_components_qrscanner_qrscanner",
+      "type": "file",
+      "file": "QRScanner().md",
+      "x": 3640,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_components_qrscanner",
+      "type": "file",
+      "file": "QRScanner.jsx.md",
+      "x": 3840,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_components_statusbadge_statusbadge",
+      "type": "file",
+      "file": "StatusBadge().md",
+      "x": 4040,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_components_statusbadge",
+      "type": "file",
+      "file": "StatusBadge.jsx.md",
+      "x": 3040,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_services_api",
+      "type": "file",
+      "file": "api.js.md",
+      "x": 3240,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_html5_qrcode",
+      "type": "file",
+      "file": "html5-qrcode.md",
+      "x": 3440,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_lucide_react",
+      "type": "file",
+      "file": "lucide-react.md",
+      "x": 3640,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_main",
+      "type": "file",
+      "file": "main.jsx.md",
+      "x": 3840,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_react",
+      "type": "file",
+      "file": "react.md",
+      "x": 4040,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_react_router_dom",
+      "type": "file",
+      "file": "react-router-dom.md",
+      "x": 3040,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_src_context_authcontext_useauth",
+      "type": "file",
+      "file": "useAuth().md",
+      "x": 3240,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g3",
+      "type": "group",
+      "label": "backend/package.json",
+      "x": 4420,
+      "y": 0,
+      "width": 1320,
+      "height": 620,
+      "color": "4"
+    },
+    {
+      "id": "n_backend_package_author",
+      "type": "file",
+      "file": "author.md",
+      "x": 4440,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_json_ref_axios",
+      "type": "file",
+      "file": "axios_1.md",
+      "x": 4640,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package",
+      "type": "file",
+      "file": "backendpackage.json.md",
+      "x": 4840,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_devdependencies_chai",
+      "type": "file",
+      "file": "chai_1.md",
+      "x": 5040,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_json_ref_chai",
+      "type": "file",
+      "file": "chai_2.md",
+      "x": 5240,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_description",
+      "type": "file",
+      "file": "description.md",
+      "x": 5440,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_scripts_dev",
+      "type": "file",
+      "file": "dev.md",
+      "x": 4440,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_devdependencies",
+      "type": "file",
+      "file": "devDependencies.md",
+      "x": 4640,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_dotenv",
+      "type": "file",
+      "file": "dotenv.md",
+      "x": 4840,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_engines",
+      "type": "file",
+      "file": "engines.md",
+      "x": 5040,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_middleware_upload_filefilter",
+      "type": "file",
+      "file": "fileFilter().md",
+      "x": 5240,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_license",
+      "type": "file",
+      "file": "license.md",
+      "x": 5440,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_main",
+      "type": "file",
+      "file": "main.md",
+      "x": 4440,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_devdependencies_mocha",
+      "type": "file",
+      "file": "mocha.md",
+      "x": 4640,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_json_ref_mocha",
+      "type": "file",
+      "file": "mocha_1.md",
+      "x": 4840,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_middleware_upload_multer",
+      "type": "file",
+      "file": "multer.md",
+      "x": 5040,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_multer",
+      "type": "file",
+      "file": "multer_1.md",
+      "x": 5240,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_name",
+      "type": "file",
+      "file": "name.md",
+      "x": 5440,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_engines_node",
+      "type": "file",
+      "file": "node.md",
+      "x": 4440,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_devdependencies_nodemon",
+      "type": "file",
+      "file": "nodemon.md",
+      "x": 4640,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_nodemon",
+      "type": "file",
+      "file": "nodemon_1.md",
+      "x": 4840,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_scripts",
+      "type": "file",
+      "file": "scripts.md",
+      "x": 5040,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_scripts_start",
+      "type": "file",
+      "file": "start.md",
+      "x": 5240,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_middleware_upload_storage",
+      "type": "file",
+      "file": "storage.md",
+      "x": 5440,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_devdependencies_supertest",
+      "type": "file",
+      "file": "supertest.md",
+      "x": 4440,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_scripts_test",
+      "type": "file",
+      "file": "test.md",
+      "x": 4640,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_middleware_upload_upload",
+      "type": "file",
+      "file": "upload.md",
+      "x": 4840,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_middleware_upload",
+      "type": "file",
+      "file": "upload.js.md",
+      "x": 5040,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_version",
+      "type": "file",
+      "file": "version.md",
+      "x": 5240,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g4",
+      "type": "group",
+      "label": "frontend/package.json",
+      "x": 0,
+      "y": 900,
+      "width": 1320,
+      "height": 620,
+      "color": "5"
+    },
+    {
+      "id": "n_frontend_package_devdependencies_types_react",
+      "type": "file",
+      "file": "@typesreact.md",
+      "x": 20,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_types_react",
+      "type": "file",
+      "file": "@typesreact_1.md",
+      "x": 220,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_devdependencies_types_react_dom",
+      "type": "file",
+      "file": "@typesreact-dom.md",
+      "x": 420,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_types_react_dom",
+      "type": "file",
+      "file": "@typesreact-dom_1.md",
+      "x": 620,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_devdependencies_vitejs_plugin_react",
+      "type": "file",
+      "file": "@vitejsplugin-react.md",
+      "x": 820,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_vitejs_plugin_react",
+      "type": "file",
+      "file": "@vitejsplugin-react_1.md",
+      "x": 1020,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_dependencies_axios",
+      "type": "file",
+      "file": "axios_2.md",
+      "x": 20,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_json_ref_axios",
+      "type": "file",
+      "file": "axios_3.md",
+      "x": 220,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_scripts_build",
+      "type": "file",
+      "file": "build.md",
+      "x": 420,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_dependencies",
+      "type": "file",
+      "file": "dependencies.md",
+      "x": 620,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_scripts_dev",
+      "type": "file",
+      "file": "dev_1.md",
+      "x": 820,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_devdependencies",
+      "type": "file",
+      "file": "devDependencies_1.md",
+      "x": 1020,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package",
+      "type": "file",
+      "file": "frontendpackage.json.md",
+      "x": 20,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_dependencies_html5_qrcode",
+      "type": "file",
+      "file": "html5-qrcode_1.md",
+      "x": 220,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_dependencies_lucide_react",
+      "type": "file",
+      "file": "lucide-react_1.md",
+      "x": 420,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_name",
+      "type": "file",
+      "file": "name_1.md",
+      "x": 620,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_scripts_preview",
+      "type": "file",
+      "file": "preview.md",
+      "x": 820,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_private",
+      "type": "file",
+      "file": "private.md",
+      "x": 1020,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_dependencies_react",
+      "type": "file",
+      "file": "react_1.md",
+      "x": 20,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_dependencies_react_dom",
+      "type": "file",
+      "file": "react-dom.md",
+      "x": 220,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_react_dom",
+      "type": "file",
+      "file": "react-dom_1.md",
+      "x": 420,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_dependencies_react_router_dom",
+      "type": "file",
+      "file": "react-router-dom_1.md",
+      "x": 620,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_scripts",
+      "type": "file",
+      "file": "scripts_1.md",
+      "x": 820,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_type",
+      "type": "file",
+      "file": "type.md",
+      "x": 1020,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_version",
+      "type": "file",
+      "file": "version_1.md",
+      "x": 20,
+      "y": 1300,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_package_devdependencies_vite",
+      "type": "file",
+      "file": "vite.md",
+      "x": 220,
+      "y": 1300,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_vite",
+      "type": "file",
+      "file": "vite_1.md",
+      "x": 420,
+      "y": 1300,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_frontend_vite_config",
+      "type": "file",
+      "file": "vite.config.js.md",
+      "x": 620,
+      "y": 1300,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g5",
+      "type": "group",
+      "label": "server.js",
+      "x": 1620,
+      "y": 900,
+      "width": 1320,
+      "height": 620,
+      "color": "6"
+    },
+    {
+      "id": "n_backend_test_api_test",
+      "type": "file",
+      "file": "api.test.js.md",
+      "x": 1640,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_server_app",
+      "type": "file",
+      "file": "app.md",
+      "x": 1840,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_test_api_test_app",
+      "type": "file",
+      "file": "app_1.md",
+      "x": 2040,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_server_authroutes",
+      "type": "file",
+      "file": "authRoutes.md",
+      "x": 2240,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_server_batchroutes",
+      "type": "file",
+      "file": "batchRoutes.md",
+      "x": 2440,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_config_db_connectdb",
+      "type": "file",
+      "file": "connectDB().md",
+      "x": 2640,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_server_cors",
+      "type": "file",
+      "file": "cors.md",
+      "x": 1640,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_cors",
+      "type": "file",
+      "file": "cors_1.md",
+      "x": 1840,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_routes_verifyroutes_express",
+      "type": "file",
+      "file": "express_1.md",
+      "x": 2040,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_server_express",
+      "type": "file",
+      "file": "express_2.md",
+      "x": 2240,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_express",
+      "type": "file",
+      "file": "express_3.md",
+      "x": 2440,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_server_labroutes",
+      "type": "file",
+      "file": "labRoutes.md",
+      "x": 2640,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_server_productroutes",
+      "type": "file",
+      "file": "productRoutes.md",
+      "x": 1640,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_test_api_test_request",
+      "type": "file",
+      "file": "request.md",
+      "x": 1840,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_routes_verifyroutes_router",
+      "type": "file",
+      "file": "router_1.md",
+      "x": 2040,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_server",
+      "type": "file",
+      "file": "server.js.md",
+      "x": 2240,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_supertest",
+      "type": "file",
+      "file": "supertest_1.md",
+      "x": 2440,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_controllers_verifycontroller",
+      "type": "file",
+      "file": "verifyController.js.md",
+      "x": 2640,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_controllers_verifycontroller_verifyproduct",
+      "type": "file",
+      "file": "verifyProduct().md",
+      "x": 1640,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_server_verifyroutes",
+      "type": "file",
+      "file": "verifyRoutes.md",
+      "x": 1840,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_routes_verifyroutes",
+      "type": "file",
+      "file": "verifyRoutes.js.md",
+      "x": 2040,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_server_connectdb",
+      "type": "file",
+      "file": "{ connectDB }.md",
+      "x": 2240,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_test_api_test_expect",
+      "type": "file",
+      "file": "{ expect }.md",
+      "x": 2440,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_controllers_verifycontroller_getfabricgateway",
+      "type": "file",
+      "file": "{ getFabricGateway }_3.md",
+      "x": 2640,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_server_getfabricgateway",
+      "type": "file",
+      "file": "{ getFabricGateway }_4.md",
+      "x": 1640,
+      "y": 1300,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_routes_verifyroutes_verifyproduct",
+      "type": "file",
+      "file": "{ verifyProduct }.md",
+      "x": 1840,
+      "y": 1300,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g6",
+      "type": "group",
+      "label": "chaincode/package.json",
+      "x": 3020,
+      "y": 900,
+      "width": 1100,
+      "height": 620,
+      "color": "1"
+    },
+    {
+      "id": "n_chaincode_package_author",
+      "type": "file",
+      "file": "author_1.md",
+      "x": 3040,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_package_devdependencies_chai",
+      "type": "file",
+      "file": "chai_3.md",
+      "x": 3240,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_package_json_ref_chai",
+      "type": "file",
+      "file": "chai_4.md",
+      "x": 3440,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_package",
+      "type": "file",
+      "file": "chaincodepackage.json.md",
+      "x": 3640,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_package_dependencies",
+      "type": "file",
+      "file": "dependencies_1.md",
+      "x": 3840,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_package_description",
+      "type": "file",
+      "file": "description_1.md",
+      "x": 3040,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_package_devdependencies",
+      "type": "file",
+      "file": "devDependencies_2.md",
+      "x": 3240,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_package_enginestrict",
+      "type": "file",
+      "file": "engineStrict.md",
+      "x": 3440,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_package_dependencies_fabric_contract_api",
+      "type": "file",
+      "file": "fabric-contract-api_1.md",
+      "x": 3640,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_package_dependencies_fabric_shim",
+      "type": "file",
+      "file": "fabric-shim.md",
+      "x": 3840,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_fabric_shim",
+      "type": "file",
+      "file": "fabric-shim_1.md",
+      "x": 3040,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_package_license",
+      "type": "file",
+      "file": "license_1.md",
+      "x": 3240,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_package_main",
+      "type": "file",
+      "file": "main_1.md",
+      "x": 3440,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_package_devdependencies_mocha",
+      "type": "file",
+      "file": "mocha_2.md",
+      "x": 3640,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_package_json_ref_mocha",
+      "type": "file",
+      "file": "mocha_3.md",
+      "x": 3840,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_package_name",
+      "type": "file",
+      "file": "name_2.md",
+      "x": 3040,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_package_scripts",
+      "type": "file",
+      "file": "scripts_2.md",
+      "x": 3240,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_package_devdependencies_sinon",
+      "type": "file",
+      "file": "sinon_2.md",
+      "x": 3440,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_package_devdependencies_sinon_chai",
+      "type": "file",
+      "file": "sinon-chai_1.md",
+      "x": 3640,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_package_scripts_start",
+      "type": "file",
+      "file": "start_1.md",
+      "x": 3840,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_package_scripts_test",
+      "type": "file",
+      "file": "test_1.md",
+      "x": 3040,
+      "y": 1300,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_chaincode_package_version",
+      "type": "file",
+      "file": "version_2.md",
+      "x": 3240,
+      "y": 1300,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g7",
+      "type": "group",
+      "label": "authController.js",
+      "x": 4420,
+      "y": 900,
+      "width": 1100,
+      "height": 520,
+      "color": "2"
+    },
+    {
+      "id": "n_backend_controllers_authcontroller_mock_users",
+      "type": "file",
+      "file": "MOCK_USERS.md",
+      "x": 4440,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_controllers_authcontroller_user",
+      "type": "file",
+      "file": "User.md",
+      "x": 4640,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_models_user",
+      "type": "file",
+      "file": "User.js.md",
+      "x": 4840,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_controllers_authcontroller",
+      "type": "file",
+      "file": "authController.js.md",
+      "x": 5040,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_routes_authroutes",
+      "type": "file",
+      "file": "authRoutes.js.md",
+      "x": 5240,
+      "y": 980,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_controllers_authcontroller_bcrypt",
+      "type": "file",
+      "file": "bcrypt.md",
+      "x": 4440,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_bcryptjs",
+      "type": "file",
+      "file": "bcryptjs.md",
+      "x": 4640,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_routes_authroutes_express",
+      "type": "file",
+      "file": "express_4.md",
+      "x": 4840,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_controllers_authcontroller_jwt",
+      "type": "file",
+      "file": "jwt.md",
+      "x": 5040,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_controllers_authcontroller_login",
+      "type": "file",
+      "file": "login().md",
+      "x": 5240,
+      "y": 1060,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_models_user_mongoose",
+      "type": "file",
+      "file": "mongoose_2.md",
+      "x": 4440,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_mongoose",
+      "type": "file",
+      "file": "mongoose_3.md",
+      "x": 4640,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_controllers_authcontroller_register",
+      "type": "file",
+      "file": "register().md",
+      "x": 4840,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_routes_authroutes_router",
+      "type": "file",
+      "file": "router_2.md",
+      "x": 5040,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_models_user_userschema",
+      "type": "file",
+      "file": "userSchema.md",
+      "x": 5240,
+      "y": 1140,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_controllers_authcontroller_jwt_secret",
+      "type": "file",
+      "file": "{ JWT_SECRET }.md",
+      "x": 4440,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_controllers_authcontroller_getmongostatus",
+      "type": "file",
+      "file": "{ getMongoStatus }_3.md",
+      "x": 4640,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_routes_authroutes_login_register",
+      "type": "file",
+      "file": "{ login, register }.md",
+      "x": 4840,
+      "y": 1220,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g8",
+      "type": "group",
+      "label": "labRoutes.js",
+      "x": 0,
+      "y": 1600,
+      "width": 1100,
+      "height": 520,
+      "color": "3"
+    },
+    {
+      "id": "n_backend_middleware_auth",
+      "type": "file",
+      "file": "auth.js.md",
+      "x": 20,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_middleware_auth_authenticatetoken",
+      "type": "file",
+      "file": "authenticateToken().md",
+      "x": 220,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_routes_labroutes_express",
+      "type": "file",
+      "file": "express_5.md",
+      "x": 420,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_routes_productroutes_express",
+      "type": "file",
+      "file": "express_6.md",
+      "x": 620,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ref_jsonwebtoken",
+      "type": "file",
+      "file": "jsonwebtoken.md",
+      "x": 820,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_middleware_auth_jwt",
+      "type": "file",
+      "file": "jwt_1.md",
+      "x": 20,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_routes_labroutes",
+      "type": "file",
+      "file": "labRoutes.js.md",
+      "x": 220,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_routes_productroutes",
+      "type": "file",
+      "file": "productRoutes.js.md",
+      "x": 420,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_middleware_auth_requirerole",
+      "type": "file",
+      "file": "requireRole().md",
+      "x": 620,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_routes_labroutes_router",
+      "type": "file",
+      "file": "router_3.md",
+      "x": 820,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_routes_productroutes_router",
+      "type": "file",
+      "file": "router_4.md",
+      "x": 20,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_controllers_productcontroller_updatetransport",
+      "type": "file",
+      "file": "updateTransport().md",
+      "x": 220,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_routes_labroutes_upload",
+      "type": "file",
+      "file": "upload_1.md",
+      "x": 420,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_routes_labroutes_authenticatetoken_requirerole",
+      "type": "file",
+      "file": "{ authenticateToken, requireRole }_1.md",
+      "x": 620,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_routes_productroutes_authenticatetoken_requirerole",
+      "type": "file",
+      "file": "{ authenticateToken, requireRole }_2.md",
+      "x": 820,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_routes_productroutes_createproduct_updatetransport",
+      "type": "file",
+      "file": "{ createProduct, updateTransport }.md",
+      "x": 20,
+      "y": 1920,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_routes_labroutes_uploadlabreport",
+      "type": "file",
+      "file": "{ uploadLabReport }.md",
+      "x": 220,
+      "y": 1920,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g9",
+      "type": "group",
+      "label": "dependencies",
+      "x": 1620,
+      "y": 1600,
+      "width": 880,
+      "height": 420,
+      "color": "4"
+    },
+    {
+      "id": "n_backend_package_dependencies_axios",
+      "type": "file",
+      "file": "axios_4.md",
+      "x": 1640,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_dependencies_bcryptjs",
+      "type": "file",
+      "file": "bcryptjs_1.md",
+      "x": 1840,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_dependencies_cors",
+      "type": "file",
+      "file": "cors_2.md",
+      "x": 2040,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_dependencies",
+      "type": "file",
+      "file": "dependencies_2.md",
+      "x": 2240,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_dependencies_dotenv",
+      "type": "file",
+      "file": "dotenv_1.md",
+      "x": 1640,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_dependencies_express",
+      "type": "file",
+      "file": "express_7.md",
+      "x": 1840,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_dependencies_form_data",
+      "type": "file",
+      "file": "form-data_1.md",
+      "x": 2040,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_dependencies_jsonwebtoken",
+      "type": "file",
+      "file": "jsonwebtoken_1.md",
+      "x": 2240,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_dependencies_mongoose",
+      "type": "file",
+      "file": "mongoose_4.md",
+      "x": 1640,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_dependencies_multer",
+      "type": "file",
+      "file": "multer_2.md",
+      "x": 1840,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_dependencies_qrcode",
+      "type": "file",
+      "file": "qrcode_2.md",
+      "x": 2040,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_backend_package_dependencies_uuid",
+      "type": "file",
+      "file": "uuid_1.md",
+      "x": 2240,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_backend_config_fabricconnection_mockledgeradapter_backend_config_fabricconnection_getfabricgateway",
+      "fromNode": "n_backend_config_fabricconnection_mockledgeradapter",
+      "toNode": "n_backend_config_fabricconnection_getfabricgateway",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_fabricconnection_mockledgeradapter_backend_config_fabricconnection",
+      "fromNode": "n_backend_config_fabricconnection_mockledgeradapter",
+      "toNode": "n_backend_config_fabricconnection",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_fabricconnection_mockledgeradapter_backend_config_fabricconnection_mockledgeradapter_constructor",
+      "fromNode": "n_backend_config_fabricconnection_mockledgeradapter",
+      "toNode": "n_backend_config_fabricconnection_mockledgeradapter_constructor",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_fabricconnection_mockledgeradapter_backend_config_fabricconnection_mockledgeradapter_evaluatetransaction",
+      "fromNode": "n_backend_config_fabricconnection_mockledgeradapter",
+      "toNode": "n_backend_config_fabricconnection_mockledgeradapter_evaluatetransaction",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_fabricconnection_mockledgeradapter_backend_config_fabricconnection_mockledgeradapter_seeddemodata",
+      "fromNode": "n_backend_config_fabricconnection_mockledgeradapter",
+      "toNode": "n_backend_config_fabricconnection_mockledgeradapter_seeddemodata",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_fabricconnection_mockledgeradapter_backend_config_fabricconnection_mockledgeradapter_getallbatches",
+      "fromNode": "n_backend_config_fabricconnection_mockledgeradapter",
+      "toNode": "n_backend_config_fabricconnection_mockledgeradapter_getallbatches",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_fabricconnection_mockledgeradapter_backend_config_fabricconnection_mockledgeradapter_submittransaction",
+      "fromNode": "n_backend_config_fabricconnection_mockledgeradapter",
+      "toNode": "n_backend_config_fabricconnection_mockledgeradapter_submittransaction",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_lib_herbcontract_herbcontract_chaincode_lib_herbcontract",
+      "fromNode": "n_chaincode_lib_herbcontract_herbcontract",
+      "toNode": "n_chaincode_lib_herbcontract",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_lib_herbcontract_herbcontract_chaincode_lib_herbcontract_herbcontract_createproduct",
+      "fromNode": "n_chaincode_lib_herbcontract_herbcontract",
+      "toNode": "n_chaincode_lib_herbcontract_herbcontract_createproduct",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_lib_herbcontract_herbcontract_chaincode_lib_herbcontract_herbcontract_verifyproduct",
+      "fromNode": "n_chaincode_lib_herbcontract_herbcontract",
+      "toNode": "n_chaincode_lib_herbcontract_herbcontract_verifyproduct",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_lib_herbcontract_herbcontract_chaincode_lib_herbcontract_herbcontract_registerbatch",
+      "fromNode": "n_chaincode_lib_herbcontract_herbcontract",
+      "toNode": "n_chaincode_lib_herbcontract_herbcontract_registerbatch",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_lib_herbcontract_herbcontract_chaincode_lib_herbcontract_herbcontract_batchexists",
+      "fromNode": "n_chaincode_lib_herbcontract_herbcontract",
+      "toNode": "n_chaincode_lib_herbcontract_herbcontract_batchexists",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_lib_herbcontract_herbcontract_chaincode_lib_herbcontract_herbcontract_productexists",
+      "fromNode": "n_chaincode_lib_herbcontract_herbcontract",
+      "toNode": "n_chaincode_lib_herbcontract_herbcontract_productexists",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_lib_herbcontract_herbcontract_chaincode_lib_herbcontract_herbcontract_uploadlabreport",
+      "fromNode": "n_chaincode_lib_herbcontract_herbcontract",
+      "toNode": "n_chaincode_lib_herbcontract_herbcontract_uploadlabreport",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_lib_herbcontract_herbcontract_chaincode_lib_herbcontract_herbcontract_updatetransport",
+      "fromNode": "n_chaincode_lib_herbcontract_herbcontract",
+      "toNode": "n_chaincode_lib_herbcontract_herbcontract_updatetransport",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_lib_herbcontract_herbcontract_chaincode_lib_herbcontract_herbcontract_initledger",
+      "fromNode": "n_chaincode_lib_herbcontract_herbcontract",
+      "toNode": "n_chaincode_lib_herbcontract_herbcontract_initledger",
+      "label": "method [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_db_getmongostatus_backend_controllers_authcontroller_login",
+      "fromNode": "n_backend_config_db_getmongostatus",
+      "toNode": "n_backend_controllers_authcontroller_login",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_db_getmongostatus_backend_controllers_authcontroller_register",
+      "fromNode": "n_backend_config_db_getmongostatus",
+      "toNode": "n_backend_controllers_authcontroller_register",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_db_getmongostatus_backend_controllers_batchcontroller_getallbatches",
+      "fromNode": "n_backend_config_db_getmongostatus",
+      "toNode": "n_backend_controllers_batchcontroller_getallbatches",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_db_getmongostatus_backend_controllers_batchcontroller_getbatchbyid",
+      "fromNode": "n_backend_config_db_getmongostatus",
+      "toNode": "n_backend_controllers_batchcontroller_getbatchbyid",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_db_getmongostatus_backend_controllers_batchcontroller_registerbatch",
+      "fromNode": "n_backend_config_db_getmongostatus",
+      "toNode": "n_backend_controllers_batchcontroller_registerbatch",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_db_getmongostatus_backend_controllers_labcontroller_uploadlabreport",
+      "fromNode": "n_backend_config_db_getmongostatus",
+      "toNode": "n_backend_controllers_labcontroller_uploadlabreport",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_db_getmongostatus_backend_controllers_productcontroller_getapprovedbatches",
+      "fromNode": "n_backend_config_db_getmongostatus",
+      "toNode": "n_backend_controllers_productcontroller_getapprovedbatches",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_db_getmongostatus_backend_controllers_authcontroller",
+      "fromNode": "n_backend_config_db_getmongostatus",
+      "toNode": "n_backend_controllers_authcontroller",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_db_getmongostatus_backend_controllers_batchcontroller",
+      "fromNode": "n_backend_config_db_getmongostatus",
+      "toNode": "n_backend_controllers_batchcontroller",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_db_getmongostatus_backend_controllers_labcontroller",
+      "fromNode": "n_backend_config_db_getmongostatus",
+      "toNode": "n_backend_controllers_labcontroller",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_db_getmongostatus_backend_controllers_productcontroller",
+      "fromNode": "n_backend_config_db_getmongostatus",
+      "toNode": "n_backend_controllers_productcontroller",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_db_getmongostatus_backend_config_db",
+      "fromNode": "n_backend_config_db_getmongostatus",
+      "toNode": "n_backend_config_db",
+      "label": "indirect_call [INFERRED]"
+    },
+    {
+      "id": "e_backend_config_fabricconnection_getfabricgateway_backend_controllers_batchcontroller_getallbatches",
+      "fromNode": "n_backend_config_fabricconnection_getfabricgateway",
+      "toNode": "n_backend_controllers_batchcontroller_getallbatches",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_fabricconnection_getfabricgateway_backend_controllers_batchcontroller_getbatchbyid",
+      "fromNode": "n_backend_config_fabricconnection_getfabricgateway",
+      "toNode": "n_backend_controllers_batchcontroller_getbatchbyid",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_fabricconnection_getfabricgateway_backend_controllers_batchcontroller_registerbatch",
+      "fromNode": "n_backend_config_fabricconnection_getfabricgateway",
+      "toNode": "n_backend_controllers_batchcontroller_registerbatch",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_fabricconnection_getfabricgateway_backend_controllers_labcontroller_uploadlabreport",
+      "fromNode": "n_backend_config_fabricconnection_getfabricgateway",
+      "toNode": "n_backend_controllers_labcontroller_uploadlabreport",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_fabricconnection_getfabricgateway_backend_controllers_productcontroller_createproduct",
+      "fromNode": "n_backend_config_fabricconnection_getfabricgateway",
+      "toNode": "n_backend_controllers_productcontroller_createproduct",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_fabricconnection_getfabricgateway_backend_controllers_productcontroller_getapprovedbatches",
+      "fromNode": "n_backend_config_fabricconnection_getfabricgateway",
+      "toNode": "n_backend_controllers_productcontroller_getapprovedbatches",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_fabricconnection_getfabricgateway_backend_controllers_productcontroller_updatetransport",
+      "fromNode": "n_backend_config_fabricconnection_getfabricgateway",
+      "toNode": "n_backend_controllers_productcontroller_updatetransport",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_fabricconnection_getfabricgateway_backend_controllers_verifycontroller_verifyproduct",
+      "fromNode": "n_backend_config_fabricconnection_getfabricgateway",
+      "toNode": "n_backend_controllers_verifycontroller_verifyproduct",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_fabricconnection_getfabricgateway_backend_controllers_batchcontroller",
+      "fromNode": "n_backend_config_fabricconnection_getfabricgateway",
+      "toNode": "n_backend_controllers_batchcontroller",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_fabricconnection_getfabricgateway_backend_controllers_labcontroller",
+      "fromNode": "n_backend_config_fabricconnection_getfabricgateway",
+      "toNode": "n_backend_controllers_labcontroller",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_fabricconnection_getfabricgateway_backend_controllers_productcontroller",
+      "fromNode": "n_backend_config_fabricconnection_getfabricgateway",
+      "toNode": "n_backend_controllers_productcontroller",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_fabricconnection_getfabricgateway_backend_controllers_verifycontroller",
+      "fromNode": "n_backend_config_fabricconnection_getfabricgateway",
+      "toNode": "n_backend_controllers_verifycontroller",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_fabricconnection_getfabricgateway_backend_server",
+      "fromNode": "n_backend_config_fabricconnection_getfabricgateway",
+      "toNode": "n_backend_server",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_fabricconnection_getfabricgateway_backend_config_fabricconnection",
+      "fromNode": "n_backend_config_fabricconnection_getfabricgateway",
+      "toNode": "n_backend_config_fabricconnection",
+      "label": "indirect_call [INFERRED]"
+    },
+    {
+      "id": "e_backend_controllers_batchcontroller_getallbatches_backend_routes_batchroutes",
+      "fromNode": "n_backend_controllers_batchcontroller_getallbatches",
+      "toNode": "n_backend_routes_batchroutes",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_batchcontroller_getallbatches_backend_controllers_batchcontroller",
+      "fromNode": "n_backend_controllers_batchcontroller_getallbatches",
+      "toNode": "n_backend_controllers_batchcontroller",
+      "label": "indirect_call [INFERRED]"
+    },
+    {
+      "id": "e_backend_controllers_batchcontroller_getbatchbyid_backend_routes_batchroutes",
+      "fromNode": "n_backend_controllers_batchcontroller_getbatchbyid",
+      "toNode": "n_backend_routes_batchroutes",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_batchcontroller_getbatchbyid_backend_controllers_batchcontroller",
+      "fromNode": "n_backend_controllers_batchcontroller_getbatchbyid",
+      "toNode": "n_backend_controllers_batchcontroller",
+      "label": "indirect_call [INFERRED]"
+    },
+    {
+      "id": "e_backend_controllers_batchcontroller_registerbatch_backend_routes_batchroutes",
+      "fromNode": "n_backend_controllers_batchcontroller_registerbatch",
+      "toNode": "n_backend_routes_batchroutes",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_batchcontroller_registerbatch_backend_controllers_batchcontroller",
+      "fromNode": "n_backend_controllers_batchcontroller_registerbatch",
+      "toNode": "n_backend_controllers_batchcontroller",
+      "label": "indirect_call [INFERRED]"
+    },
+    {
+      "id": "e_backend_controllers_labcontroller_uploadlabreport_backend_services_ipfsservice_uploadtoipfs",
+      "fromNode": "n_backend_controllers_labcontroller_uploadlabreport",
+      "toNode": "n_backend_services_ipfsservice_uploadtoipfs",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_labcontroller_uploadlabreport_backend_routes_labroutes",
+      "fromNode": "n_backend_controllers_labcontroller_uploadlabreport",
+      "toNode": "n_backend_routes_labroutes",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_labcontroller_uploadlabreport_backend_controllers_labcontroller",
+      "fromNode": "n_backend_controllers_labcontroller_uploadlabreport",
+      "toNode": "n_backend_controllers_labcontroller",
+      "label": "indirect_call [INFERRED]"
+    },
+    {
+      "id": "e_backend_controllers_productcontroller_createproduct_backend_services_qrservice_generateqr",
+      "fromNode": "n_backend_controllers_productcontroller_createproduct",
+      "toNode": "n_backend_services_qrservice_generateqr",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_productcontroller_createproduct_backend_routes_productroutes",
+      "fromNode": "n_backend_controllers_productcontroller_createproduct",
+      "toNode": "n_backend_routes_productroutes",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_productcontroller_createproduct_backend_controllers_productcontroller",
+      "fromNode": "n_backend_controllers_productcontroller_createproduct",
+      "toNode": "n_backend_controllers_productcontroller",
+      "label": "indirect_call [INFERRED]"
+    },
+    {
+      "id": "e_backend_controllers_productcontroller_getapprovedbatches_backend_routes_batchroutes",
+      "fromNode": "n_backend_controllers_productcontroller_getapprovedbatches",
+      "toNode": "n_backend_routes_batchroutes",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_productcontroller_getapprovedbatches_backend_controllers_productcontroller",
+      "fromNode": "n_backend_controllers_productcontroller_getapprovedbatches",
+      "toNode": "n_backend_controllers_productcontroller",
+      "label": "indirect_call [INFERRED]"
+    },
+    {
+      "id": "e_backend_services_ipfsservice_uploadtoipfs_backend_controllers_labcontroller",
+      "fromNode": "n_backend_services_ipfsservice_uploadtoipfs",
+      "toNode": "n_backend_controllers_labcontroller",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_services_ipfsservice_uploadtoipfs_backend_services_ipfsservice",
+      "fromNode": "n_backend_services_ipfsservice_uploadtoipfs",
+      "toNode": "n_backend_services_ipfsservice",
+      "label": "indirect_call [INFERRED]"
+    },
+    {
+      "id": "e_backend_services_qrservice_generateqr_backend_controllers_productcontroller",
+      "fromNode": "n_backend_services_qrservice_generateqr",
+      "toNode": "n_backend_controllers_productcontroller",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_services_qrservice_generateqr_backend_services_qrservice",
+      "fromNode": "n_backend_services_qrservice_generateqr",
+      "toNode": "n_backend_services_qrservice",
+      "label": "indirect_call [INFERRED]"
+    },
+    {
+      "id": "e_backend_config_fabricconnection_mockledgeradapter_constructor_backend_config_fabricconnection_mockledgeradapter_seeddemodata",
+      "fromNode": "n_backend_config_fabricconnection_mockledgeradapter_constructor",
+      "toNode": "n_backend_config_fabricconnection_mockledgeradapter_seeddemodata",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_fabricconnection_mockledgeradapter_submittransaction_chaincode_lib_rules_cancreateproduct",
+      "fromNode": "n_backend_config_fabricconnection_mockledgeradapter_submittransaction",
+      "toNode": "n_chaincode_lib_rules_cancreateproduct",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_fabricconnection_mockledgeradapter_submittransaction_chaincode_lib_rules_evaluatelabresult",
+      "fromNode": "n_backend_config_fabricconnection_mockledgeradapter_submittransaction",
+      "toNode": "n_chaincode_lib_rules_evaluatelabresult",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_lib_herbcontract_herbcontract_batchexists_chaincode_lib_herbcontract_herbcontract_registerbatch",
+      "fromNode": "n_chaincode_lib_herbcontract_herbcontract_batchexists",
+      "toNode": "n_chaincode_lib_herbcontract_herbcontract_registerbatch",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_lib_herbcontract_herbcontract_createproduct_chaincode_lib_herbcontract_herbcontract_productexists",
+      "fromNode": "n_chaincode_lib_herbcontract_herbcontract_createproduct",
+      "toNode": "n_chaincode_lib_herbcontract_herbcontract_productexists",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_lib_herbcontract_herbcontract_createproduct_chaincode_lib_rules_cancreateproduct",
+      "fromNode": "n_chaincode_lib_herbcontract_herbcontract_createproduct",
+      "toNode": "n_chaincode_lib_rules_cancreateproduct",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_lib_herbcontract_herbcontract_uploadlabreport_chaincode_lib_rules_evaluatelabresult",
+      "fromNode": "n_chaincode_lib_herbcontract_herbcontract_uploadlabreport",
+      "toNode": "n_chaincode_lib_rules_evaluatelabresult",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_lib_rules_cancreateproduct_backend_config_fabricconnection",
+      "fromNode": "n_chaincode_lib_rules_cancreateproduct",
+      "toNode": "n_backend_config_fabricconnection",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_lib_rules_cancreateproduct_chaincode_lib_herbcontract",
+      "fromNode": "n_chaincode_lib_rules_cancreateproduct",
+      "toNode": "n_chaincode_lib_herbcontract",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_lib_rules_cancreateproduct_chaincode_test_herbcontract_test",
+      "fromNode": "n_chaincode_lib_rules_cancreateproduct",
+      "toNode": "n_chaincode_test_herbcontract_test",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_lib_rules_cancreateproduct_chaincode_lib_rules",
+      "fromNode": "n_chaincode_lib_rules_cancreateproduct",
+      "toNode": "n_chaincode_lib_rules",
+      "label": "indirect_call [INFERRED]"
+    },
+    {
+      "id": "e_chaincode_lib_rules_evaluatelabresult_backend_config_fabricconnection",
+      "fromNode": "n_chaincode_lib_rules_evaluatelabresult",
+      "toNode": "n_backend_config_fabricconnection",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_lib_rules_evaluatelabresult_chaincode_lib_herbcontract",
+      "fromNode": "n_chaincode_lib_rules_evaluatelabresult",
+      "toNode": "n_chaincode_lib_herbcontract",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_lib_rules_evaluatelabresult_chaincode_test_herbcontract_test",
+      "fromNode": "n_chaincode_lib_rules_evaluatelabresult",
+      "toNode": "n_chaincode_test_herbcontract_test",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_lib_rules_evaluatelabresult_chaincode_lib_rules",
+      "fromNode": "n_chaincode_lib_rules_evaluatelabresult",
+      "toNode": "n_chaincode_lib_rules",
+      "label": "indirect_call [INFERRED]"
+    },
+    {
+      "id": "e_frontend_src_app_app_frontend_src_main",
+      "fromNode": "n_frontend_src_app_app",
+      "toNode": "n_frontend_src_main",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_app_app_frontend_src_app",
+      "fromNode": "n_frontend_src_app_app",
+      "toNode": "n_frontend_src_app",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_app_protectedroute_frontend_src_context_authcontext_useauth",
+      "fromNode": "n_frontend_src_app_protectedroute",
+      "toNode": "n_frontend_src_context_authcontext_useauth",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_app_protectedroute_frontend_src_app",
+      "fromNode": "n_frontend_src_app_protectedroute",
+      "toNode": "n_frontend_src_app",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_components_navbar_navbar_frontend_src_context_authcontext_useauth",
+      "fromNode": "n_frontend_src_components_navbar_navbar",
+      "toNode": "n_frontend_src_context_authcontext_useauth",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_components_navbar_navbar_frontend_src_app",
+      "fromNode": "n_frontend_src_components_navbar_navbar",
+      "toNode": "n_frontend_src_app",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_components_navbar_navbar_frontend_src_components_navbar",
+      "fromNode": "n_frontend_src_components_navbar_navbar",
+      "toNode": "n_frontend_src_components_navbar",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_components_provenancecard_provenancecard_frontend_src_pages_consumerpage",
+      "fromNode": "n_frontend_src_components_provenancecard_provenancecard",
+      "toNode": "n_frontend_src_pages_consumerpage",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_components_provenancecard_provenancecard_frontend_src_components_provenancecard",
+      "fromNode": "n_frontend_src_components_provenancecard_provenancecard",
+      "toNode": "n_frontend_src_components_provenancecard",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_components_qrscanner_qrscanner_frontend_src_pages_consumerpage",
+      "fromNode": "n_frontend_src_components_qrscanner_qrscanner",
+      "toNode": "n_frontend_src_pages_consumerpage",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_components_qrscanner_qrscanner_frontend_src_components_qrscanner",
+      "fromNode": "n_frontend_src_components_qrscanner_qrscanner",
+      "toNode": "n_frontend_src_components_qrscanner",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_components_statusbadge_statusbadge_frontend_src_components_provenancecard",
+      "fromNode": "n_frontend_src_components_statusbadge_statusbadge",
+      "toNode": "n_frontend_src_components_provenancecard",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_components_statusbadge_statusbadge_frontend_src_pages_labpage",
+      "fromNode": "n_frontend_src_components_statusbadge_statusbadge",
+      "toNode": "n_frontend_src_pages_labpage",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_components_statusbadge_statusbadge_frontend_src_pages_manufacturerpage",
+      "fromNode": "n_frontend_src_components_statusbadge_statusbadge",
+      "toNode": "n_frontend_src_pages_manufacturerpage",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_components_statusbadge_statusbadge_frontend_src_components_statusbadge",
+      "fromNode": "n_frontend_src_components_statusbadge_statusbadge",
+      "toNode": "n_frontend_src_components_statusbadge",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_context_authcontext_authprovider_frontend_src_app",
+      "fromNode": "n_frontend_src_context_authcontext_authprovider",
+      "toNode": "n_frontend_src_app",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_context_authcontext_authprovider_frontend_src_context_authcontext",
+      "fromNode": "n_frontend_src_context_authcontext_authprovider",
+      "toNode": "n_frontend_src_context_authcontext",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_context_authcontext_useauth_frontend_src_pages_loginpage_loginpage",
+      "fromNode": "n_frontend_src_context_authcontext_useauth",
+      "toNode": "n_frontend_src_pages_loginpage_loginpage",
+      "label": "calls [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_context_authcontext_useauth_frontend_src_app",
+      "fromNode": "n_frontend_src_context_authcontext_useauth",
+      "toNode": "n_frontend_src_app",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_context_authcontext_useauth_frontend_src_components_navbar",
+      "fromNode": "n_frontend_src_context_authcontext_useauth",
+      "toNode": "n_frontend_src_components_navbar",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_context_authcontext_useauth_frontend_src_pages_loginpage",
+      "fromNode": "n_frontend_src_context_authcontext_useauth",
+      "toNode": "n_frontend_src_pages_loginpage",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_context_authcontext_useauth_frontend_src_context_authcontext",
+      "fromNode": "n_frontend_src_context_authcontext_useauth",
+      "toNode": "n_frontend_src_context_authcontext",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_pages_consumerpage_consumerpage_frontend_src_app",
+      "fromNode": "n_frontend_src_pages_consumerpage_consumerpage",
+      "toNode": "n_frontend_src_app",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_pages_consumerpage_consumerpage_frontend_src_pages_consumerpage",
+      "fromNode": "n_frontend_src_pages_consumerpage_consumerpage",
+      "toNode": "n_frontend_src_pages_consumerpage",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_pages_farmerpage_farmerpage_frontend_src_app",
+      "fromNode": "n_frontend_src_pages_farmerpage_farmerpage",
+      "toNode": "n_frontend_src_app",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_pages_farmerpage_farmerpage_frontend_src_pages_farmerpage",
+      "fromNode": "n_frontend_src_pages_farmerpage_farmerpage",
+      "toNode": "n_frontend_src_pages_farmerpage",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_pages_labpage_labpage_frontend_src_app",
+      "fromNode": "n_frontend_src_pages_labpage_labpage",
+      "toNode": "n_frontend_src_app",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_pages_labpage_labpage_frontend_src_pages_labpage",
+      "fromNode": "n_frontend_src_pages_labpage_labpage",
+      "toNode": "n_frontend_src_pages_labpage",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_pages_loginpage_loginpage_frontend_src_app",
+      "fromNode": "n_frontend_src_pages_loginpage_loginpage",
+      "toNode": "n_frontend_src_app",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_pages_loginpage_loginpage_frontend_src_pages_loginpage",
+      "fromNode": "n_frontend_src_pages_loginpage_loginpage",
+      "toNode": "n_frontend_src_pages_loginpage",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_pages_manufacturerpage_manufacturerpage_frontend_src_app",
+      "fromNode": "n_frontend_src_pages_manufacturerpage_manufacturerpage",
+      "toNode": "n_frontend_src_app",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_frontend_src_pages_manufacturerpage_manufacturerpage_frontend_src_pages_manufacturerpage",
+      "fromNode": "n_frontend_src_pages_manufacturerpage_manufacturerpage",
+      "toNode": "n_frontend_src_pages_manufacturerpage",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_middleware_upload_filefilter_backend_middleware_upload",
+      "fromNode": "n_backend_middleware_upload_filefilter",
+      "toNode": "n_backend_middleware_upload",
+      "label": "indirect_call [INFERRED]"
+    },
+    {
+      "id": "e_backend_config_db_connectdb_backend_server",
+      "fromNode": "n_backend_config_db_connectdb",
+      "toNode": "n_backend_server",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_db_connectdb_backend_config_db",
+      "fromNode": "n_backend_config_db_connectdb",
+      "toNode": "n_backend_config_db",
+      "label": "indirect_call [INFERRED]"
+    },
+    {
+      "id": "e_backend_controllers_verifycontroller_verifyproduct_backend_routes_verifyroutes",
+      "fromNode": "n_backend_controllers_verifycontroller_verifyproduct",
+      "toNode": "n_backend_routes_verifyroutes",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_verifycontroller_verifyproduct_backend_controllers_verifycontroller",
+      "fromNode": "n_backend_controllers_verifycontroller_verifyproduct",
+      "toNode": "n_backend_controllers_verifycontroller",
+      "label": "indirect_call [INFERRED]"
+    },
+    {
+      "id": "e_backend_controllers_authcontroller_login_backend_routes_authroutes",
+      "fromNode": "n_backend_controllers_authcontroller_login",
+      "toNode": "n_backend_routes_authroutes",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_authcontroller_login_backend_controllers_authcontroller",
+      "fromNode": "n_backend_controllers_authcontroller_login",
+      "toNode": "n_backend_controllers_authcontroller",
+      "label": "indirect_call [INFERRED]"
+    },
+    {
+      "id": "e_backend_controllers_authcontroller_register_backend_routes_authroutes",
+      "fromNode": "n_backend_controllers_authcontroller_register",
+      "toNode": "n_backend_routes_authroutes",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_authcontroller_register_backend_controllers_authcontroller",
+      "fromNode": "n_backend_controllers_authcontroller_register",
+      "toNode": "n_backend_controllers_authcontroller",
+      "label": "indirect_call [INFERRED]"
+    },
+    {
+      "id": "e_backend_controllers_productcontroller_updatetransport_backend_routes_productroutes",
+      "fromNode": "n_backend_controllers_productcontroller_updatetransport",
+      "toNode": "n_backend_routes_productroutes",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_productcontroller_updatetransport_backend_controllers_productcontroller",
+      "fromNode": "n_backend_controllers_productcontroller_updatetransport",
+      "toNode": "n_backend_controllers_productcontroller",
+      "label": "indirect_call [INFERRED]"
+    },
+    {
+      "id": "e_backend_middleware_auth_authenticatetoken_backend_routes_batchroutes",
+      "fromNode": "n_backend_middleware_auth_authenticatetoken",
+      "toNode": "n_backend_routes_batchroutes",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_middleware_auth_authenticatetoken_backend_routes_labroutes",
+      "fromNode": "n_backend_middleware_auth_authenticatetoken",
+      "toNode": "n_backend_routes_labroutes",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_middleware_auth_authenticatetoken_backend_routes_productroutes",
+      "fromNode": "n_backend_middleware_auth_authenticatetoken",
+      "toNode": "n_backend_routes_productroutes",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_middleware_auth_authenticatetoken_backend_middleware_auth",
+      "fromNode": "n_backend_middleware_auth_authenticatetoken",
+      "toNode": "n_backend_middleware_auth",
+      "label": "indirect_call [INFERRED]"
+    },
+    {
+      "id": "e_backend_middleware_auth_requirerole_backend_routes_batchroutes",
+      "fromNode": "n_backend_middleware_auth_requirerole",
+      "toNode": "n_backend_routes_batchroutes",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_middleware_auth_requirerole_backend_routes_labroutes",
+      "fromNode": "n_backend_middleware_auth_requirerole",
+      "toNode": "n_backend_routes_labroutes",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_middleware_auth_requirerole_backend_routes_productroutes",
+      "fromNode": "n_backend_middleware_auth_requirerole",
+      "toNode": "n_backend_routes_productroutes",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_middleware_auth_requirerole_backend_middleware_auth",
+      "fromNode": "n_backend_middleware_auth_requirerole",
+      "toNode": "n_backend_middleware_auth",
+      "label": "indirect_call [INFERRED]"
+    },
+    {
+      "id": "e_backend_config_db_ref_mongoose",
+      "fromNode": "n_backend_config_db",
+      "toNode": "n_ref_mongoose",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_db_backend_controllers_authcontroller",
+      "fromNode": "n_backend_config_db",
+      "toNode": "n_backend_controllers_authcontroller",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_db_backend_controllers_batchcontroller",
+      "fromNode": "n_backend_config_db",
+      "toNode": "n_backend_controllers_batchcontroller",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_db_backend_controllers_labcontroller",
+      "fromNode": "n_backend_config_db",
+      "toNode": "n_backend_controllers_labcontroller",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_db_backend_controllers_productcontroller",
+      "fromNode": "n_backend_config_db",
+      "toNode": "n_backend_controllers_productcontroller",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_db_backend_server",
+      "fromNode": "n_backend_config_db",
+      "toNode": "n_backend_server",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_db_backend_config_db_mongoose",
+      "fromNode": "n_backend_config_db",
+      "toNode": "n_backend_config_db_mongoose",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_batchcontroller_ref_uuid",
+      "fromNode": "n_backend_controllers_batchcontroller",
+      "toNode": "n_ref_uuid",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_batchcontroller_backend_config_fabricconnection",
+      "fromNode": "n_backend_controllers_batchcontroller",
+      "toNode": "n_backend_config_fabricconnection",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_batchcontroller_backend_models_batchcache",
+      "fromNode": "n_backend_controllers_batchcontroller",
+      "toNode": "n_backend_models_batchcache",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_batchcontroller_backend_routes_batchroutes",
+      "fromNode": "n_backend_controllers_batchcontroller",
+      "toNode": "n_backend_routes_batchroutes",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_batchcontroller_backend_controllers_batchcontroller_v4_uuidv4",
+      "fromNode": "n_backend_controllers_batchcontroller",
+      "toNode": "n_backend_controllers_batchcontroller_v4_uuidv4",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_batchcontroller_backend_controllers_batchcontroller_getfabricgateway",
+      "fromNode": "n_backend_controllers_batchcontroller",
+      "toNode": "n_backend_controllers_batchcontroller_getfabricgateway",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_batchcontroller_backend_controllers_batchcontroller_batchcache",
+      "fromNode": "n_backend_controllers_batchcontroller",
+      "toNode": "n_backend_controllers_batchcontroller_batchcache",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_batchcontroller_backend_controllers_batchcontroller_getmongostatus",
+      "fromNode": "n_backend_controllers_batchcontroller",
+      "toNode": "n_backend_controllers_batchcontroller_getmongostatus",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_labcontroller_backend_services_ipfsservice",
+      "fromNode": "n_backend_controllers_labcontroller",
+      "toNode": "n_backend_services_ipfsservice",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_labcontroller_backend_config_fabricconnection",
+      "fromNode": "n_backend_controllers_labcontroller",
+      "toNode": "n_backend_config_fabricconnection",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_labcontroller_backend_models_batchcache",
+      "fromNode": "n_backend_controllers_labcontroller",
+      "toNode": "n_backend_models_batchcache",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_labcontroller_backend_routes_labroutes",
+      "fromNode": "n_backend_controllers_labcontroller",
+      "toNode": "n_backend_routes_labroutes",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_labcontroller_backend_controllers_labcontroller_uploadtoipfs",
+      "fromNode": "n_backend_controllers_labcontroller",
+      "toNode": "n_backend_controllers_labcontroller_uploadtoipfs",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_labcontroller_backend_controllers_labcontroller_getfabricgateway",
+      "fromNode": "n_backend_controllers_labcontroller",
+      "toNode": "n_backend_controllers_labcontroller_getfabricgateway",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_labcontroller_backend_controllers_labcontroller_batchcache",
+      "fromNode": "n_backend_controllers_labcontroller",
+      "toNode": "n_backend_controllers_labcontroller_batchcache",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_labcontroller_backend_controllers_labcontroller_getmongostatus",
+      "fromNode": "n_backend_controllers_labcontroller",
+      "toNode": "n_backend_controllers_labcontroller_getmongostatus",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_productcontroller_ref_uuid",
+      "fromNode": "n_backend_controllers_productcontroller",
+      "toNode": "n_ref_uuid",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_productcontroller_backend_config_fabricconnection",
+      "fromNode": "n_backend_controllers_productcontroller",
+      "toNode": "n_backend_config_fabricconnection",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_productcontroller_backend_services_qrservice",
+      "fromNode": "n_backend_controllers_productcontroller",
+      "toNode": "n_backend_services_qrservice",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_productcontroller_backend_models_batchcache",
+      "fromNode": "n_backend_controllers_productcontroller",
+      "toNode": "n_backend_models_batchcache",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_productcontroller_backend_routes_batchroutes",
+      "fromNode": "n_backend_controllers_productcontroller",
+      "toNode": "n_backend_routes_batchroutes",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_productcontroller_backend_routes_productroutes",
+      "fromNode": "n_backend_controllers_productcontroller",
+      "toNode": "n_backend_routes_productroutes",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_productcontroller_backend_controllers_productcontroller_v4_uuidv4",
+      "fromNode": "n_backend_controllers_productcontroller",
+      "toNode": "n_backend_controllers_productcontroller_v4_uuidv4",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_productcontroller_backend_controllers_productcontroller_getfabricgateway",
+      "fromNode": "n_backend_controllers_productcontroller",
+      "toNode": "n_backend_controllers_productcontroller_getfabricgateway",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_productcontroller_backend_controllers_productcontroller_generateqr",
+      "fromNode": "n_backend_controllers_productcontroller",
+      "toNode": "n_backend_controllers_productcontroller_generateqr",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_productcontroller_backend_controllers_productcontroller_batchcache",
+      "fromNode": "n_backend_controllers_productcontroller",
+      "toNode": "n_backend_controllers_productcontroller_batchcache",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_controllers_productcontroller_backend_controllers_productcontroller_getmongostatus",
+      "fromNode": "n_backend_controllers_productcontroller",
+      "toNode": "n_backend_controllers_productcontroller_getmongostatus",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_models_batchcache_ref_mongoose",
+      "fromNode": "n_backend_models_batchcache",
+      "toNode": "n_ref_mongoose",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_models_batchcache_backend_models_batchcache_mongoose",
+      "fromNode": "n_backend_models_batchcache",
+      "toNode": "n_backend_models_batchcache_mongoose",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_models_batchcache_backend_models_batchcache_batchcacheschema",
+      "fromNode": "n_backend_models_batchcache",
+      "toNode": "n_backend_models_batchcache_batchcacheschema",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_routes_batchroutes_ref_express",
+      "fromNode": "n_backend_routes_batchroutes",
+      "toNode": "n_ref_express",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_routes_batchroutes_backend_middleware_auth",
+      "fromNode": "n_backend_routes_batchroutes",
+      "toNode": "n_backend_middleware_auth",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_routes_batchroutes_backend_server",
+      "fromNode": "n_backend_routes_batchroutes",
+      "toNode": "n_backend_server",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_routes_batchroutes_backend_routes_batchroutes_express",
+      "fromNode": "n_backend_routes_batchroutes",
+      "toNode": "n_backend_routes_batchroutes_express",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_routes_batchroutes_backend_routes_batchroutes_router",
+      "fromNode": "n_backend_routes_batchroutes",
+      "toNode": "n_backend_routes_batchroutes_router",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_routes_batchroutes_backend_routes_batchroutes_registerbatch_getallbatches_getbatchbyid",
+      "fromNode": "n_backend_routes_batchroutes",
+      "toNode": "n_backend_routes_batchroutes_registerbatch_getallbatches_getbatchbyid",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_routes_batchroutes_backend_routes_batchroutes_getapprovedbatches",
+      "fromNode": "n_backend_routes_batchroutes",
+      "toNode": "n_backend_routes_batchroutes_getapprovedbatches",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_routes_batchroutes_backend_routes_batchroutes_authenticatetoken_requirerole",
+      "fromNode": "n_backend_routes_batchroutes",
+      "toNode": "n_backend_routes_batchroutes_authenticatetoken_requirerole",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_services_ipfsservice_ref_form_data",
+      "fromNode": "n_backend_services_ipfsservice",
+      "toNode": "n_ref_form_data",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_services_ipfsservice_backend_services_ipfsservice_axios",
+      "fromNode": "n_backend_services_ipfsservice",
+      "toNode": "n_backend_services_ipfsservice_axios",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_services_ipfsservice_backend_services_ipfsservice_formdata",
+      "fromNode": "n_backend_services_ipfsservice",
+      "toNode": "n_backend_services_ipfsservice_formdata",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_services_ipfsservice_backend_services_ipfsservice_crypto",
+      "fromNode": "n_backend_services_ipfsservice",
+      "toNode": "n_backend_services_ipfsservice_crypto",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_services_qrservice_ref_qrcode",
+      "fromNode": "n_backend_services_qrservice",
+      "toNode": "n_ref_qrcode",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_services_qrservice_backend_services_qrservice_qrcode",
+      "fromNode": "n_backend_services_qrservice",
+      "toNode": "n_backend_services_qrservice_qrcode",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_ref_form_data_backend_package",
+      "fromNode": "n_ref_form_data",
+      "toNode": "n_backend_package",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_ref_qrcode_backend_package",
+      "fromNode": "n_ref_qrcode",
+      "toNode": "n_backend_package",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_ref_uuid_backend_package",
+      "fromNode": "n_ref_uuid",
+      "toNode": "n_backend_package",
+      "label": "imports [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_fabricconnection_chaincode_lib_rules",
+      "fromNode": "n_backend_config_fabricconnection",
+      "toNode": "n_chaincode_lib_rules",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_fabricconnection_backend_controllers_verifycontroller",
+      "fromNode": "n_backend_config_fabricconnection",
+      "toNode": "n_backend_controllers_verifycontroller",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_fabricconnection_backend_server",
+      "fromNode": "n_backend_config_fabricconnection",
+      "toNode": "n_backend_server",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_fabricconnection_backend_config_fabricconnection_path",
+      "fromNode": "n_backend_config_fabricconnection",
+      "toNode": "n_backend_config_fabricconnection_path",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_fabricconnection_backend_config_fabricconnection_fs",
+      "fromNode": "n_backend_config_fabricconnection",
+      "toNode": "n_backend_config_fabricconnection_fs",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_backend_config_fabricconnection_backend_config_fabricconnection_evaluatelabresult_cancreateproduct",
+      "fromNode": "n_backend_config_fabricconnection",
+      "toNode": "n_backend_config_fabricconnection_evaluatelabresult_cancreateproduct",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_index_chaincode_lib_herbcontract",
+      "fromNode": "n_chaincode_index",
+      "toNode": "n_chaincode_lib_herbcontract",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_index_chaincode_index_herbcontract",
+      "fromNode": "n_chaincode_index",
+      "toNode": "n_chaincode_index_herbcontract",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_lib_herbcontract_ref_fabric_contract_api",
+      "fromNode": "n_chaincode_lib_herbcontract",
+      "toNode": "n_ref_fabric_contract_api",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_lib_herbcontract_chaincode_lib_rules",
+      "fromNode": "n_chaincode_lib_herbcontract",
+      "toNode": "n_chaincode_lib_rules",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_lib_herbcontract_chaincode_test_herbcontract_test",
+      "fromNode": "n_chaincode_lib_herbcontract",
+      "toNode": "n_chaincode_test_herbcontract_test",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_lib_herbcontract_chaincode_lib_herbcontract_contract",
+      "fromNode": "n_chaincode_lib_herbcontract",
+      "toNode": "n_chaincode_lib_herbcontract_contract",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_lib_herbcontract_chaincode_lib_herbcontract_evaluatelabresult_cancreateproduct",
+      "fromNode": "n_chaincode_lib_herbcontract",
+      "toNode": "n_chaincode_lib_herbcontract_evaluatelabresult_cancreateproduct",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_lib_rules_chaincode_test_herbcontract_test",
+      "fromNode": "n_chaincode_lib_rules",
+      "toNode": "n_chaincode_test_herbcontract_test",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_test_herbcontract_test_ref_sinon",
+      "fromNode": "n_chaincode_test_herbcontract_test",
+      "toNode": "n_ref_sinon",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_test_herbcontract_test_ref_sinon_chai",
+      "fromNode": "n_chaincode_test_herbcontract_test",
+      "toNode": "n_ref_sinon_chai",
+      "label": "imports_from [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_test_herbcontract_test_chaincode_test_herbcontract_test_evaluatelabresult_cancreateproduct",
+      "fromNode": "n_chaincode_test_herbcontract_test",
+      "toNode": "n_chaincode_test_herbcontract_test_evaluatelabresult_cancreateproduct",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_test_herbcontract_test_chaincode_test_herbcontract_test_chai",
+      "fromNode": "n_chaincode_test_herbcontract_test",
+      "toNode": "n_chaincode_test_herbcontract_test_chai",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_test_herbcontract_test_chaincode_test_herbcontract_test_sinon",
+      "fromNode": "n_chaincode_test_herbcontract_test",
+      "toNode": "n_chaincode_test_herbcontract_test_sinon",
+      "label": "contains [EXTRACTED]"
+    },
+    {
+      "id": "e_chaincode_test_herbcontract_test_chaincode_test_herbcontract_test_sinonchai",
+      "fromNode": "n_chaincode_test_herbcontract_test",
+      "toNode": "n_chaincode_test_herbcontract_test_sinonchai",
+      "label": "contains [EXTRACTED]"
+    }
+  ]
+}

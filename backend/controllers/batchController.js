@@ -5,12 +5,12 @@ const { getMongoStatus } = require('../config/db');
 
 async function registerBatch(req, res) {
   try {
-    const { herbName, species, harvestDate, soilType, gpsLat, gpsLng } = req.body;
+    const { herbName, species, harvestDate, soilType, gpsLat, gpsLng, weightKg } = req.body;
 
-    if (!herbName || !species || !harvestDate || !soilType) {
+    if (!herbName || !species || !harvestDate || !soilType || weightKg === undefined || weightKg === null) {
       return res.status(400).json({
         success: false,
-        error: 'Missing required batch fields (herbName, species, harvestDate, soilType).'
+        error: 'Missing required batch fields (herbName, species, harvestDate, soilType, weightKg).'
       });
     }
 
@@ -26,7 +26,8 @@ async function registerBatch(req, res) {
       gpsLng || 0,
       species,
       harvestDate,
-      soilType
+      soilType,
+      weightKg
     );
 
     const batchData = JSON.parse(resultJson);

@@ -17,10 +17,17 @@ const batchCacheSchema = new mongoose.Schema({
     enum: ['PENDING', 'APPROVED', 'REJECTED'],
     default: 'PENDING'
   },
+  initialWeightKg: Number,
+  remainingWeightKg: Number,
+  initialWeightMg: Number,
+  remainingWeightMg: Number,
+  maxAllowedUnits: Number,
   labReport: {
     ipfsHash: String,
     purity: Number,
     contamination: Number,
+    batchQuantityKg: Number,
+    testedWeightMg: Number,
     uploadedAt: String
   },
   transportHistory: Array,

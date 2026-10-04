@@ -6,8 +6,6 @@ import { TestTube2, Upload, FileCheck, AlertCircle, RefreshCw } from 'lucide-rea
 export default function LabPage() {
   const [batches, setBatches] = useState([]);
   const [selectedBatch, setSelectedBatch] = useState(null);
-  const [purity, setPurity] = useState('97.5');
-  const [contamination, setContamination] = useState('0');
   const [pdfFile, setPdfFile] = useState(null);
 
   const [loading, setLoading] = useState(false);
@@ -44,7 +42,7 @@ export default function LabPage() {
     }
 
     if (!pdfFile) {
-      setError('Please select a PDF report file.');
+      setError('Please select an analytical Certificate of Analysis (CoA) PDF.');
       return;
     }
 
@@ -53,8 +51,6 @@ export default function LabPage() {
     try {
       const formData = new FormData();
       formData.append('batchId', selectedBatch.batchId);
-      formData.append('purity', purity);
-      formData.append('contamination', contamination);
       formData.append('reportPdf', pdfFile);
 
       const res = await API.post('/upload-lab', formData, {
@@ -62,7 +58,8 @@ export default function LabPage() {
       });
 
       if (res.success) {
-        setMessage(`Lab report submitted! Status evaluated to ${res.data.status}`);
+        const lr = res.data.labReport || {};
+        setMessage(`CoA Verified! Evaluated Status: ${res.data.status} (Purity: ${lr.purity}%, Contamination: ${lr.contamination}, Tested Qty: ${lr.batchQuantityKg}kg)`);
         setSelectedBatch(null);
         setPdfFile(null);
         fetchBatches();
@@ -165,40 +162,20 @@ export default function LabPage() {
                 </div>
               </div>
 
-              <div className="form-group">
-                <label>Purity Percentage (%)</label>
-                <input
-                  type="number"
-                  step="0.1"
-                  min="0"
-                  max="100"
-                  required
-                  className="form-input"
-                  value={purity}
-                  onChange={(e) => setPurity(e.target.value)}
-                />
-                <span style={{ fontSize: '0.72rem', color: 'var(--text-dim)' }}>
-                  Purity ≥ 95.0% required for APPROVED status.
-                </span>
+              <div style={{ background: 'rgba(16, 185, 129, 0.08)', border: '1px solid var(--border-color)', padding: '0.8rem', borderRadius: 'var(--radius-sm)', marginBottom: '1.2rem', fontSize: '0.8rem', color: 'var(--text-muted)' }}>
+                <strong style={{ color: 'var(--emerald-light)', display: 'block', marginBottom: '0.3rem' }}>
+                  Automated Cryptographic & Analytical CoA Extraction
+                </strong>
+                Purity, Contamination, and Batch Quantity are extracted directly from the signed PDF document layer. Values cannot be manually typed or falsified.
+                <ul style={{ margin: '0.4rem 0 0 1rem', padding: 0, fontSize: '0.75rem', color: 'var(--text-dim)' }}>
+                  <li>Purity ≥ 95.0% required for APPROVED status.</li>
+                  <li>Contamination count must be exactly 0.</li>
+                  <li>Usable ledger biomass will be clamped to min(farmer weight, lab weight).</li>
+                </ul>
               </div>
 
               <div className="form-group">
-                <label>Contamination Flag Count</label>
-                <input
-                  type="number"
-                  min="0"
-                  required
-                  className="form-input"
-                  value={contamination}
-                  onChange={(e) => setContamination(e.target.value)}
-                />
-                <span style={{ fontSize: '0.72rem', color: 'var(--text-dim)' }}>
-                  Must be 0 (Clean) for APPROVED status.
-                </span>
-              </div>
-
-              <div className="form-group">
-                <label>Upload Lab Report PDF (Stored on IPFS)</label>
+                <label>Upload Official Certificate of Analysis (CoA PDF)</label>
                 <input
                   type="file"
                   accept="application/pdf"

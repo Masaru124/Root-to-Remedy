@@ -6,11 +6,22 @@ export default function FarmerPage() {
   const [formData, setFormData] = useState({
     herbName: 'Ashwagandha',
     species: 'Withania somnifera',
+    weightKg: '10.0',
     harvestDate: new Date().toISOString().split('T')[0],
     soilType: 'Organic Black Loam',
     gpsLat: '26.9124',
     gpsLng: '75.7873'
   });
+
+  const SPECIES_OPTIONS = [
+    { value: 'Withania somnifera', label: 'Withania somnifera (Ashwagandha - API Vol I)' },
+    { value: 'Curcuma longa', label: 'Curcuma longa (Turmeric/Haridra - API Vol I)' },
+    { value: 'Bacopa monnieri', label: 'Bacopa monnieri (Brahmi - API Vol II)' },
+    { value: 'Ocimum sanctum', label: 'Ocimum sanctum (Tulsi - API Vol II)' },
+    { value: 'Azadirachta indica', label: 'Azadirachta indica (Neem - API Vol II)' },
+    { value: 'Phyllanthus emblica', label: 'Phyllanthus emblica (Amla - API Vol I)' },
+    { value: 'Tinospora cordifolia', label: 'Tinospora cordifolia (Giloy/Guduchi - API Vol I)' }
+  ];
 
   const [loading, setLoading] = useState(false);
   const [geoLocating, setGeoLocating] = useState(false);
@@ -114,20 +125,37 @@ export default function FarmerPage() {
               </div>
 
               <div className="form-group">
-                <label>Botanical Species</label>
-                <input
-                  type="text"
+                <label>Botanical Species (API Monograph)</label>
+                <select
                   name="species"
-                  className="form-input"
+                  className="form-select"
                   required
                   value={formData.species}
                   onChange={handleChange}
-                  placeholder="e.g. Withania somnifera"
-                />
+                >
+                  {SPECIES_OPTIONS.map(opt => (
+                    <option key={opt.value} value={opt.value}>{opt.label}</option>
+                  ))}
+                </select>
               </div>
             </div>
 
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
+              <div className="form-group">
+                <label>Raw Harvest Weight (kg)</label>
+                <input
+                  type="number"
+                  step="0.1"
+                  min="0.1"
+                  name="weightKg"
+                  className="form-input"
+                  required
+                  value={formData.weightKg}
+                  onChange={handleChange}
+                  placeholder="e.g. 10.0"
+                />
+              </div>
+
               <div className="form-group">
                 <label>Harvest Date</label>
                 <input
@@ -139,16 +167,16 @@ export default function FarmerPage() {
                   onChange={handleChange}
                 />
               </div>
+            </div>
 
-              <div className="form-group">
-                <label>Soil / Cultivation Type</label>
-                <select name="soilType" className="form-select" value={formData.soilType} onChange={handleChange}>
-                  <option value="Organic Black Loam">Organic Black Loam</option>
-                  <option value="Red Sandy Loam">Red Sandy Loam</option>
-                  <option value="Mountain Soil">Mountain Soil</option>
-                  <option value="Alluvial Soil">Alluvial Soil</option>
-                </select>
-              </div>
+            <div className="form-group">
+              <label>Soil / Cultivation Type</label>
+              <select name="soilType" className="form-select" value={formData.soilType} onChange={handleChange}>
+                <option value="Organic Black Loam">Organic Black Loam</option>
+                <option value="Red Sandy Loam">Red Sandy Loam</option>
+                <option value="Mountain Soil">Mountain Soil</option>
+                <option value="Alluvial Soil">Alluvial Soil</option>
+              </select>
             </div>
 
             <div className="form-group" style={{ marginTop: '0.5rem' }}>

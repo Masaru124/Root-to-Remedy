@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Root-to-Remedy Brag Video</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0b0f17;
+      --bg-secondary: #121824;
+      --bg-card: rgba(18, 24, 36, 0.85);
+      --emerald-primary: #10b981;
+      --emerald-light: #34d399;
+      --emerald-glow: rgba(16, 185, 129, 0.25);
+      --gold-light: #fbbf24;
+      --danger-primary: #ef4444;
+      --text-main: #f3f4f6;
+      --text-muted: #9ca3af;
+      --border-color: rgba(255, 255, 255, 0.1);
+      --border-highlight: rgba(16, 185, 129, 0.4);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      width: 100vw;
+      height: 100vh;
+      background-color: var(--bg-primary);
+      color: var(--text-main);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-image: 
+        radial-gradient(circle at 20% 20%, rgba(16, 185, 129, 0.12) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(245, 158, 11, 0.08) 0%, transparent 50%);
+    }
+
+    .scene {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.5s ease;
+      padding: 1.5rem;
+    }
+
+    .scene.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    /* Glass Card styling */
+    .glass-card {
+      background: var(--bg-card);
+      backdrop-filter: blur(16px);
+      border: 1px solid var(--border-highlight);
+      border-radius: 20px;
+      padding: clamp(1.2rem, 3vw, 2.2rem);
+      box-shadow: 0 0 35px var(--emerald-glow), 0 20px 40px rgba(0,0,0,0.6);
+      width: min(90vw, 1000px);
+      max-height: 85vh;
+    }
+
+    /* Badge */
+    .badge-approved {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.4rem 1rem;
+      border-radius: 50px;
+      background: rgba(16, 185, 129, 0.2);
+      color: var(--emerald-light);
+      border: 1px solid var(--emerald-primary);
+      font-family: 'Outfit', sans-serif;
+      font-weight: 700;
+      font-size: clamp(0.75rem, 1.2vw, 1.05rem);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      box-shadow: 0 0 20px rgba(16, 185, 129, 0.4);
+    }
+
+    h1, h2, h3 {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 800;
+      color: #ffffff;
+      letter-spacing: -0.02em;
+    }
+
+    /* Animations */
+    @keyframes pulseGlow {
+      0%, 100% { transform: scale(1); filter: drop-shadow(0 0 20px var(--emerald-primary)); }
+      50% { transform: scale(1.05); filter: drop-shadow(0 0 35px var(--emerald-light)); }
+    }
+
+    .pulse-logo {
+      animation: pulseGlow 2s infinite ease-in-out;
+    }
+
+    .timeline {
+      position: relative;
+      padding-left: 2rem;
+      border-left: 3px solid var(--emerald-primary);
+      margin-top: 1.2rem;
+    }
+
+    .timeline-item {
+      position: relative;
+      margin-bottom: 1.2rem;
+    }
+
+    .timeline-dot {
+      position: absolute;
+      left: -2.65rem;
+      top: 0.1rem;
+      width: 1.1rem;
+      height: 1.1rem;
+      border-radius: 50%;
+      background: var(--emerald-light);
+      box-shadow: 0 0 15px var(--emerald-light);
+    }
+
+    @media (max-width: 768px) {
+      .responsive-grid {
+        grid-template-columns: 1fr !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- SCENE 1: THE HOOK (0s - 3.5s) -->
+  <div id="scene1" class="scene active">
+    <div style="text-align: center; max-width: 90vw;">
+      <div class="badge-approved pulse-logo" style="margin-bottom: 1.5rem; padding: 0.6rem 1.8rem;">
+        🛡️ VERIFIED ON-CHAIN
+      </div>
+      <h1 style="font-size: clamp(2.2rem, 4.5vw, 4rem); line-height: 1.1; margin-bottom: 1.2rem; background: linear-gradient(135deg, #ffffff 0%, #a7f3d0 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+        Is Your Ashwagandha Actually Pure?
+      </h1>
+      <p style="font-size: clamp(1.1rem, 2vw, 1.6rem); color: var(--text-muted); max-width: 900px; margin: 0 auto; line-height: 1.4;">
+        Root-to-Remedy pairs Hyperledger Fabric v2.5 + IPFS for instant, tamper-evident botanical supply chain provenance.
+      </p>
+    </div>
+  </div>
+
+  <!-- SCENE 2: FARM HARVEST & GPS LEDGER COMMIT (3.5s - 7.5s) -->
+  <div id="scene2" class="scene">
+    <div class="glass-card">
+      <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.2rem; border-bottom: 1px solid var(--border-color); padding-bottom: 0.8rem; flex-wrap: wrap; gap: 0.5rem;">
+        <div style="display: flex; align-items: center; gap: 0.8rem;">
+          <span style="font-size: clamp(1.8rem, 3vw, 2.2rem);">🌿</span>
+          <div>
+            <h2 style="font-size: clamp(1.3rem, 2.5vw, 1.8rem);">Farmer Harvest Registration</h2>
+            <p style="color: var(--text-muted); font-size: clamp(0.9rem, 1.4vw, 1.05rem);">Committing raw herb metadata & farm GPS pin to ledger</p>
+          </div>
+        </div>
+        <div class="badge-approved">BATCH-A1B2C3D4</div>
+      </div>
+
+      <div class="responsive-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem;">
+        <div style="background: rgba(11,15,23,0.6); padding: 1rem; border-radius: 12px; border: 1px solid var(--border-color);">
+          <span style="color: var(--text-muted); display: block; font-size: 0.85rem;">Herb Common & Species</span>
+          <strong style="font-size: clamp(1.1rem, 1.8vw, 1.3rem); color: #fff;">Ashwagandha</strong> <em style="color: var(--text-muted); font-size: 0.9rem;">(Withania somnifera)</em>
+        </div>
+        <div style="background: rgba(11,15,23,0.6); padding: 1rem; border-radius: 12px; border: 1px solid var(--border-color);">
+          <span style="color: var(--text-muted); display: block; font-size: 0.85rem;">Farm GPS Coordinates</span>
+          <strong style="font-size: clamp(1.1rem, 1.8vw, 1.3rem); color: var(--emerald-light);">📍 26.9124, 75.7873 (Rajasthan, IN)</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCENE 3: LAB IPFS UPLOAD & SMART CONTRACT PURITY GATE (7.5s - 12.0s) -->
+  <div id="scene3" class="scene">
+    <div class="glass-card">
+      <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.2rem; flex-wrap: wrap; gap: 0.5rem;">
+        <div style="display: flex; align-items: center; gap: 0.8rem;">
+          <span style="font-size: clamp(1.8rem, 3vw, 2.2rem);">🔬</span>
+          <div>
+            <h2 style="font-size: clamp(1.3rem, 2.5vw, 1.8rem);">Lab Testing & IPFS Document Pinning</h2>
+            <p style="color: var(--text-muted); font-size: clamp(0.85rem, 1.3vw, 1rem);">Smart Contract Rule: Purity ≥ 95% AND Contamination == 0</p>
+          </div>
+        </div>
+        <div class="badge-approved">STATUS: APPROVED</div>
+      </div>
+
+      <div class="responsive-grid" style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 1.2rem; align-items: center;">
+        <div style="background: rgba(11,15,23,0.8); padding: 1.2rem; border-radius: 12px; border: 1px solid var(--emerald-primary);">
+          <div style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.4rem;">Deterministic Assay Evaluation</div>
+          <div style="font-size: clamp(1.8rem, 3.5vw, 2.4rem); font-weight: 800; color: var(--emerald-light);">98.2% Purity</div>
+          <div style="font-size: clamp(0.95rem, 1.5vw, 1.1rem); color: var(--text-main); margin-top: 0.4rem;">Contamination: 0 (Zero Toxins)</div>
+        </div>
+        <div style="background: rgba(16,185,129,0.1); padding: 1.2rem; border-radius: 12px; border: 1px dashed var(--emerald-light); text-align: center;">
+          <span style="font-size: 1.8rem; display: block; margin-bottom: 0.4rem;">📄</span>
+          <div style="font-size: 0.85rem; color: var(--text-muted);">Content-Addressed IPFS Certificate</div>
+          <div style="font-family: monospace; font-size: clamp(0.85rem, 1.3vw, 0.95rem); color: var(--emerald-light); margin-top: 0.4rem; word-break: break-all;">CID: Qmcafb252d897...</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCENE 4: MANUFACTURER QR MINTING & CONSUMER VERIFICATION (12.0s - 16.5s) -->
+  <div id="scene4" class="scene">
+    <div class="glass-card">
+      <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+        <div>
+          <h2 style="font-size: clamp(1.3rem, 2.5vw, 1.8rem);">Zero-Login Public QR Provenance</h2>
+          <p style="color: var(--text-muted); font-size: clamp(0.85rem, 1.3vw, 1rem);">Verified in &lt;15ms with full immutable audit history</p>
+        </div>
+        <div class="badge-approved">PROD-SAMPLE1</div>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <strong style="font-size: clamp(1rem, 1.5vw, 1.15rem); color: #fff;">1. Farm Origin Registered</strong>
+          <p style="color: var(--text-muted); font-size: clamp(0.85rem, 1.2vw, 0.95rem);">26.9124, 75.7873 — Organic Black Loam</p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <strong style="font-size: clamp(1rem, 1.5vw, 1.15rem); color: #fff;">2. Lab Certificate Pinned to IPFS</strong>
+          <p style="color: var(--text-muted); font-size: clamp(0.85rem, 1.2vw, 0.95rem);">98.2% Purity | Status: APPROVED</p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <strong style="font-size: clamp(1rem, 1.5vw, 1.15rem); color: #fff;">3. Retail Product Minted & QR Printed</strong>
+          <p style="color: var(--text-muted); font-size: clamp(0.85rem, 1.2vw, 0.95rem);">Organic Ashwagandha Extract Capsules</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCENE 5: OUTRO & GITHUB LAUNCH (16.5s - 20.0s) -->
+  <div id="scene5" class="scene">
+    <div style="text-align: center; max-width: 90vw;">
+      <div style="font-size: clamp(2.5rem, 4vw, 3.5rem); margin-bottom: 0.8rem;">🌿</div>
+      <h1 style="font-size: clamp(2.2rem, 4.5vw, 3.5rem); margin-bottom: 0.8rem;">Root-to-Remedy</h1>
+      <p style="font-size: clamp(1.1rem, 2vw, 1.5rem); color: var(--emerald-light); margin-bottom: 1.5rem;">
+        Immutable Botanical Supply Chain Traceability Platform
+      </p>
+      <div class="glass-card" style="display: inline-block; padding: 0.9rem 2rem; font-family: monospace; font-size: clamp(1.1rem, 2vw, 1.6rem); color: #fff; border-color: var(--emerald-primary); width: auto;">
+        github.com/Masaru124/Root-to-Remedy
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Scene Pacing Controller (20s total)
+    const sceneTimes = [0, 3.5, 7.5, 12.0, 16.5, 20.0];
+    const scenes = [
+      document.getElementById('scene1'),
+      document.getElementById('scene2'),
+      document.getElementById('scene3'),
+      document.getElementById('scene4'),
+      document.getElementById('scene5')
+    ];
+
+    function showScene(index) {
+      scenes.forEach((s, idx) => {
+        if (idx === index) {
+          s.classList.add('active');
+        } else {
+          s.classList.remove('active');
+        }
+      });
+    }
+
+    let startTime = Date.now();
+    setInterval(() => {
+      let elapsed = (Date.now() - startTime) / 1000;
+      if (elapsed >= 20.0) {
+        startTime = Date.now();
+        elapsed = 0;
+      }
+      
+      for (let i = 0; i < sceneTimes.length - 1; i++) {
+        if (elapsed >= sceneTimes[i] && elapsed < sceneTimes[i+1]) {
+          showScene(i);
+          break;
+        }
+      }
+    }, 100);
+  </script>
+</body>
+</html>

@@ -27,21 +27,36 @@ async function getApprovedBatches(req, res) {
 
 async function createProduct(req, res) {
   try {
-    const { batchId, productName } = req.body;
+    const { batchId, productName, unitsRequested, productId: clientProductId } = req.body;
 
-    if (!batchId || !productName) {
+    if (!batchId || !productName || unitsRequested === undefined || unitsRequested === null) {
       return res.status(400).json({
         success: false,
-        error: 'batchId and productName are required.'
+        error: 'batchId, productName, and unitsRequested are required.'
       });
     }
 
-    const productId = `PROD-${uuidv4().substring(0, 8).toUpperCase()}`;
+    const productId = clientProductId || `PROD-${uuidv4().substring(0, 8).toUpperCase()}`;
     const fabric = getFabricGateway();
 
-    // 1. Submit CreateProduct to Fabric ledger (chaincode checks batch.status === 'APPROVED')
-    const resultJson = await fabric.submitTransaction('CreateProduct', productId, batchId, productName);
+    // 1. Submit CreateProduct to Fabric ledger (chaincode checks batch.status === 'APPROVED' and depletes mass balance)
+    const resultJson = await fabric.submitTransaction('CreateProduct', productId, batchId, productName, unitsRequested);
     const productData = JSON.parse(resultJson);
+
+    // Sync updated batch balance to Mongo cache if available
+    if (getMongoStatus()) {
+      try {
+        await BatchCache.findOneAndUpdate(
+          { batchId },
+          {
+            remainingWeightMg: productData.remainingBatchWeightMg,
+            remainingWeightKg: productData.remainingBatchWeightMg / 1000000
+          }
+        );
+      } catch (cacheErr) {
+        console.warn('[Mongo BatchCache Update Error]', cacheErr.message);
+      }
+    }
 
     // 2. Generate Base64 PNG QR code
     const qrCodeDataUrl = await generateQR(productId);

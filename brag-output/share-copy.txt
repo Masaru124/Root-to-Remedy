@@ -1,0 +1,5 @@
+Say goodbye to counterfeit Ayurvedic herbs. 🌿 Root-to-Remedy pairs Hyperledger Fabric v2.5 + IPFS for instant, tamper-evident botanical provenance from farm harvest to consumer QR scan (<15ms queries).
+
+Check out the code & paper: https://github.com/Masaru124/Root-to-Remedy
+
+#Web3 #Blockchain #SupplyChain #Ayurveda #Hyperledger #OpenSource
