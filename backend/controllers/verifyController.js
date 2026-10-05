@@ -1,4 +1,5 @@
 const { getFabricGateway } = require('../config/fabricConnection');
+const asObject = r => (Buffer.isBuffer(r) ? JSON.parse(r.toString()) : (typeof r === 'string' ? JSON.parse(r) : r));
 
 async function verifyProduct(req, res) {
   try {
@@ -9,8 +10,8 @@ async function verifyProduct(req, res) {
     }
 
     const fabric = getFabricGateway();
-    const resultJson = await fabric.evaluateTransaction('VerifyProduct', qrCode);
-    const verificationData = JSON.parse(resultJson);
+    const result = await fabric.evaluateTransaction('VerifyProduct', qrCode);
+    const verificationData = asObject(result);
 
     return res.json({
       success: true,

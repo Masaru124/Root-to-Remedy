@@ -1,0 +1,56 @@
+services:
+  # 1. Local Real IPFS Node (IPFS Kubo)
+  ipfs-node:
+    image: ipfs/kubo:latest
+    container_name: r2r_ipfs
+    ports:
+      - "4001:4001"
+      - "5001:5001"
+      - "8080:8080"
+    volumes:
+      - ipfs_data:/data/ipfs
+    environment:
+      - IPFS_PROFILE=server
+
+  # 2. Local Real MongoDB Database
+  mongo-db:
+    image: mongo:7.0
+    container_name: r2r_mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+  # 3. Backend API + Hyperledger Fabric Smart Contract Engine
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: r2r_backend
+    ports:
+      - "5000:5000"
+    environment:
+      - PORT=5000
+      - MONGODB_URI=mongodb://mongo-db:27017/root_to_remedy
+      - JWT_SECRET=super_secret_botanical_key_2026
+      - FABRIC_MODE=mock
+      - IPFS_MODE=kubo
+      - LOCAL_KUBO_URL=http://ipfs-node:5001
+    depends_on:
+      - ipfs-node
+      - mongo-db
+
+  # 4. Frontend React / Vite Production Web Application
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: r2r_frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+
+volumes:
+  ipfs_data:
+  mongo_data:

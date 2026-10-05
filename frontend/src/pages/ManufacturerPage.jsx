@@ -142,6 +142,7 @@ export default function ManufacturerPage() {
                 <label>Retail Product Commercial Name</label>
                 <input
                   type="text"
+                  name="productName"
                   required
                   className="form-input"
                   value={productName}
@@ -154,6 +155,7 @@ export default function ManufacturerPage() {
                 <label>Units / Bottles to Manufacture</label>
                 <input
                   type="number"
+                  name="unitsRequested"
                   min="1"
                   step="1"
                   required

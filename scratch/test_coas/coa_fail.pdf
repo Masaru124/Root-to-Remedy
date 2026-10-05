@@ -1,0 +1,43 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 472 >>
+stream
+BT
+/F1 14 Tf
+1 0 0 1 50 750 Tm (NATIONAL AYUSH TESTING LABORATORY) Tj
+1 0 0 1 50 720 Tm (CERTIFICATE OF ANALYSIS) Tj
+1 0 0 1 50 690 Tm (Batch ID: BATCH-TEST-FAIL) Tj
+1 0 0 1 50 660 Tm (Botanical Species: Withania somnifera) Tj
+1 0 0 1 50 630 Tm (Purity: 88.5%) Tj
+1 0 0 1 50 600 Tm (Contamination: 0.12) Tj
+1 0 0 1 50 570 Tm (Batch Quantity: 10.0 kg) Tj
+1 0 0 1 50 540 Tm (Heavy Metals: Above Threshold Limits) Tj
+1 0 0 1 50 510 Tm (Overall Recommendation: REJECTED) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000010 00000 n 
+0000000060 00000 n 
+0000000117 00000 n 
+0000000227 00000 n 
+0000000318 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+393
+%%EOF

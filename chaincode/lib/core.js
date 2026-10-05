@@ -136,10 +136,17 @@ async function updateTransport(store, nowISO, a) {
 }
 
 async function verifyProduct(store, qrCode) {
-  const product = await store.get(pKey(reqId('qrCode', qrCode)));
-  if (!product) throw new Error('Product not found.');
-  const batch = await store.get(bKey(product.batchId));
-  return { product, batch };
+  const cleanCode = reqId('qrCode', qrCode);
+  const product = await store.get(pKey(cleanCode));
+  if (product) {
+    const batch = await store.get(bKey(product.batchId));
+    return { verified: true, product, batch };
+  }
+  const batch = await store.get(bKey(cleanCode));
+  if (batch) {
+    return { verified: true, batch };
+  }
+  throw new Error('Provenance record not found.');
 }
 
 async function getBatch(store, batchId) {

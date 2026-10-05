@@ -58,8 +58,10 @@ export default function LabPage() {
       });
 
       if (res.success) {
-        const lr = res.data.labReport || {};
-        setMessage(`CoA Verified! Evaluated Status: ${res.data.status} (Purity: ${lr.purity}%, Contamination: ${lr.contamination}, Tested Qty: ${lr.batchQuantityKg}kg)`);
+        const purity = res.data.purity ?? res.data.labReport?.purity;
+        const contam = res.data.contamination ?? res.data.labReport?.contamination;
+        const qty = res.data.coaWeightKg ?? res.data.batchQuantityKg ?? res.data.labReport?.coaWeightMg / 1000000;
+        setMessage(`CoA Verified! Evaluated Status: ${res.data.status} (Purity: ${purity}%, Contamination: ${contam}, Tested Qty: ${qty}kg)`);
         setSelectedBatch(null);
         setPdfFile(null);
         fetchBatches();

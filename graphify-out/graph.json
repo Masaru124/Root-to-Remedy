@@ -35,8 +35,8 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 50,
-      "community_name": "core.test.js",
+      "community": 40,
+      "community_name": "fabricConnection.js",
       "file_type": "code",
       "norm_label": "mockledgeradapter",
       "source_file": "backend/config/mockLedgerAdapter.js",
@@ -427,6 +427,114 @@
       "source_location": "L11"
     },
     {
+      "id": "backend_utils_coaparser_extractmetrics",
+      "label": "extractMetrics()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "labController.js",
+      "file_type": "code",
+      "norm_label": "extractmetrics()",
+      "source_file": "backend/utils/coaParser.js",
+      "source_location": "L29"
+    },
+    {
+      "id": "backend_utils_coaparser_parsecoapdf",
+      "label": "parseCoAPdf()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "labController.js",
+      "file_type": "code",
+      "norm_label": "parsecoapdf()",
+      "source_file": "backend/utils/coaParser.js",
+      "source_location": "L57"
+    },
+    {
+      "id": "chaincode_lib_rules_evaluatelabresult",
+      "label": "evaluateLabResult()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 14,
+      "community_name": "herbContract.test.js",
+      "file_type": "code",
+      "norm_label": "evaluatelabresult()",
+      "source_file": "chaincode/lib/rules.js",
+      "source_location": "L36"
+    },
+    {
+      "id": "scratch_capture_all_new_feature_screenshots_capturescreenshots",
+      "label": "captureScreenshots()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "capture_all_new_feature_screenshots.js",
+      "file_type": "code",
+      "norm_label": "capturescreenshots()",
+      "source_file": "scratch/capture_all_new_feature_screenshots.js",
+      "source_location": "L27"
+    },
+    {
+      "id": "scratch_capture_all_new_feature_screenshots_loginas",
+      "label": "loginAs()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "capture_all_new_feature_screenshots.js",
+      "file_type": "code",
+      "norm_label": "loginas()",
+      "source_file": "scratch/capture_all_new_feature_screenshots.js",
+      "source_location": "L11"
+    },
+    {
+      "id": "scratch_generate_official_coa_generateofficialcoapdf",
+      "label": "generateOfficialCoAPdf()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "capture_all_new_feature_screenshots.js",
+      "file_type": "code",
+      "norm_label": "generateofficialcoapdf()",
+      "source_file": "scratch/generate_official_coa.js",
+      "source_location": "L5"
+    },
+    {
+      "id": "tests_e2e_playwright_loginas",
+      "label": "loginAs()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "capture_all_new_feature_screenshots.js",
+      "file_type": "code",
+      "norm_label": "loginas()",
+      "source_file": "tests/e2e_playwright.js",
+      "source_location": "L8"
+    },
+    {
+      "id": "tests_e2e_playwright_rune2etests",
+      "label": "runE2ETests()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "capture_all_new_feature_screenshots.js",
+      "file_type": "code",
+      "norm_label": "rune2etests()",
+      "source_file": "tests/e2e_playwright.js",
+      "source_location": "L25"
+    },
+    {
+      "id": "scratch_generate_test_pdfs_createsimplepdf",
+      "label": "createSimplePdf()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "generate_test_pdfs.js",
+      "file_type": "code",
+      "norm_label": "createsimplepdf()",
+      "source_file": "scratch/generate_test_pdfs.js",
+      "source_location": "L4"
+    },
+    {
       "id": "frontend_src_app_app",
       "label": "App()",
       "_callable": true,
@@ -583,6 +691,18 @@
       "source_location": "L6"
     },
     {
+      "id": "backend_config_db_getmongostatus",
+      "label": "getMongoStatus()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "getFabricGateway",
+      "file_type": "code",
+      "norm_label": "getmongostatus()",
+      "source_file": "backend/config/db.js",
+      "source_location": "L19"
+    },
+    {
       "id": "backend_config_fabricconnection_getfabricgateway",
       "label": "getFabricGateway()",
       "_callable": true,
@@ -595,15 +715,15 @@
       "source_location": "L56"
     },
     {
-      "id": "backend_config_fabricconnection_seeddemodata",
-      "label": "seedDemoData()",
+      "id": "backend_controllers_batchcontroller_asobject",
+      "label": "asObject()",
       "_callable": true,
       "_origin": "ast",
       "community": 22,
       "community_name": "getFabricGateway",
       "file_type": "code",
-      "norm_label": "seeddemodata()",
-      "source_file": "backend/config/fabricConnection.js",
+      "norm_label": "asobject()",
+      "source_file": "backend/controllers/batchController.js",
       "source_location": "L6"
     },
     {
@@ -616,7 +736,7 @@
       "file_type": "code",
       "norm_label": "getallbatches()",
       "source_file": "backend/controllers/batchController.js",
-      "source_location": "L57"
+      "source_location": "L59"
     },
     {
       "id": "backend_controllers_batchcontroller_getbatchbyid",
@@ -628,7 +748,7 @@
       "file_type": "code",
       "norm_label": "getbatchbyid()",
       "source_file": "backend/controllers/batchController.js",
-      "source_location": "L78"
+      "source_location": "L80"
     },
     {
       "id": "backend_controllers_batchcontroller_registerbatch",
@@ -640,7 +760,7 @@
       "file_type": "code",
       "norm_label": "registerbatch()",
       "source_file": "backend/controllers/batchController.js",
-      "source_location": "L6"
+      "source_location": "L8"
     },
     {
       "id": "backend_controllers_productcontroller_getapprovedbatches",
@@ -787,18 +907,6 @@
       "source_location": "L75"
     },
     {
-      "id": "backend_config_db_getmongostatus",
-      "label": "getMongoStatus()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 26,
-      "community_name": "authController.js",
-      "file_type": "code",
-      "norm_label": "getmongostatus()",
-      "source_file": "backend/config/db.js",
-      "source_location": "L19"
-    },
-    {
       "id": "backend_controllers_authcontroller_login",
       "label": "login()",
       "_callable": true,
@@ -823,6 +931,18 @@
       "source_location": "L71"
     },
     {
+      "id": "backend_controllers_verifycontroller_asobject",
+      "label": "asObject()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "verifyRoutes.js",
+      "file_type": "code",
+      "norm_label": "asobject()",
+      "source_file": "backend/controllers/verifyController.js",
+      "source_location": "L2"
+    },
+    {
       "id": "backend_controllers_verifycontroller_verifyproduct",
       "label": "verifyProduct()",
       "_callable": true,
@@ -832,7 +952,7 @@
       "file_type": "code",
       "norm_label": "verifyproduct()",
       "source_file": "backend/controllers/verifyController.js",
-      "source_location": "L3"
+      "source_location": "L4"
     },
     {
       "id": "scratch_generate_report_figures_make_all_uis",
@@ -941,18 +1061,6 @@
       "norm_label": "make_use_case()",
       "source_file": "scratch/generate_report_figures.py",
       "source_location": "L148"
-    },
-    {
-      "id": "backend_middleware_upload_filefilter",
-      "label": "fileFilter()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "backend/package.json",
-      "file_type": "code",
-      "norm_label": "filefilter()",
-      "source_file": "backend/middleware/upload.js",
-      "source_location": "L6"
     },
     {
       "id": "scratch_capture_real_screenshots_capture_all",
@@ -1243,6 +1351,78 @@
       "source_location": "L44"
     },
     {
+      "id": "backend_config_fabricconnection_seeddemodata",
+      "label": "seedDemoData()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 40,
+      "community_name": "fabricConnection.js",
+      "file_type": "code",
+      "norm_label": "seeddemodata()",
+      "source_file": "backend/config/fabricConnection.js",
+      "source_location": "L6"
+    },
+    {
+      "id": "backend_config_mockledgeradapter_mockledgeradapter_constructor",
+      "label": ".constructor()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 40,
+      "community_name": "fabricConnection.js",
+      "file_type": "code",
+      "norm_label": ".constructor()",
+      "source_file": "backend/config/mockLedgerAdapter.js",
+      "source_location": "L7"
+    },
+    {
+      "id": "backend_config_mockledgeradapter_mockledgeradapter_evaluatetransaction",
+      "label": ".evaluateTransaction()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 40,
+      "community_name": "fabricConnection.js",
+      "file_type": "code",
+      "norm_label": ".evaluatetransaction()",
+      "source_file": "backend/config/mockLedgerAdapter.js",
+      "source_location": "L46"
+    },
+    {
+      "id": "backend_config_mockledgeradapter_mockledgeradapter_getallbatches",
+      "label": ".getAllBatches()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 40,
+      "community_name": "fabricConnection.js",
+      "file_type": "code",
+      "norm_label": ".getallbatches()",
+      "source_file": "backend/config/mockLedgerAdapter.js",
+      "source_location": "L53"
+    },
+    {
+      "id": "backend_config_mockledgeradapter_mockledgeradapter_submittransaction",
+      "label": ".submitTransaction()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 40,
+      "community_name": "fabricConnection.js",
+      "file_type": "code",
+      "norm_label": ".submittransaction()",
+      "source_file": "backend/config/mockLedgerAdapter.js",
+      "source_location": "L17"
+    },
+    {
+      "id": "backend_middleware_upload_filefilter",
+      "label": "fileFilter()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "upload.js",
+      "file_type": "code",
+      "norm_label": "filefilter()",
+      "source_file": "backend/middleware/upload.js",
+      "source_location": "L6"
+    },
+    {
       "id": "chaincode_lib_core_bkey",
       "label": "bKey()",
       "_callable": true,
@@ -1276,7 +1456,7 @@
       "file_type": "code",
       "norm_label": "getbatch()",
       "source_file": "chaincode/lib/core.js",
-      "source_location": "L145"
+      "source_location": "L152"
     },
     {
       "id": "chaincode_lib_core_pkey",
@@ -1375,78 +1555,6 @@
       "source_location": "L138"
     },
     {
-      "id": "backend_config_mockledgeradapter_mockledgeradapter_constructor",
-      "label": ".constructor()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 50,
-      "community_name": "core.test.js",
-      "file_type": "code",
-      "norm_label": ".constructor()",
-      "source_file": "backend/config/mockLedgerAdapter.js",
-      "source_location": "L7"
-    },
-    {
-      "id": "backend_config_mockledgeradapter_mockledgeradapter_evaluatetransaction",
-      "label": ".evaluateTransaction()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 50,
-      "community_name": "core.test.js",
-      "file_type": "code",
-      "norm_label": ".evaluatetransaction()",
-      "source_file": "backend/config/mockLedgerAdapter.js",
-      "source_location": "L46"
-    },
-    {
-      "id": "backend_config_mockledgeradapter_mockledgeradapter_getallbatches",
-      "label": ".getAllBatches()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 50,
-      "community_name": "core.test.js",
-      "file_type": "code",
-      "norm_label": ".getallbatches()",
-      "source_file": "backend/config/mockLedgerAdapter.js",
-      "source_location": "L53"
-    },
-    {
-      "id": "backend_config_mockledgeradapter_mockledgeradapter_submittransaction",
-      "label": ".submitTransaction()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 50,
-      "community_name": "core.test.js",
-      "file_type": "code",
-      "norm_label": ".submittransaction()",
-      "source_file": "backend/config/mockLedgerAdapter.js",
-      "source_location": "L17"
-    },
-    {
-      "id": "backend_utils_coaparser_extractmetrics",
-      "label": "extractMetrics()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 50,
-      "community_name": "core.test.js",
-      "file_type": "code",
-      "norm_label": "extractmetrics()",
-      "source_file": "backend/utils/coaParser.js",
-      "source_location": "L29"
-    },
-    {
-      "id": "backend_utils_coaparser_parsecoapdf",
-      "label": "parseCoAPdf()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 50,
-      "community_name": "core.test.js",
-      "file_type": "code",
-      "norm_label": "parsecoapdf()",
-      "source_file": "backend/utils/coaParser.js",
-      "source_location": "L57"
-    },
-    {
       "id": "chaincode_lib_rules_biomassrequiredmg",
       "label": "biomassRequiredMg()",
       "_callable": true,
@@ -1457,18 +1565,6 @@
       "norm_label": "biomassrequiredmg()",
       "source_file": "chaincode/lib/rules.js",
       "source_location": "L45"
-    },
-    {
-      "id": "chaincode_lib_rules_evaluatelabresult",
-      "label": "evaluateLabResult()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 50,
-      "community_name": "core.test.js",
-      "file_type": "code",
-      "norm_label": "evaluatelabresult()",
-      "source_file": "chaincode/lib/rules.js",
-      "source_location": "L36"
     },
     {
       "id": "chaincode_lib_rules_maxunitsfrombalance",
@@ -1555,18 +1651,6 @@
       "source_location": "L33"
     },
     {
-      "id": "build_weekly_reports_create_report_document",
-      "label": "create_report_document()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 65,
-      "community_name": "build_weekly_reports.py",
-      "file_type": "code",
-      "norm_label": "create_report_document()",
-      "source_file": "build_weekly_reports.py",
-      "source_location": "L10"
-    },
-    {
       "id": "backend_config_db_connectdb",
       "label": "connectDB()",
       "_callable": true,
@@ -1600,7 +1684,7 @@
       "file_type": "code",
       "norm_label": "updatetransport()",
       "source_file": "backend/controllers/productController.js",
-      "source_location": "L77"
+      "source_location": "L84"
     },
     {
       "id": "backend_middleware_auth_authenticatetoken",
@@ -1627,6 +1711,18 @@
       "source_location": "L29"
     },
     {
+      "id": "backend_controllers_productcontroller_asobject",
+      "label": "asObject()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "productController.js",
+      "file_type": "code",
+      "norm_label": "asobject()",
+      "source_file": "backend/controllers/productController.js",
+      "source_location": "L28"
+    },
+    {
       "id": "backend_controllers_productcontroller_createproduct",
       "label": "createProduct()",
       "_callable": true,
@@ -1636,7 +1732,7 @@
       "file_type": "code",
       "norm_label": "createproduct()",
       "source_file": "backend/controllers/productController.js",
-      "source_location": "L28"
+      "source_location": "L30"
     },
     {
       "id": "backend_services_qrservice_generateqr",
@@ -2312,17 +2408,6 @@
       "source_location": "L12"
     },
     {
-      "id": "ref_html5_qrcode",
-      "label": "html5-qrcode",
-      "_origin": "ast",
-      "community": 1,
-      "community_name": "frontend/package.json",
-      "file_type": "concept",
-      "norm_label": "html5-qrcode",
-      "source_file": "frontend/package.json",
-      "source_location": "L13"
-    },
-    {
       "id": "ref_react_dom",
       "label": "react-dom",
       "_origin": "ast",
@@ -2499,6 +2584,28 @@
       "source_location": "L2"
     },
     {
+      "id": "backend_utils_coaparser",
+      "label": "coaParser.js",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "labController.js",
+      "file_type": "code",
+      "norm_label": "coaparser.js",
+      "source_file": "backend/utils/coaParser.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "backend_utils_coaparser_fields",
+      "label": "FIELDS",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "labController.js",
+      "file_type": "code",
+      "norm_label": "fields",
+      "source_file": "backend/utils/coaParser.js",
+      "source_location": "L11"
+    },
+    {
       "id": "ref_form_data",
       "label": "form-data",
       "_origin": "ast",
@@ -2508,6 +2615,17 @@
       "norm_label": "form-data",
       "source_file": "backend/package.json",
       "source_location": "L17"
+    },
+    {
+      "id": "ref_pdf_parse",
+      "label": "pdf-parse",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "labController.js",
+      "file_type": "concept",
+      "norm_label": "pdf-parse",
+      "source_file": "backend/package.json",
+      "source_location": "L21"
     },
     {
       "id": "agents_skills_caveman_compress_scripts_init",
@@ -2993,904 +3111,521 @@
       "source_location": "L6"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c",
-      "label": "phase 2 report 26_b200624c.md",
+      "id": "chaincode_index",
+      "label": "chaincode/index.js",
       "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "phase 2 report 26_b200624c.md",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
+      "community": 14,
+      "community_name": "herbContract.test.js",
+      "file_type": "code",
+      "norm_label": "chaincode/index.js",
+      "source_file": "chaincode/index.js",
       "source_location": "L1"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_1_1_overview",
-      "label": "1.1 Overview",
+      "id": "chaincode_index_herbcontract",
+      "label": "HerbContract",
       "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "1.1 overview",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L92"
+      "community": 14,
+      "community_name": "herbContract.test.js",
+      "file_type": "code",
+      "norm_label": "herbcontract",
+      "source_file": "chaincode/index.js",
+      "source_location": "L3"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_1_2_problem_statement",
-      "label": "1.2 Problem Statement",
+      "id": "chaincode_lib_herbcontract",
+      "label": "herbContract.js",
       "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "1.2 problem statement",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L104"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_1_3_objectives",
-      "label": "1.3 Objectives",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "1.3 objectives",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L109"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_1_4_scope_of_the_study",
-      "label": "1.4 Scope of the Study",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "1.4 scope of the study",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L121"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_1_5_disadvantages_of_existing_systems",
-      "label": "1.5 Disadvantages of Existing Systems",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "1.5 disadvantages of existing systems",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L126"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_1_6_proposed_system",
-      "label": "1.6 Proposed System",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "1.6 proposed system",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L138"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_2_1_literature_survey",
-      "label": "2.1 Literature Survey",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "2.1 literature survey",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L159"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_3_1_functional_requirements",
-      "label": "3.1 Functional Requirements",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "3.1 functional requirements",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L194"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_3_2_non_functional_requirements",
-      "label": "3.2 Non-Functional Requirements",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "3.2 non-functional requirements",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L203"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_3_3_basic_operational_requirements",
-      "label": "3.3 Basic Operational Requirements",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "3.3 basic operational requirements",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L217"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_4_1_fundamental_design_concepts",
-      "label": "4.1 Fundamental Design Concepts",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "4.1 fundamental design concepts",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L238"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_4_2_development_model",
-      "label": "4.2 Development Model",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "4.2 development model",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L274"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_5_1_implementation_strategies",
-      "label": "5.1 Implementation Strategies",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "5.1 implementation strategies",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L303"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_5_2_module_implementation",
-      "label": "5.2 Module Implementation",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "5.2 module implementation",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L316"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_5_3_software_environment",
-      "label": "5.3 Software Environment",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "5.3 software environment",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L349"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_5_4_system_algorithms_and_formal_execution_logic",
-      "label": "5.4 System Algorithms and Formal Execution Logic",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "5.4 system algorithms and formal execution logic",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L368"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_6_1_testing_process",
-      "label": "6.1 Testing Process",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "6.1 testing process",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L435"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_6_2_aim_of_testing",
-      "label": "6.2 Aim of Testing",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "6.2 aim of testing",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L448"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_6_3_unit_testing",
-      "label": "6.3 Unit Testing",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "6.3 unit testing",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L464"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_6_4_integration_testing",
-      "label": "6.4 Integration Testing",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "6.4 integration testing",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L478"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_6_5_functional_testing",
-      "label": "6.5 Functional Testing",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "6.5 functional testing",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L492"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_6_6_system_performance_testing",
-      "label": "6.6 System & Performance Testing",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "6.6 system & performance testing",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L507"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_annexure",
-      "label": "ANNEXURE",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "annexure",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L585"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_annexure_a_tools_frameworks_and_network_configuration",
-      "label": "Annexure A: Tools, Frameworks, and Network Configuration",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "annexure a: tools, frameworks, and network configuration",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L588"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_annexure_b_botanical_pharmacopeial_standards_quality_limits",
-      "label": "Annexure B: Botanical Pharmacopeial Standards & Quality Limits",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "annexure b: botanical pharmacopeial standards & quality limits",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L604"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_bachelor_of_engineering",
-      "label": "Bachelor of Engineering",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "bachelor of engineering",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L9"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_certificates",
-      "label": "CERTIFICATES",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "certificates",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L780"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_chapter_1",
-      "label": "CHAPTER 1",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "chapter 1",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L87"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_chapter_2",
-      "label": "CHAPTER 2",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "chapter 2",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L150"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_chapter_3",
-      "label": "CHAPTER 3",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "chapter 3",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L189"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_chapter_4",
-      "label": "CHAPTER 4",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "chapter 4",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L235"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_chapter_5",
-      "label": "CHAPTER 5",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "chapter 5",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L299"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_chapter_6",
-      "label": "CHAPTER 6",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "chapter 6",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L433"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_chapter_7",
-      "label": "CHAPTER 7",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "chapter 7",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L523"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_chapter_8",
-      "label": "CHAPTER 8",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "chapter 8",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L563"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_computer_science_engineering_data_science",
-      "label": "Computer Science & Engineering (Data Science)",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "computer science & engineering (data science)",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L11"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_declaration",
-      "label": "DECLARATION",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "declaration",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L47"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_department_of_computer_science_engineering_data_science",
-      "label": "DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING (DATA SCIENCE)",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "department of computer science & engineering (data science)",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L23"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_department_of_computer_science_engineering_data_science_31",
-      "label": "DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING (DATA SCIENCE)",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "department of computer science & engineering (data science)",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L31"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_list_of_figures",
-      "label": "LIST OF FIGURES",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "list of figures",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L79"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_list_of_tables",
-      "label": "LIST OF TABLES",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "list of tables",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L83"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_literature_survey",
-      "label": "LITERATURE SURVEY",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "literature survey",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L154"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_plagiarism_report_summary",
-      "label": "PLAGIARISM REPORT SUMMARY",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "plagiarism report summary",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L777"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_references",
-      "label": "REFERENCES",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "references",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L572"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_b200624c_source_code",
-      "label": "SOURCE CODE",
-      "_origin": "ast",
-      "community": 15,
-      "community_name": "phase 2 report 26_b200624c.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "source code",
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L612"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "label": "phase 2 report 26_original_template_fae11deb.md",
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "phase 2 report 26_original_template_fae11deb.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "phase 2 report 26_original_template_fae11deb.md",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
+      "community": 14,
+      "community_name": "herbContract.test.js",
+      "file_type": "code",
+      "norm_label": "herbcontract.js",
+      "source_file": "chaincode/lib/herbContract.js",
       "source_location": "L1"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_2_split_data_70_15_15_with_stratification",
-      "label": "2. Split data (70/15/15) with stratification",
+      "id": "chaincode_test_herbcontract_test",
+      "label": "herbContract.test.js",
       "_origin": "ast",
-      "community": 18,
-      "community_name": "phase 2 report 26_original_template_fae11deb.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "2. split data (70/15/15) with stratification",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L579"
+      "community": 14,
+      "community_name": "herbContract.test.js",
+      "file_type": "code",
+      "norm_label": "herbcontract.test.js",
+      "source_file": "chaincode/test/herbContract.test.js",
+      "source_location": "L1"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_3_copy_images_into_folders",
-      "label": "3. Copy images into folders",
+      "id": "chaincode_test_herbcontract_test_chai",
+      "label": "chai",
       "_origin": "ast",
-      "community": 18,
-      "community_name": "phase 2 report 26_original_template_fae11deb.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "3. copy images into folders",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L593"
+      "community": 14,
+      "community_name": "herbContract.test.js",
+      "file_type": "code",
+      "norm_label": "chai",
+      "source_file": "chaincode/test/herbContract.test.js",
+      "source_location": "L3"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_algorithms",
-      "label": "ALGORITHMS",
+      "id": "chaincode_test_herbcontract_test_evaluatelabresult_cancreateproduct",
+      "label": "{ evaluateLabResult, canCreateProduct }",
       "_origin": "ast",
-      "community": 18,
-      "community_name": "phase 2 report 26_original_template_fae11deb.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "algorithms",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L328"
+      "community": 14,
+      "community_name": "herbContract.test.js",
+      "file_type": "code",
+      "norm_label": "{ evaluatelabresult, cancreateproduct }",
+      "source_file": "chaincode/test/herbContract.test.js",
+      "source_location": "L10"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_bachelor_of_engineering",
-      "label": "Bachelor of Engineering",
+      "id": "chaincode_test_herbcontract_test_herbcontract",
+      "label": "HerbContract",
       "_origin": "ast",
-      "community": 18,
-      "community_name": "phase 2 report 26_original_template_fae11deb.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "bachelor of engineering",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
+      "community": 14,
+      "community_name": "herbContract.test.js",
+      "file_type": "code",
+      "norm_label": "herbcontract",
+      "source_file": "chaincode/test/herbContract.test.js",
       "source_location": "L9"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_block_2",
-      "label": "Block 2",
+      "id": "chaincode_test_herbcontract_test_sinon",
+      "label": "sinon",
       "_origin": "ast",
-      "community": 18,
-      "community_name": "phase 2 report 26_original_template_fae11deb.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "block 2",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L637"
+      "community": 14,
+      "community_name": "herbContract.test.js",
+      "file_type": "code",
+      "norm_label": "sinon",
+      "source_file": "chaincode/test/herbContract.test.js",
+      "source_location": "L4"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_block_3",
-      "label": "Block 3",
+      "id": "chaincode_test_herbcontract_test_sinonchai",
+      "label": "sinonChai",
       "_origin": "ast",
-      "community": 18,
-      "community_name": "phase 2 report 26_original_template_fae11deb.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "block 3",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L639"
+      "community": 14,
+      "community_name": "herbContract.test.js",
+      "file_type": "code",
+      "norm_label": "sinonchai",
+      "source_file": "chaincode/test/herbContract.test.js",
+      "source_location": "L5"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_block_4",
-      "label": "Block 4",
+      "id": "ref_sinon",
+      "label": "sinon",
       "_origin": "ast",
-      "community": 18,
-      "community_name": "phase 2 report 26_original_template_fae11deb.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "block 4",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L641"
+      "community": 14,
+      "community_name": "herbContract.test.js",
+      "file_type": "concept",
+      "norm_label": "sinon",
+      "source_file": "chaincode/package.json",
+      "source_location": "L17"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_certificates",
-      "label": "CERTIFICATES",
+      "id": "ref_sinon_chai",
+      "label": "sinon-chai",
       "_origin": "ast",
-      "community": 18,
-      "community_name": "phase 2 report 26_original_template_fae11deb.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "certificates",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L701"
+      "community": 14,
+      "community_name": "herbContract.test.js",
+      "file_type": "concept",
+      "norm_label": "sinon-chai",
+      "source_file": "chaincode/package.json",
+      "source_location": "L18"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_chapter_2",
-      "label": "CHAPTER 2",
+      "id": "package",
+      "label": "package.json",
       "_origin": "ast",
-      "community": 18,
-      "community_name": "phase 2 report 26_original_template_fae11deb.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "chapter 2",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L145"
+      "community": 15,
+      "community_name": "capture_all_new_feature_screenshots.js",
+      "file_type": "code",
+      "norm_label": "package.json",
+      "source_file": "package.json",
+      "source_location": "L1"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_chapter_5",
-      "label": "CHAPTER 5",
+      "id": "package_devdependencies",
+      "label": "devDependencies",
       "_origin": "ast",
-      "community": 18,
-      "community_name": "phase 2 report 26_original_template_fae11deb.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "chapter 5",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L269"
+      "community": 15,
+      "community_name": "capture_all_new_feature_screenshots.js",
+      "file_type": "code",
+      "norm_label": "devdependencies",
+      "source_file": "package.json",
+      "source_location": "L2"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_chapter_7",
-      "label": "CHAPTER 7",
+      "id": "package_devdependencies_playwright",
+      "label": "playwright",
       "_origin": "ast",
-      "community": 18,
-      "community_name": "phase 2 report 26_original_template_fae11deb.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "chapter 7",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L444"
+      "community": 15,
+      "community_name": "capture_all_new_feature_screenshots.js",
+      "file_type": "code",
+      "norm_label": "playwright",
+      "source_file": "package.json",
+      "source_location": "L3"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_chapter_8",
-      "label": "CHAPTER 8",
+      "id": "scratch_capture_all_new_feature_screenshots",
+      "label": "capture_all_new_feature_screenshots.js",
       "_origin": "ast",
-      "community": 18,
-      "community_name": "phase 2 report 26_original_template_fae11deb.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "chapter 8",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L484"
+      "community": 15,
+      "community_name": "capture_all_new_feature_screenshots.js",
+      "file_type": "code",
+      "norm_label": "capture_all_new_feature_screenshots.js",
+      "source_file": "scratch/capture_all_new_feature_screenshots.js",
+      "source_location": "L1"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_computer_science_engineering_data_science",
-      "label": "Computer Science & Engineering (Data Science)",
+      "id": "scratch_capture_all_new_feature_screenshots_chromium",
+      "label": "{ chromium }",
       "_origin": "ast",
-      "community": 18,
-      "community_name": "phase 2 report 26_original_template_fae11deb.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "computer science & engineering (data science)",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L11"
+      "community": 15,
+      "community_name": "capture_all_new_feature_screenshots.js",
+      "file_type": "code",
+      "norm_label": "{ chromium }",
+      "source_file": "scratch/capture_all_new_feature_screenshots.js",
+      "source_location": "L1"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_data_augmentation_for_training_train_datagen_imagedatagenerator",
-      "label": "Data augmentation for training train_datagen = ImageDataGenerator(",
+      "id": "scratch_capture_all_new_feature_screenshots_coa_pdf_path",
+      "label": "COA_PDF_PATH",
       "_origin": "ast",
-      "community": 18,
-      "community_name": "phase 2 report 26_original_template_fae11deb.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "data augmentation for training train_datagen = imagedatagenerator(",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L609"
+      "community": 15,
+      "community_name": "capture_all_new_feature_screenshots.js",
+      "file_type": "code",
+      "norm_label": "coa_pdf_path",
+      "source_file": "scratch/capture_all_new_feature_screenshots.js",
+      "source_location": "L6"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_declaration",
-      "label": "DECLARATION",
+      "id": "scratch_capture_all_new_feature_screenshots_fs",
+      "label": "fs",
       "_origin": "ast",
-      "community": 18,
-      "community_name": "phase 2 report 26_original_template_fae11deb.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "declaration",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
+      "community": 15,
+      "community_name": "capture_all_new_feature_screenshots.js",
+      "file_type": "code",
+      "norm_label": "fs",
+      "source_file": "scratch/capture_all_new_feature_screenshots.js",
+      "source_location": "L3"
+    },
+    {
+      "id": "scratch_capture_all_new_feature_screenshots_path",
+      "label": "path",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "capture_all_new_feature_screenshots.js",
+      "file_type": "code",
+      "norm_label": "path",
+      "source_file": "scratch/capture_all_new_feature_screenshots.js",
+      "source_location": "L2"
+    },
+    {
+      "id": "scratch_capture_all_new_feature_screenshots_ss_dir",
+      "label": "SS_DIR",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "capture_all_new_feature_screenshots.js",
+      "file_type": "code",
+      "norm_label": "ss_dir",
+      "source_file": "scratch/capture_all_new_feature_screenshots.js",
+      "source_location": "L7"
+    },
+    {
+      "id": "scratch_generate_official_coa",
+      "label": "generate_official_coa.js",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "capture_all_new_feature_screenshots.js",
+      "file_type": "code",
+      "norm_label": "generate_official_coa.js",
+      "source_file": "scratch/generate_official_coa.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_generate_official_coa_chromium",
+      "label": "{ chromium }",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "capture_all_new_feature_screenshots.js",
+      "file_type": "code",
+      "norm_label": "{ chromium }",
+      "source_file": "scratch/generate_official_coa.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_generate_official_coa_fs",
+      "label": "fs",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "capture_all_new_feature_screenshots.js",
+      "file_type": "code",
+      "norm_label": "fs",
+      "source_file": "scratch/generate_official_coa.js",
+      "source_location": "L3"
+    },
+    {
+      "id": "scratch_generate_official_coa_path",
+      "label": "path",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "capture_all_new_feature_screenshots.js",
+      "file_type": "code",
+      "norm_label": "path",
+      "source_file": "scratch/generate_official_coa.js",
+      "source_location": "L2"
+    },
+    {
+      "id": "tests_e2e_playwright",
+      "label": "e2e_playwright.js",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "capture_all_new_feature_screenshots.js",
+      "file_type": "code",
+      "norm_label": "e2e_playwright.js",
+      "source_file": "tests/e2e_playwright.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "tests_e2e_playwright_assert",
+      "label": "assert",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "capture_all_new_feature_screenshots.js",
+      "file_type": "code",
+      "norm_label": "assert",
+      "source_file": "tests/e2e_playwright.js",
+      "source_location": "L3"
+    },
+    {
+      "id": "tests_e2e_playwright_chromium",
+      "label": "{ chromium }",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "capture_all_new_feature_screenshots.js",
+      "file_type": "code",
+      "norm_label": "{ chromium }",
+      "source_file": "tests/e2e_playwright.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "tests_e2e_playwright_coa_pass_path",
+      "label": "COA_PASS_PATH",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "capture_all_new_feature_screenshots.js",
+      "file_type": "code",
+      "norm_label": "coa_pass_path",
+      "source_file": "tests/e2e_playwright.js",
+      "source_location": "L6"
+    },
+    {
+      "id": "tests_e2e_playwright_path",
+      "label": "path",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "capture_all_new_feature_screenshots.js",
+      "file_type": "code",
+      "norm_label": "path",
+      "source_file": "tests/e2e_playwright.js",
+      "source_location": "L2"
+    },
+    {
+      "id": "ref_playwright",
+      "label": "playwright",
+      "_origin": "ast",
+      "community": 15,
+      "community_name": "capture_all_new_feature_screenshots.js",
+      "file_type": "concept",
+      "norm_label": "playwright",
+      "source_file": "package.json",
+      "source_location": "L3"
+    },
+    {
+      "id": "scratch_generate_test_pdfs",
+      "label": "generate_test_pdfs.js",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "generate_test_pdfs.js",
+      "file_type": "code",
+      "norm_label": "generate_test_pdfs.js",
+      "source_file": "scratch/generate_test_pdfs.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_generate_test_pdfs_faillines",
+      "label": "failLines",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "generate_test_pdfs.js",
+      "file_type": "code",
+      "norm_label": "faillines",
+      "source_file": "scratch/generate_test_pdfs.js",
+      "source_location": "L61"
+    },
+    {
+      "id": "scratch_generate_test_pdfs_fs",
+      "label": "fs",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "generate_test_pdfs.js",
+      "file_type": "code",
+      "norm_label": "fs",
+      "source_file": "scratch/generate_test_pdfs.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "scratch_generate_test_pdfs_outdir",
+      "label": "outDir",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "generate_test_pdfs.js",
+      "file_type": "code",
+      "norm_label": "outdir",
+      "source_file": "scratch/generate_test_pdfs.js",
+      "source_location": "L43"
+    },
+    {
+      "id": "scratch_generate_test_pdfs_passlines",
+      "label": "passLines",
+      "_origin": "ast",
+      "community": 16,
+      "community_name": "generate_test_pdfs.js",
+      "file_type": "code",
+      "norm_label": "passlines",
+      "source_file": "scratch/generate_test_pdfs.js",
       "source_location": "L47"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_department_of_computer_science_engineering_data_science",
-      "label": "DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING (DATA SCIENCE)",
+      "id": "scratch_generate_test_pdfs_path",
+      "label": "path",
       "_origin": "ast",
-      "community": 18,
-      "community_name": "phase 2 report 26_original_template_fae11deb.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "department of computer science & engineering (data science)",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L23"
+      "community": 16,
+      "community_name": "generate_test_pdfs.js",
+      "file_type": "code",
+      "norm_label": "path",
+      "source_file": "scratch/generate_test_pdfs.js",
+      "source_location": "L2"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_department_of_computer_science_engineering_data_science_31",
-      "label": "DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING (DATA SCIENCE)",
+      "id": "chaincode_package_devdependencies",
+      "label": "devDependencies",
       "_origin": "ast",
-      "community": 18,
-      "community_name": "phase 2 report 26_original_template_fae11deb.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "department of computer science & engineering (data science)",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L31"
+      "community": 17,
+      "community_name": "devDependencies",
+      "file_type": "code",
+      "norm_label": "devdependencies",
+      "source_file": "chaincode/package.json",
+      "source_location": "L14"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_folder_to_save_best_model_os_makedirs_models_exist_ok_true_checkpoint_path_models_best_skin_cnn_h5",
-      "label": "Folder to save best model os.makedirs(\"../models\", exist_ok=True) checkpoint_path = \"../models/best_skin_cnn.h5\"",
+      "id": "chaincode_package_devdependencies_chai",
+      "label": "chai",
       "_origin": "ast",
-      "community": 18,
-      "community_name": "phase 2 report 26_original_template_fae11deb.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "folder to save best model os.makedirs(\"../models\", exist_ok=true) checkpoint_path = \"../models/best_skin_cnn.h5\"",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L657"
+      "community": 17,
+      "community_name": "devDependencies",
+      "file_type": "code",
+      "norm_label": "chai",
+      "source_file": "chaincode/package.json",
+      "source_location": "L15"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_implementation_strategies",
-      "label": "IMPLEMENTATION STRATEGIES",
+      "id": "chaincode_package_devdependencies_mocha",
+      "label": "mocha",
       "_origin": "ast",
-      "community": 18,
-      "community_name": "phase 2 report 26_original_template_fae11deb.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "implementation strategies",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L273"
+      "community": 17,
+      "community_name": "devDependencies",
+      "file_type": "code",
+      "norm_label": "mocha",
+      "source_file": "chaincode/package.json",
+      "source_location": "L16"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_list_of_figures",
-      "label": "LIST OF FIGURES",
+      "id": "chaincode_package_devdependencies_sinon",
+      "label": "sinon",
       "_origin": "ast",
-      "community": 18,
-      "community_name": "phase 2 report 26_original_template_fae11deb.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "list of figures",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L79"
+      "community": 17,
+      "community_name": "devDependencies",
+      "file_type": "code",
+      "norm_label": "sinon",
+      "source_file": "chaincode/package.json",
+      "source_location": "L17"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_list_of_tables",
-      "label": "LIST OF TABLES",
+      "id": "chaincode_package_devdependencies_sinon_chai",
+      "label": "sinon-chai",
       "_origin": "ast",
-      "community": 18,
-      "community_name": "phase 2 report 26_original_template_fae11deb.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "list of tables",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L83"
+      "community": 17,
+      "community_name": "devDependencies",
+      "file_type": "code",
+      "norm_label": "sinon-chai",
+      "source_file": "chaincode/package.json",
+      "source_location": "L18"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_load_saved_model",
-      "label": "Load saved model",
+      "id": "chaincode_package_dependencies",
+      "label": "dependencies",
       "_origin": "ast",
       "community": 18,
-      "community_name": "phase 2 report 26_original_template_fae11deb.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "load saved model",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L680"
+      "community_name": "dependencies",
+      "file_type": "code",
+      "norm_label": "dependencies",
+      "source_file": "chaincode/package.json",
+      "source_location": "L10"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_module_implementation",
-      "label": "MODULE IMPLEMENTATION",
+      "id": "chaincode_package_dependencies_fabric_contract_api",
+      "label": "fabric-contract-api",
       "_origin": "ast",
       "community": 18,
-      "community_name": "phase 2 report 26_original_template_fae11deb.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "module implementation",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L282"
+      "community_name": "dependencies",
+      "file_type": "code",
+      "norm_label": "fabric-contract-api",
+      "source_file": "chaincode/package.json",
+      "source_location": "L11"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_plagiarism_report_summary",
-      "label": "PLAGIARISM REPORT SUMMARY",
+      "id": "chaincode_package_dependencies_fabric_shim",
+      "label": "fabric-shim",
       "_origin": "ast",
       "community": 18,
-      "community_name": "phase 2 report 26_original_template_fae11deb.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "plagiarism report summary",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L698"
+      "community_name": "dependencies",
+      "file_type": "code",
+      "norm_label": "fabric-shim",
+      "source_file": "chaincode/package.json",
+      "source_location": "L12"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_references",
-      "label": "REFERENCES",
+      "id": "chaincode_package_scripts",
+      "label": "scripts",
       "_origin": "ast",
-      "community": 18,
-      "community_name": "phase 2 report 26_original_template_fae11deb.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "references",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L493"
+      "community": 19,
+      "community_name": "scripts",
+      "file_type": "code",
+      "norm_label": "scripts",
+      "source_file": "chaincode/package.json",
+      "source_location": "L6"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_software_environment",
-      "label": "SOFTWARE ENVIRONMENT",
+      "id": "chaincode_package_scripts_start",
+      "label": "start",
       "_origin": "ast",
-      "community": 18,
-      "community_name": "phase 2 report 26_original_template_fae11deb.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "software environment",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L315"
+      "community": 19,
+      "community_name": "scripts",
+      "file_type": "code",
+      "norm_label": "start",
+      "source_file": "chaincode/package.json",
+      "source_location": "L7"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_source_code",
-      "label": "SOURCE CODE",
+      "id": "chaincode_package_scripts_test",
+      "label": "test",
       "_origin": "ast",
-      "community": 18,
-      "community_name": "phase 2 report 26_original_template_fae11deb.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "source code",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L533"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_validation_test_should_not_be_augmented_test_val_datagen_imagedatagenerator_rescale_1_255_train_data_train_datagen_flow_from_directory",
-      "label": "Validation & test should NOT be augmented test_val_datagen = ImageDataGenerator(rescale=1./255) train_data = train_datagen.flow_from_directory(",
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "phase 2 report 26_original_template_fae11deb.md",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "validation & test should not be augmented test_val_datagen = imagedatagenerator(rescale=1./255) train_data = train_datagen.flow_from_directory(",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L613"
+      "community": 19,
+      "community_name": "scripts",
+      "file_type": "code",
+      "norm_label": "test",
+      "source_file": "chaincode/package.json",
+      "source_location": "L8"
     },
     {
       "id": "frontend_src_app",
@@ -4056,6 +3791,17 @@
       "norm_label": "api",
       "source_file": "frontend/src/services/api.js",
       "source_location": "L3"
+    },
+    {
+      "id": "ref_html5_qrcode",
+      "label": "html5-qrcode",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "App.jsx",
+      "file_type": "concept",
+      "norm_label": "html5-qrcode",
+      "source_file": "frontend/package.json",
+      "source_location": "L13"
     },
     {
       "id": "ref_lucide_react",
@@ -4535,28 +4281,6 @@
       "source_location": "L153"
     },
     {
-      "id": "backend_config_fabricconnection",
-      "label": "fabricConnection.js",
-      "_origin": "ast",
-      "community": 22,
-      "community_name": "getFabricGateway",
-      "file_type": "code",
-      "norm_label": "fabricconnection.js",
-      "source_file": "backend/config/fabricConnection.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "backend_config_fabricconnection_mockledgeradapter",
-      "label": "{ MockLedgerAdapter }",
-      "_origin": "ast",
-      "community": 22,
-      "community_name": "getFabricGateway",
-      "file_type": "code",
-      "norm_label": "{ mockledgeradapter }",
-      "source_file": "backend/config/fabricConnection.js",
-      "source_location": "L2"
-    },
-    {
       "id": "backend_controllers_batchcontroller",
       "label": "batchController.js",
       "_origin": "ast",
@@ -4686,7 +4410,7 @@
       "file_type": "concept",
       "norm_label": "uuid",
       "source_file": "backend/package.json",
-      "source_location": "L22"
+      "source_location": "L23"
     },
     {
       "id": "agents_skills_brag_scripts_analyze_music_cues",
@@ -5265,18 +4989,6 @@
       "source_location": "L16"
     },
     {
-      "id": "agents_skills_brag_references_step_4_deliver",
-      "label": "step-4-deliver.md",
-      "_origin": "ast",
-      "community": 28,
-      "community_name": "Step 4: Validate, render, and deliver",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "step-4-deliver.md",
-      "source_file": ".agents/skills/brag/references/step-4-deliver.md",
-      "source_location": "L1"
-    },
-    {
       "id": "agents_skills_brag_references_step_4_deliver_bake_the_poster_as_frame_0",
       "label": "Bake the poster as frame 0",
       "_origin": "ast",
@@ -5420,50 +5132,6 @@
       "source_location": "L1"
     },
     {
-      "id": "backend_middleware_upload",
-      "label": "upload.js",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "backend/package.json",
-      "file_type": "code",
-      "norm_label": "upload.js",
-      "source_file": "backend/middleware/upload.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "backend_middleware_upload_multer",
-      "label": "multer",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "backend/package.json",
-      "file_type": "code",
-      "norm_label": "multer",
-      "source_file": "backend/middleware/upload.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "backend_middleware_upload_storage",
-      "label": "storage",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "backend/package.json",
-      "file_type": "code",
-      "norm_label": "storage",
-      "source_file": "backend/middleware/upload.js",
-      "source_location": "L4"
-    },
-    {
-      "id": "backend_middleware_upload_upload",
-      "label": "upload",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "backend/package.json",
-      "file_type": "code",
-      "norm_label": "upload",
-      "source_file": "backend/middleware/upload.js",
-      "source_location": "L14"
-    },
-    {
       "id": "backend_package",
       "label": "backend/package.json",
       "_origin": "ast",
@@ -5483,7 +5151,7 @@
       "file_type": "code",
       "norm_label": "author",
       "source_file": "backend/package.json",
-      "source_location": "L33"
+      "source_location": "L34"
     },
     {
       "id": "backend_package_dependencies",
@@ -5596,6 +5264,17 @@
       "source_location": "L20"
     },
     {
+      "id": "backend_package_dependencies_pdf_parse",
+      "label": "pdf-parse",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "backend/package.json",
+      "file_type": "code",
+      "norm_label": "pdf-parse",
+      "source_file": "backend/package.json",
+      "source_location": "L21"
+    },
+    {
       "id": "backend_package_dependencies_qrcode",
       "label": "qrcode",
       "_origin": "ast",
@@ -5604,7 +5283,7 @@
       "file_type": "code",
       "norm_label": "qrcode",
       "source_file": "backend/package.json",
-      "source_location": "L21"
+      "source_location": "L22"
     },
     {
       "id": "backend_package_dependencies_uuid",
@@ -5615,7 +5294,7 @@
       "file_type": "code",
       "norm_label": "uuid",
       "source_file": "backend/package.json",
-      "source_location": "L22"
+      "source_location": "L23"
     },
     {
       "id": "backend_package_description",
@@ -5637,7 +5316,7 @@
       "file_type": "code",
       "norm_label": "devdependencies",
       "source_file": "backend/package.json",
-      "source_location": "L24"
+      "source_location": "L25"
     },
     {
       "id": "backend_package_devdependencies_chai",
@@ -5648,7 +5327,7 @@
       "file_type": "code",
       "norm_label": "chai",
       "source_file": "backend/package.json",
-      "source_location": "L25"
+      "source_location": "L26"
     },
     {
       "id": "backend_package_devdependencies_mocha",
@@ -5659,7 +5338,7 @@
       "file_type": "code",
       "norm_label": "mocha",
       "source_file": "backend/package.json",
-      "source_location": "L26"
+      "source_location": "L27"
     },
     {
       "id": "backend_package_devdependencies_nodemon",
@@ -5670,7 +5349,7 @@
       "file_type": "code",
       "norm_label": "nodemon",
       "source_file": "backend/package.json",
-      "source_location": "L27"
+      "source_location": "L28"
     },
     {
       "id": "backend_package_devdependencies_supertest",
@@ -5681,7 +5360,7 @@
       "file_type": "code",
       "norm_label": "supertest",
       "source_file": "backend/package.json",
-      "source_location": "L28"
+      "source_location": "L29"
     },
     {
       "id": "backend_package_engines",
@@ -5692,7 +5371,7 @@
       "file_type": "code",
       "norm_label": "engines",
       "source_file": "backend/package.json",
-      "source_location": "L30"
+      "source_location": "L31"
     },
     {
       "id": "backend_package_engines_node",
@@ -5703,7 +5382,7 @@
       "file_type": "code",
       "norm_label": "node",
       "source_file": "backend/package.json",
-      "source_location": "L31"
+      "source_location": "L32"
     },
     {
       "id": "backend_package_license",
@@ -5714,7 +5393,7 @@
       "file_type": "code",
       "norm_label": "license",
       "source_file": "backend/package.json",
-      "source_location": "L34"
+      "source_location": "L35"
     },
     {
       "id": "backend_package_main",
@@ -5857,7 +5536,7 @@
       "file_type": "concept",
       "norm_label": "chai",
       "source_file": "backend/package.json",
-      "source_location": "L25"
+      "source_location": "L26"
     },
     {
       "id": "backend_package_json_ref_mocha",
@@ -5868,7 +5547,7 @@
       "file_type": "concept",
       "norm_label": "mocha",
       "source_file": "backend/package.json",
-      "source_location": "L26"
+      "source_location": "L27"
     },
     {
       "id": "ref_dotenv",
@@ -5882,17 +5561,6 @@
       "source_location": "L15"
     },
     {
-      "id": "ref_multer",
-      "label": "multer",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "backend/package.json",
-      "file_type": "concept",
-      "norm_label": "multer",
-      "source_file": "backend/package.json",
-      "source_location": "L20"
-    },
-    {
       "id": "ref_nodemon",
       "label": "nodemon",
       "_origin": "ast",
@@ -5901,7 +5569,7 @@
       "file_type": "concept",
       "norm_label": "nodemon",
       "source_file": "backend/package.json",
-      "source_location": "L27"
+      "source_location": "L28"
     },
     {
       "id": "ref_supertest",
@@ -5912,7 +5580,7 @@
       "file_type": "concept",
       "norm_label": "supertest",
       "source_file": "backend/package.json",
-      "source_location": "L28"
+      "source_location": "L29"
     },
     {
       "id": "agents_skills_brag_references_step_3_compose_audio_asset_preparation",
@@ -6639,6 +6307,18 @@
       "source_location": "L1"
     },
     {
+      "id": "agents_skills_brag_references_step_4_deliver",
+      "label": "step-4-deliver.md",
+      "_origin": "ast",
+      "community": 35,
+      "community_name": "brag/SKILL.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "step-4-deliver.md",
+      "source_file": ".agents/skills/brag/references/step-4-deliver.md",
+      "source_location": "L1"
+    },
+    {
       "id": "agents_skills_brag_references_tones",
       "label": "tones.md",
       "_origin": "ast",
@@ -7190,172 +6870,114 @@
       "source_location": "L69"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_aim_of_testing",
-      "label": "AIM OF TESTING",
+      "id": "backend_config_fabricconnection",
+      "label": "fabricConnection.js",
       "_origin": "ast",
       "community": 40,
-      "community_name": "CHAPTER 6",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "aim of testing",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L385"
+      "community_name": "fabricConnection.js",
+      "file_type": "code",
+      "norm_label": "fabricconnection.js",
+      "source_file": "backend/config/fabricConnection.js",
+      "source_location": "L1"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_chapter_6",
-      "label": "CHAPTER 6",
+      "id": "backend_config_fabricconnection_mockledgeradapter",
+      "label": "{ MockLedgerAdapter }",
       "_origin": "ast",
       "community": 40,
-      "community_name": "CHAPTER 6",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "chapter 6",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L370"
+      "community_name": "fabricConnection.js",
+      "file_type": "code",
+      "norm_label": "{ mockledgeradapter }",
+      "source_file": "backend/config/fabricConnection.js",
+      "source_location": "L2"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_functional_testing",
-      "label": "FUNCTIONAL TESTING",
+      "id": "backend_config_mockledgeradapter",
+      "label": "mockLedgerAdapter.js",
       "_origin": "ast",
       "community": 40,
-      "community_name": "CHAPTER 6",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "functional testing",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L418"
+      "community_name": "fabricConnection.js",
+      "file_type": "code",
+      "norm_label": "mockledgeradapter.js",
+      "source_file": "backend/config/mockLedgerAdapter.js",
+      "source_location": "L1"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_integration_testing",
-      "label": "INTEGRATION TESTING",
+      "id": "backend_config_mockledgeradapter_core",
+      "label": "core",
       "_origin": "ast",
       "community": 40,
-      "community_name": "CHAPTER 6",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "integration testing",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L407"
+      "community_name": "fabricConnection.js",
+      "file_type": "code",
+      "norm_label": "core",
+      "source_file": "backend/config/mockLedgerAdapter.js",
+      "source_location": "L4"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_system_testing",
-      "label": "SYSTEM TESTING",
+      "id": "backend_config_mockledgeradapter_mockledgeradapter_clock",
+      "label": ".clock()",
       "_origin": "ast",
       "community": 40,
-      "community_name": "CHAPTER 6",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "system testing",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L428"
+      "community_name": "fabricConnection.js",
+      "file_type": "code",
+      "norm_label": ".clock()",
+      "source_file": "backend/config/mockLedgerAdapter.js",
+      "source_location": "L9"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_testing_process",
-      "label": "TESTING PROCESS",
-      "_origin": "ast",
-      "community": 40,
-      "community_name": "CHAPTER 6",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "testing process",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L372"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_unit_testing",
-      "label": "UNIT TESTING",
-      "_origin": "ast",
-      "community": 40,
-      "community_name": "CHAPTER 6",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "unit testing",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L396"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_chapter_1",
-      "label": "CHAPTER 1",
+      "id": "backend_middleware_upload",
+      "label": "upload.js",
       "_origin": "ast",
       "community": 41,
-      "community_name": "CHAPTER 1",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "chapter 1",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L87"
+      "community_name": "upload.js",
+      "file_type": "code",
+      "norm_label": "upload.js",
+      "source_file": "backend/middleware/upload.js",
+      "source_location": "L1"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_disadvantages_of_existing_system",
-      "label": "Disadvantages of Existing System",
+      "id": "backend_middleware_upload_multer",
+      "label": "multer",
       "_origin": "ast",
       "community": 41,
-      "community_name": "CHAPTER 1",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "disadvantages of existing system",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L121"
+      "community_name": "upload.js",
+      "file_type": "code",
+      "norm_label": "multer",
+      "source_file": "backend/middleware/upload.js",
+      "source_location": "L1"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_objectives",
-      "label": "Objectives",
+      "id": "backend_middleware_upload_storage",
+      "label": "storage",
       "_origin": "ast",
       "community": 41,
-      "community_name": "CHAPTER 1",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "objectives",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L109"
+      "community_name": "upload.js",
+      "file_type": "code",
+      "norm_label": "storage",
+      "source_file": "backend/middleware/upload.js",
+      "source_location": "L4"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_overview",
-      "label": "Overview",
+      "id": "backend_middleware_upload_upload",
+      "label": "upload",
       "_origin": "ast",
       "community": 41,
-      "community_name": "CHAPTER 1",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "overview",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L92"
+      "community_name": "upload.js",
+      "file_type": "code",
+      "norm_label": "upload",
+      "source_file": "backend/middleware/upload.js",
+      "source_location": "L14"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_problem_statement",
-      "label": "Problem Statement",
+      "id": "ref_multer",
+      "label": "multer",
       "_origin": "ast",
       "community": 41,
-      "community_name": "CHAPTER 1",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "problem statement",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L104"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_proposed_system",
-      "label": "Proposed System",
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "CHAPTER 1",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "proposed system",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L133"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_scope_of_the_study",
-      "label": "Scope of the study",
-      "_origin": "ast",
-      "community": 41,
-      "community_name": "CHAPTER 1",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "scope of the study",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L116"
+      "community_name": "upload.js",
+      "file_type": "concept",
+      "norm_label": "multer",
+      "source_file": "backend/package.json",
+      "source_location": "L20"
     },
     {
       "id": "agents_skills_brag_assets_music_cues_happy_beats_business_moves_vol_10_by_ende_dot_app_music_cues",
@@ -8215,61 +7837,6 @@
       "source_location": "L17"
     },
     {
-      "id": "backend_config_mockledgeradapter",
-      "label": "mockLedgerAdapter.js",
-      "_origin": "ast",
-      "community": 50,
-      "community_name": "core.test.js",
-      "file_type": "code",
-      "norm_label": "mockledgeradapter.js",
-      "source_file": "backend/config/mockLedgerAdapter.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "backend_config_mockledgeradapter_core",
-      "label": "core",
-      "_origin": "ast",
-      "community": 50,
-      "community_name": "core.test.js",
-      "file_type": "code",
-      "norm_label": "core",
-      "source_file": "backend/config/mockLedgerAdapter.js",
-      "source_location": "L4"
-    },
-    {
-      "id": "backend_config_mockledgeradapter_mockledgeradapter_clock",
-      "label": ".clock()",
-      "_origin": "ast",
-      "community": 50,
-      "community_name": "core.test.js",
-      "file_type": "code",
-      "norm_label": ".clock()",
-      "source_file": "backend/config/mockLedgerAdapter.js",
-      "source_location": "L9"
-    },
-    {
-      "id": "backend_utils_coaparser",
-      "label": "coaParser.js",
-      "_origin": "ast",
-      "community": 50,
-      "community_name": "core.test.js",
-      "file_type": "code",
-      "norm_label": "coaparser.js",
-      "source_file": "backend/utils/coaParser.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "backend_utils_coaparser_fields",
-      "label": "FIELDS",
-      "_origin": "ast",
-      "community": 50,
-      "community_name": "core.test.js",
-      "file_type": "code",
-      "norm_label": "fields",
-      "source_file": "backend/utils/coaParser.js",
-      "source_location": "L11"
-    },
-    {
       "id": "chaincode_lib_rules",
       "label": "rules.js",
       "_origin": "ast",
@@ -8755,54 +8322,6 @@
       "source_location": "L25"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_basic_operational_requirement",
-      "label": "BASIC OPERATIONAL REQUIREMENT",
-      "_origin": "ast",
-      "community": 54,
-      "community_name": "CHAPTER 3",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "basic operational requirement",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L202"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_chapter_3",
-      "label": "CHAPTER 3",
-      "_origin": "ast",
-      "community": 54,
-      "community_name": "CHAPTER 3",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "chapter 3",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L174"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_functional_requirement",
-      "label": "FUNCTIONAL REQUIREMENT",
-      "_origin": "ast",
-      "community": 54,
-      "community_name": "CHAPTER 3",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "functional requirement",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L179"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_non_functional_requirement",
-      "label": "NON FUNCTIONAL REQUIREMENT",
-      "_origin": "ast",
-      "community": 54,
-      "community_name": "CHAPTER 3",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "non functional requirement",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L188"
-    },
-    {
       "id": "agents_skills_caveman_help_skill",
       "label": "caveman-help/SKILL.md",
       "_origin": "ast",
@@ -9136,75 +8655,6 @@
       "source_location": "L57"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_annexure",
-      "label": "ANNEXURE",
-      "_origin": "ast",
-      "community": 59,
-      "community_name": "ANNEXURE",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "annexure",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L506"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_annexure_a_tools_and_models_used",
-      "label": "Annexure A: Tools and Models Used",
-      "_origin": "ast",
-      "community": 59,
-      "community_name": "ANNEXURE",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "annexure a: tools and models used",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L509"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_annexure_b_datasets_and_resources",
-      "label": "Annexure B: Datasets and Resources",
-      "_origin": "ast",
-      "community": 59,
-      "community_name": "ANNEXURE",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "annexure b: datasets and resources",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L525"
-    },
-    {
-      "id": "chaincode_index",
-      "label": "chaincode/index.js",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "chaincode/package.json",
-      "file_type": "code",
-      "norm_label": "chaincode/index.js",
-      "source_file": "chaincode/index.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "chaincode_index_herbcontract",
-      "label": "HerbContract",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "chaincode/package.json",
-      "file_type": "code",
-      "norm_label": "herbcontract",
-      "source_file": "chaincode/index.js",
-      "source_location": "L3"
-    },
-    {
-      "id": "chaincode_lib_herbcontract",
-      "label": "herbContract.js",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "chaincode/package.json",
-      "file_type": "code",
-      "norm_label": "herbcontract.js",
-      "source_file": "chaincode/lib/herbContract.js",
-      "source_location": "L1"
-    },
-    {
       "id": "chaincode_package",
       "label": "chaincode/package.json",
       "_origin": "ast",
@@ -9227,39 +8677,6 @@
       "source_location": "L21"
     },
     {
-      "id": "chaincode_package_dependencies",
-      "label": "dependencies",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "chaincode/package.json",
-      "file_type": "code",
-      "norm_label": "dependencies",
-      "source_file": "chaincode/package.json",
-      "source_location": "L10"
-    },
-    {
-      "id": "chaincode_package_dependencies_fabric_contract_api",
-      "label": "fabric-contract-api",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "chaincode/package.json",
-      "file_type": "code",
-      "norm_label": "fabric-contract-api",
-      "source_file": "chaincode/package.json",
-      "source_location": "L11"
-    },
-    {
-      "id": "chaincode_package_dependencies_fabric_shim",
-      "label": "fabric-shim",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "chaincode/package.json",
-      "file_type": "code",
-      "norm_label": "fabric-shim",
-      "source_file": "chaincode/package.json",
-      "source_location": "L12"
-    },
-    {
       "id": "chaincode_package_description",
       "label": "description",
       "_origin": "ast",
@@ -9269,61 +8686,6 @@
       "norm_label": "description",
       "source_file": "chaincode/package.json",
       "source_location": "L4"
-    },
-    {
-      "id": "chaincode_package_devdependencies",
-      "label": "devDependencies",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "chaincode/package.json",
-      "file_type": "code",
-      "norm_label": "devdependencies",
-      "source_file": "chaincode/package.json",
-      "source_location": "L14"
-    },
-    {
-      "id": "chaincode_package_devdependencies_chai",
-      "label": "chai",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "chaincode/package.json",
-      "file_type": "code",
-      "norm_label": "chai",
-      "source_file": "chaincode/package.json",
-      "source_location": "L15"
-    },
-    {
-      "id": "chaincode_package_devdependencies_mocha",
-      "label": "mocha",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "chaincode/package.json",
-      "file_type": "code",
-      "norm_label": "mocha",
-      "source_file": "chaincode/package.json",
-      "source_location": "L16"
-    },
-    {
-      "id": "chaincode_package_devdependencies_sinon",
-      "label": "sinon",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "chaincode/package.json",
-      "file_type": "code",
-      "norm_label": "sinon",
-      "source_file": "chaincode/package.json",
-      "source_location": "L17"
-    },
-    {
-      "id": "chaincode_package_devdependencies_sinon_chai",
-      "label": "sinon-chai",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "chaincode/package.json",
-      "file_type": "code",
-      "norm_label": "sinon-chai",
-      "source_file": "chaincode/package.json",
-      "source_location": "L18"
     },
     {
       "id": "chaincode_package_enginestrict",
@@ -9370,39 +8732,6 @@
       "source_location": "L2"
     },
     {
-      "id": "chaincode_package_scripts",
-      "label": "scripts",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "chaincode/package.json",
-      "file_type": "code",
-      "norm_label": "scripts",
-      "source_file": "chaincode/package.json",
-      "source_location": "L6"
-    },
-    {
-      "id": "chaincode_package_scripts_start",
-      "label": "start",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "chaincode/package.json",
-      "file_type": "code",
-      "norm_label": "start",
-      "source_file": "chaincode/package.json",
-      "source_location": "L7"
-    },
-    {
-      "id": "chaincode_package_scripts_test",
-      "label": "test",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "chaincode/package.json",
-      "file_type": "code",
-      "norm_label": "test",
-      "source_file": "chaincode/package.json",
-      "source_location": "L8"
-    },
-    {
       "id": "chaincode_package_version",
       "label": "version",
       "_origin": "ast",
@@ -9412,72 +8741,6 @@
       "norm_label": "version",
       "source_file": "chaincode/package.json",
       "source_location": "L3"
-    },
-    {
-      "id": "chaincode_test_herbcontract_test",
-      "label": "herbContract.test.js",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "chaincode/package.json",
-      "file_type": "code",
-      "norm_label": "herbcontract.test.js",
-      "source_file": "chaincode/test/herbContract.test.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "chaincode_test_herbcontract_test_chai",
-      "label": "chai",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "chaincode/package.json",
-      "file_type": "code",
-      "norm_label": "chai",
-      "source_file": "chaincode/test/herbContract.test.js",
-      "source_location": "L3"
-    },
-    {
-      "id": "chaincode_test_herbcontract_test_evaluatelabresult_cancreateproduct",
-      "label": "{ evaluateLabResult, canCreateProduct }",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "chaincode/package.json",
-      "file_type": "code",
-      "norm_label": "{ evaluatelabresult, cancreateproduct }",
-      "source_file": "chaincode/test/herbContract.test.js",
-      "source_location": "L10"
-    },
-    {
-      "id": "chaincode_test_herbcontract_test_herbcontract",
-      "label": "HerbContract",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "chaincode/package.json",
-      "file_type": "code",
-      "norm_label": "herbcontract",
-      "source_file": "chaincode/test/herbContract.test.js",
-      "source_location": "L9"
-    },
-    {
-      "id": "chaincode_test_herbcontract_test_sinon",
-      "label": "sinon",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "chaincode/package.json",
-      "file_type": "code",
-      "norm_label": "sinon",
-      "source_file": "chaincode/test/herbContract.test.js",
-      "source_location": "L4"
-    },
-    {
-      "id": "chaincode_test_herbcontract_test_sinonchai",
-      "label": "sinonChai",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "chaincode/package.json",
-      "file_type": "code",
-      "norm_label": "sinonchai",
-      "source_file": "chaincode/test/herbContract.test.js",
-      "source_location": "L5"
     },
     {
       "id": "chaincode_package_json_ref_chai",
@@ -9524,64 +8787,6 @@
       "source_location": "L12"
     },
     {
-      "id": "ref_sinon",
-      "label": "sinon",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "chaincode/package.json",
-      "file_type": "concept",
-      "norm_label": "sinon",
-      "source_file": "chaincode/package.json",
-      "source_location": "L17"
-    },
-    {
-      "id": "ref_sinon_chai",
-      "label": "sinon-chai",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "chaincode/package.json",
-      "file_type": "concept",
-      "norm_label": "sinon-chai",
-      "source_file": "chaincode/package.json",
-      "source_location": "L18"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_chapter_4",
-      "label": "CHAPTER 4",
-      "_origin": "ast",
-      "community": 60,
-      "community_name": "CHAPTER 4",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "chapter 4",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L220"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_development_model",
-      "label": "DEVELOPMENT MODEL",
-      "_origin": "ast",
-      "community": 60,
-      "community_name": "CHAPTER 4",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "development model",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L249"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_fundamental_design_concepts",
-      "label": "FUNDAMENTAL DESIGN CONCEPTS",
-      "_origin": "ast",
-      "community": 60,
-      "community_name": "CHAPTER 4",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "fundamental design concepts",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L223"
-    },
-    {
       "id": "scratch_build_full_report",
       "label": "build_full_report.py",
       "_origin": "ast",
@@ -9614,17 +8819,6 @@
       "node_kind": "heading",
       "norm_label": "music",
       "source_file": ".agents/skills/brag/assets/music/README.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "build_weekly_reports",
-      "label": "build_weekly_reports.py",
-      "_origin": "ast",
-      "community": 65,
-      "community_name": "build_weekly_reports.py",
-      "file_type": "code",
-      "norm_label": "build_weekly_reports.py",
-      "source_file": "build_weekly_reports.py",
       "source_location": "L1"
     },
     {
@@ -9789,30 +8983,6 @@
       "source_location": "L57"
     },
     {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_literature_survey",
-      "label": "LITERATURE SURVEY",
-      "_origin": "ast",
-      "community": 67,
-      "community_name": "LITERATURE SURVEY",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "literature survey",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L149"
-    },
-    {
-      "id": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_literature_survey_154",
-      "label": "Literature Survey",
-      "_origin": "ast",
-      "community": 67,
-      "community_name": "LITERATURE SURVEY",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "literature survey",
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L154"
-    },
-    {
       "id": "backend_config_db",
       "label": "db.js",
       "_origin": "ast",
@@ -9975,18 +9145,6 @@
       "file_type": "code",
       "norm_label": "prep_media.py",
       "source_file": "scratch/prep_media.py",
-      "source_location": "L1"
-    },
-    {
-      "id": "graphify_out_converted_project_weekly_report_0ba535a1",
-      "label": "project weekly report_0ba535a1.md",
-      "_origin": "ast",
-      "community": 72,
-      "community_name": "project weekly report_0ba535a1.md",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "project weekly report_0ba535a1.md",
-      "source_file": "graphify-out/converted/project weekly report_0ba535a1.md",
       "source_location": "L1"
     },
     {
@@ -11205,7 +10363,7 @@
       "file_type": "concept",
       "norm_label": "qrcode",
       "source_file": "backend/package.json",
-      "source_location": "L21"
+      "source_location": "L22"
     },
     {
       "id": "agents_skills_caveman_optimize_skill",
@@ -12729,7 +11887,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "backend/controllers/batchController.js",
-      "source_location": "L59",
+      "source_location": "L61",
       "weight": 1.0
     },
     {
@@ -12741,7 +11899,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "backend/controllers/batchController.js",
-      "source_location": "L64",
+      "source_location": "L66",
       "weight": 1.0
     },
     {
@@ -12753,7 +11911,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "backend/controllers/batchController.js",
-      "source_location": "L81",
+      "source_location": "L83",
       "weight": 1.0
     },
     {
@@ -12765,7 +11923,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "backend/controllers/batchController.js",
-      "source_location": "L90",
+      "source_location": "L92",
       "weight": 1.0
     },
     {
@@ -12777,7 +11935,19 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "backend/controllers/batchController.js",
-      "source_location": "L18",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_controllers_batchcontroller_registerbatch",
+      "target": "backend_controllers_batchcontroller_asobject",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backend/controllers/batchController.js",
+      "source_location": "L35",
       "weight": 1.0
     },
     {
@@ -12789,7 +11959,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "backend/controllers/batchController.js",
-      "source_location": "L36",
+      "source_location": "L38",
       "weight": 1.0
     },
     {
@@ -12861,7 +12031,19 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "backend/controllers/productController.js",
-      "source_location": "L40",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_controllers_productcontroller_createproduct",
+      "target": "backend_controllers_productcontroller_asobject",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backend/controllers/productController.js",
+      "source_location": "L46",
       "weight": 1.0
     },
     {
@@ -12873,7 +12055,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "backend/controllers/productController.js",
-      "source_location": "L47",
+      "source_location": "L53",
       "weight": 1.0
     },
     {
@@ -12885,7 +12067,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "backend/controllers/productController.js",
-      "source_location": "L62",
+      "source_location": "L68",
       "weight": 1.0
     },
     {
@@ -12921,7 +12103,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "backend/controllers/productController.js",
-      "source_location": "L88",
+      "source_location": "L95",
       "weight": 1.0
     },
     {
@@ -12933,7 +12115,19 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "backend/controllers/verifyController.js",
-      "source_location": "L11",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_controllers_verifycontroller_verifyproduct",
+      "target": "backend_controllers_verifycontroller_asobject",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backend/controllers/verifyController.js",
+      "source_location": "L14",
       "weight": 1.0
     },
     {
@@ -12945,7 +12139,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "backend/utils/coaParser.js",
-      "source_location": "L60",
+      "source_location": "L72",
       "weight": 1.0
     },
     {
@@ -13005,7 +12199,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "chaincode/lib/core.js",
-      "source_location": "L146",
+      "source_location": "L153",
       "weight": 1.0
     },
     {
@@ -13017,7 +12211,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "chaincode/lib/core.js",
-      "source_location": "L146",
+      "source_location": "L153",
       "weight": 1.0
     },
     {
@@ -13154,18 +12348,6 @@
     },
     {
       "source": "chaincode_lib_core_verifyproduct",
-      "target": "chaincode_lib_core_pkey",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "chaincode/lib/core.js",
-      "source_location": "L139",
-      "weight": 1.0
-    },
-    {
-      "source": "chaincode_lib_core_verifyproduct",
       "target": "chaincode_lib_core_reqid",
       "relation": "calls",
       "_origin": "ast",
@@ -13178,6 +12360,18 @@
     },
     {
       "source": "chaincode_lib_core_verifyproduct",
+      "target": "chaincode_lib_core_pkey",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "chaincode/lib/core.js",
+      "source_location": "L140",
+      "weight": 1.0
+    },
+    {
+      "source": "chaincode_lib_core_verifyproduct",
       "target": "chaincode_lib_core_bkey",
       "relation": "calls",
       "_origin": "ast",
@@ -13185,7 +12379,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "chaincode/lib/core.js",
-      "source_location": "L141",
+      "source_location": "L142",
       "weight": 1.0
     },
     {
@@ -13237,6 +12431,18 @@
       "weight": 1.0
     },
     {
+      "source": "scratch_capture_all_new_feature_screenshots_capturescreenshots",
+      "target": "scratch_capture_all_new_feature_screenshots_loginas",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "scratch/capture_all_new_feature_screenshots.js",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
       "source": "scratch_generate_report_figures_make_all_uis",
       "target": "scratch_generate_report_figures_make_ui_mockup",
       "relation": "calls",
@@ -13246,6 +12452,18 @@
       "context": "call",
       "source_file": "scratch/generate_report_figures.py",
       "source_location": "L335",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_e2e_playwright_rune2etests",
+      "target": "tests_e2e_playwright_loginas",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/e2e_playwright.js",
+      "source_location": "L43",
       "weight": 1.0
     },
     {
@@ -13646,7 +12864,7 @@
     },
     {
       "source": "backend_package",
-      "target": "ref_qrcode",
+      "target": "ref_pdf_parse",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -13658,7 +12876,7 @@
     },
     {
       "source": "backend_package",
-      "target": "ref_uuid",
+      "target": "ref_qrcode",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -13670,19 +12888,19 @@
     },
     {
       "source": "backend_package",
-      "target": "backend_package_json_ref_chai",
+      "target": "ref_uuid",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "backend/package.json",
-      "source_location": "L25",
+      "source_location": "L23",
       "weight": 1.0
     },
     {
       "source": "backend_package",
-      "target": "backend_package_json_ref_mocha",
+      "target": "backend_package_json_ref_chai",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -13694,7 +12912,7 @@
     },
     {
       "source": "backend_package",
-      "target": "ref_nodemon",
+      "target": "backend_package_json_ref_mocha",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -13706,7 +12924,7 @@
     },
     {
       "source": "backend_package",
-      "target": "ref_supertest",
+      "target": "ref_nodemon",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -13714,6 +12932,18 @@
       "context": "import",
       "source_file": "backend/package.json",
       "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_package",
+      "target": "ref_supertest",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "backend/package.json",
+      "source_location": "L29",
       "weight": 1.0
     },
     {
@@ -14397,6 +13627,18 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "frontend/src/pages/ManufacturerPage.jsx",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
+      "target": "ref_playwright",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "package.json",
       "source_location": "L3",
       "weight": 1.0
     },
@@ -15253,6 +14495,18 @@
       "weight": 1.0
     },
     {
+      "source": "backend_utils_coaparser_parsecoapdf",
+      "target": "ref_pdf_parse",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "backend/utils/coaParser.js",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
       "source": "chaincode_index",
       "target": "chaincode_lib_herbcontract",
       "relation": "imports_from",
@@ -15913,6 +15167,30 @@
       "weight": 1.0
     },
     {
+      "source": "scratch_capture_all_new_feature_screenshots",
+      "target": "ref_playwright",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "scratch/capture_all_new_feature_screenshots.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_generate_official_coa",
+      "target": "ref_playwright",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "scratch/generate_official_coa.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
       "source": "tests_core_test",
       "target": "backend_config_mockledgeradapter",
       "relation": "imports_from",
@@ -15958,6 +15236,18 @@
       "context": "import",
       "source_file": "tests/core.test.js",
       "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_e2e_playwright",
+      "target": "ref_playwright",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "tests/e2e_playwright.js",
+      "source_location": "L1",
       "weight": 1.0
     },
     {
@@ -21195,6 +20485,17 @@
       "weight": 1.0
     },
     {
+      "source": "backend_controllers_batchcontroller",
+      "target": "backend_controllers_batchcontroller_asobject",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/controllers/batchController.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
       "source": "backend_controllers_labcontroller",
       "target": "backend_controllers_labcontroller_asobject",
       "relation": "contains",
@@ -21295,6 +20596,17 @@
     },
     {
       "source": "backend_controllers_productcontroller",
+      "target": "backend_controllers_productcontroller_asobject",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/controllers/productController.js",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_controllers_productcontroller",
       "target": "backend_controllers_productcontroller_generateqr",
       "relation": "contains",
       "_origin": "ast",
@@ -21335,6 +20647,17 @@
       "confidence_score": 1.0,
       "source_file": "backend/controllers/verifyController.js",
       "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_controllers_verifycontroller",
+      "target": "backend_controllers_verifycontroller_asobject",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/controllers/verifyController.js",
+      "source_location": "L2",
       "weight": 1.0
     },
     {
@@ -21455,7 +20778,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "backend/package.json",
-      "source_location": "L24",
+      "source_location": "L25",
       "weight": 1.0
     },
     {
@@ -21477,7 +20800,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "backend/package.json",
-      "source_location": "L30",
+      "source_location": "L31",
       "weight": 1.0
     },
     {
@@ -21488,7 +20811,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "backend/package.json",
-      "source_location": "L33",
+      "source_location": "L34",
       "weight": 1.0
     },
     {
@@ -21499,7 +20822,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "backend/package.json",
-      "source_location": "L34",
+      "source_location": "L35",
       "weight": 1.0
     },
     {
@@ -21636,7 +20959,7 @@
     },
     {
       "source": "backend_package_dependencies",
-      "target": "backend_package_dependencies_qrcode",
+      "target": "backend_package_dependencies_pdf_parse",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -21647,13 +20970,24 @@
     },
     {
       "source": "backend_package_dependencies",
-      "target": "backend_package_dependencies_uuid",
+      "target": "backend_package_dependencies_qrcode",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "backend/package.json",
       "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "backend_package_dependencies",
+      "target": "backend_package_dependencies_uuid",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/package.json",
+      "source_location": "L23",
       "weight": 1.0
     },
     {
@@ -21664,7 +20998,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "backend/package.json",
-      "source_location": "L25",
+      "source_location": "L26",
       "weight": 1.0
     },
     {
@@ -21675,7 +21009,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "backend/package.json",
-      "source_location": "L26",
+      "source_location": "L27",
       "weight": 1.0
     },
     {
@@ -21686,7 +21020,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "backend/package.json",
-      "source_location": "L27",
+      "source_location": "L28",
       "weight": 1.0
     },
     {
@@ -21697,7 +21031,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "backend/package.json",
-      "source_location": "L28",
+      "source_location": "L29",
       "weight": 1.0
     },
     {
@@ -21708,7 +21042,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "backend/package.json",
-      "source_location": "L31",
+      "source_location": "L32",
       "weight": 1.0
     },
     {
@@ -22460,17 +21794,6 @@
       "weight": 1.0
     },
     {
-      "source": "build_weekly_reports",
-      "target": "build_weekly_reports_create_report_document",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "build_weekly_reports.py",
-      "source_location": "L10",
-      "weight": 1.0
-    },
-    {
       "source": "chaincode_index",
       "target": "chaincode_index_herbcontract",
       "relation": "contains",
@@ -23219,1092 +22542,25 @@
       "weight": 1.0
     },
     {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_computer_science_engineering_data_science",
+      "source": "package",
+      "target": "package_devdependencies",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L11",
+      "source_file": "package.json",
+      "source_location": "L2",
       "weight": 1.0
     },
     {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_chapter_2",
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_playwright",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L150",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_literature_survey",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L154",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_chapter_3",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L189",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_department_of_computer_science_engineering_data_science",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L23",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_chapter_4",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L235",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_chapter_5",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L299",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_5_1_implementation_strategies",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L303",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_department_of_computer_science_engineering_data_science_31",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L31",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_5_2_module_implementation",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L316",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_5_3_software_environment",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L349",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_5_4_system_algorithms_and_formal_execution_logic",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L368",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_chapter_6",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L433",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_declaration",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L47",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_chapter_7",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L523",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_chapter_8",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L563",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_references",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L572",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_annexure",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L585",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_source_code",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L612",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_plagiarism_report_summary",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L777",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_certificates",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L780",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_list_of_figures",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L79",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_list_of_tables",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L83",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_chapter_1",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L87",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_bachelor_of_engineering",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L9",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c_annexure",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_annexure_a_tools_frameworks_and_network_configuration",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L588",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c_annexure",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_annexure_b_botanical_pharmacopeial_standards_quality_limits",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L604",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c_chapter_1",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_1_2_problem_statement",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L104",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c_chapter_1",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_1_3_objectives",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L109",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c_chapter_1",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_1_4_scope_of_the_study",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L121",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c_chapter_1",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_1_5_disadvantages_of_existing_systems",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L126",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c_chapter_1",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_1_6_proposed_system",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L138",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c_chapter_1",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_1_1_overview",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L92",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c_chapter_3",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_3_1_functional_requirements",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L194",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c_chapter_3",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_3_2_non_functional_requirements",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L203",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c_chapter_3",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_3_3_basic_operational_requirements",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L217",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c_chapter_4",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_4_1_fundamental_design_concepts",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L238",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c_chapter_4",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_4_2_development_model",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L274",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c_chapter_6",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_6_1_testing_process",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L435",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c_chapter_6",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_6_2_aim_of_testing",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L448",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c_chapter_6",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_6_3_unit_testing",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L464",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c_chapter_6",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_6_4_integration_testing",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L478",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c_chapter_6",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_6_5_functional_testing",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L492",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c_chapter_6",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_6_6_system_performance_testing",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L507",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_b200624c_literature_survey",
-      "target": "graphify_out_converted_phase_2_report_26_b200624c_2_1_literature_survey",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_b200624c.md",
-      "source_location": "L159",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_computer_science_engineering_data_science",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L11",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_chapter_2",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L145",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_literature_survey",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L149",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_chapter_3",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L174",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_chapter_4",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L220",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_department_of_computer_science_engineering_data_science",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L23",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_chapter_5",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L269",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_implementation_strategies",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L273",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_module_implementation",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L282",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_department_of_computer_science_engineering_data_science_31",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L31",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_software_environment",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L315",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_algorithms",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L328",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_chapter_6",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L370",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_chapter_7",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L444",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_declaration",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L47",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_chapter_8",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L484",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_references",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L493",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_annexure",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L506",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_source_code",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L533",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_2_split_data_70_15_15_with_stratification",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L579",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_3_copy_images_into_folders",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L593",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_data_augmentation_for_training_train_datagen_imagedatagenerator",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L609",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_validation_test_should_not_be_augmented_test_val_datagen_imagedatagenerator_rescale_1_255_train_data_train_datagen_flow_from_directory",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L613",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_block_2",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L637",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_block_3",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L639",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_block_4",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L641",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_folder_to_save_best_model_os_makedirs_models_exist_ok_true_checkpoint_path_models_best_skin_cnn_h5",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L657",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_load_saved_model",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L680",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_plagiarism_report_summary",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L698",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_certificates",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L701",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_list_of_figures",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L79",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_list_of_tables",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L83",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_chapter_1",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L87",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_bachelor_of_engineering",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L9",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_annexure",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_annexure_a_tools_and_models_used",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L509",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_annexure",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_annexure_b_datasets_and_resources",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L525",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_chapter_1",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_problem_statement",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L104",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_chapter_1",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_objectives",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L109",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_chapter_1",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_scope_of_the_study",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L116",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_chapter_1",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_disadvantages_of_existing_system",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L121",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_chapter_1",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_proposed_system",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L133",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_chapter_1",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_overview",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L92",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_chapter_3",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_functional_requirement",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L179",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_chapter_3",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_non_functional_requirement",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L188",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_chapter_3",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_basic_operational_requirement",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L202",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_chapter_4",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_fundamental_design_concepts",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L223",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_chapter_4",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_development_model",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L249",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_chapter_6",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_testing_process",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L372",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_chapter_6",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_aim_of_testing",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L385",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_chapter_6",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_unit_testing",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L396",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_chapter_6",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_integration_testing",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L407",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_chapter_6",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_functional_testing",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L418",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_chapter_6",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_system_testing",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L428",
-      "weight": 1.0
-    },
-    {
-      "source": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_literature_survey",
-      "target": "graphify_out_converted_phase_2_report_26_original_template_fae11deb_literature_survey_154",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md",
-      "source_location": "L154",
+      "source_file": "package.json",
+      "source_location": "L3",
       "weight": 1.0
     },
     {
@@ -24330,6 +22586,83 @@
       "weight": 1.0
     },
     {
+      "source": "scratch_capture_all_new_feature_screenshots",
+      "target": "scratch_capture_all_new_feature_screenshots_chromium",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/capture_all_new_feature_screenshots.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_capture_all_new_feature_screenshots",
+      "target": "scratch_capture_all_new_feature_screenshots_loginas",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/capture_all_new_feature_screenshots.js",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_capture_all_new_feature_screenshots",
+      "target": "scratch_capture_all_new_feature_screenshots_path",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/capture_all_new_feature_screenshots.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_capture_all_new_feature_screenshots",
+      "target": "scratch_capture_all_new_feature_screenshots_capturescreenshots",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/capture_all_new_feature_screenshots.js",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_capture_all_new_feature_screenshots",
+      "target": "scratch_capture_all_new_feature_screenshots_fs",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/capture_all_new_feature_screenshots.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_capture_all_new_feature_screenshots",
+      "target": "scratch_capture_all_new_feature_screenshots_coa_pdf_path",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/capture_all_new_feature_screenshots.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_capture_all_new_feature_screenshots",
+      "target": "scratch_capture_all_new_feature_screenshots_ss_dir",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/capture_all_new_feature_screenshots.js",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
       "source": "scratch_capture_real_screenshots",
       "target": "scratch_capture_real_screenshots_capture_all",
       "relation": "contains",
@@ -24338,6 +22671,50 @@
       "confidence_score": 1.0,
       "source_file": "scratch/capture_real_screenshots.py",
       "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_generate_official_coa",
+      "target": "scratch_generate_official_coa_chromium",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/generate_official_coa.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_generate_official_coa",
+      "target": "scratch_generate_official_coa_path",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/generate_official_coa.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_generate_official_coa",
+      "target": "scratch_generate_official_coa_fs",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/generate_official_coa.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_generate_official_coa",
+      "target": "scratch_generate_official_coa_generateofficialcoapdf",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/generate_official_coa.js",
+      "source_location": "L5",
       "weight": 1.0
     },
     {
@@ -24440,6 +22817,72 @@
       "weight": 1.0
     },
     {
+      "source": "scratch_generate_test_pdfs",
+      "target": "scratch_generate_test_pdfs_fs",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/generate_test_pdfs.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_generate_test_pdfs",
+      "target": "scratch_generate_test_pdfs_path",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/generate_test_pdfs.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_generate_test_pdfs",
+      "target": "scratch_generate_test_pdfs_createsimplepdf",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/generate_test_pdfs.js",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_generate_test_pdfs",
+      "target": "scratch_generate_test_pdfs_outdir",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/generate_test_pdfs.js",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_generate_test_pdfs",
+      "target": "scratch_generate_test_pdfs_passlines",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/generate_test_pdfs.js",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "scratch_generate_test_pdfs",
+      "target": "scratch_generate_test_pdfs_faillines",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scratch/generate_test_pdfs.js",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
       "source": "scratch_prep_media",
       "target": "scratch_prep_media_save_as_jpeg",
       "relation": "contains",
@@ -24514,6 +22957,72 @@
       "confidence_score": 1.0,
       "source_file": "tests/core.test.js",
       "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_e2e_playwright",
+      "target": "tests_e2e_playwright_chromium",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/e2e_playwright.js",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_e2e_playwright",
+      "target": "tests_e2e_playwright_path",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/e2e_playwright.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_e2e_playwright",
+      "target": "tests_e2e_playwright_rune2etests",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/e2e_playwright.js",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_e2e_playwright",
+      "target": "tests_e2e_playwright_assert",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/e2e_playwright.js",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_e2e_playwright",
+      "target": "tests_e2e_playwright_coa_pass_path",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/e2e_playwright.js",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_e2e_playwright",
+      "target": "tests_e2e_playwright_loginas",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/e2e_playwright.js",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -25234,7 +23743,7 @@
       "confidence_score": 0.85,
       "context": "collection",
       "source_file": "backend/controllers/batchController.js",
-      "source_location": "L104",
+      "source_location": "L106",
       "weight": 1.0
     },
     {
@@ -25246,7 +23755,7 @@
       "confidence_score": 0.85,
       "context": "collection",
       "source_file": "backend/controllers/batchController.js",
-      "source_location": "L104",
+      "source_location": "L106",
       "weight": 1.0
     },
     {
@@ -25258,7 +23767,7 @@
       "confidence_score": 0.85,
       "context": "collection",
       "source_file": "backend/controllers/batchController.js",
-      "source_location": "L104",
+      "source_location": "L106",
       "weight": 1.0
     },
     {
@@ -25282,7 +23791,7 @@
       "confidence_score": 0.85,
       "context": "collection",
       "source_file": "backend/controllers/productController.js",
-      "source_location": "L101",
+      "source_location": "L108",
       "weight": 1.0
     },
     {
@@ -25294,7 +23803,7 @@
       "confidence_score": 0.85,
       "context": "collection",
       "source_file": "backend/controllers/productController.js",
-      "source_location": "L101",
+      "source_location": "L108",
       "weight": 1.0
     },
     {
@@ -25306,7 +23815,7 @@
       "confidence_score": 0.85,
       "context": "collection",
       "source_file": "backend/controllers/productController.js",
-      "source_location": "L101",
+      "source_location": "L108",
       "weight": 1.0
     },
     {
@@ -25318,7 +23827,7 @@
       "confidence_score": 0.85,
       "context": "collection",
       "source_file": "backend/controllers/verifyController.js",
-      "source_location": "L28",
+      "source_location": "L29",
       "weight": 1.0
     },
     {
@@ -25390,7 +23899,7 @@
       "confidence_score": 0.85,
       "context": "collection",
       "source_file": "backend/utils/coaParser.js",
-      "source_location": "L63",
+      "source_location": "L75",
       "weight": 1.0
     },
     {
@@ -25402,7 +23911,7 @@
       "confidence_score": 0.85,
       "context": "collection",
       "source_file": "backend/utils/coaParser.js",
-      "source_location": "L63",
+      "source_location": "L75",
       "weight": 1.0
     },
     {
@@ -25414,7 +23923,7 @@
       "confidence_score": 0.85,
       "context": "collection",
       "source_file": "chaincode/lib/core.js",
-      "source_location": "L151",
+      "source_location": "L158",
       "weight": 1.0
     },
     {
@@ -25426,7 +23935,7 @@
       "confidence_score": 0.85,
       "context": "collection",
       "source_file": "chaincode/lib/core.js",
-      "source_location": "L151",
+      "source_location": "L158",
       "weight": 1.0
     },
     {
@@ -25438,7 +23947,7 @@
       "confidence_score": 0.85,
       "context": "collection",
       "source_file": "chaincode/lib/core.js",
-      "source_location": "L151",
+      "source_location": "L158",
       "weight": 1.0
     },
     {
@@ -25450,7 +23959,7 @@
       "confidence_score": 0.85,
       "context": "collection",
       "source_file": "chaincode/lib/core.js",
-      "source_location": "L151",
+      "source_location": "L158",
       "weight": 1.0
     },
     {
@@ -25462,7 +23971,7 @@
       "confidence_score": 0.85,
       "context": "collection",
       "source_file": "chaincode/lib/core.js",
-      "source_location": "L151",
+      "source_location": "L158",
       "weight": 1.0
     },
     {
@@ -25474,7 +23983,7 @@
       "confidence_score": 0.85,
       "context": "collection",
       "source_file": "chaincode/lib/core.js",
-      "source_location": "L151",
+      "source_location": "L158",
       "weight": 1.0
     },
     {
@@ -25563,5 +24072,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "7c2724501b3414d73d9ec62853106ca6494099d7"
+  "built_at_commit": "30efb9a8881a80a708141a4fc0865aaceff35bae"
 }

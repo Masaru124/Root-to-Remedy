@@ -25,6 +25,8 @@ async function getApprovedBatches(req, res) {
   }
 }
 
+const asObject = r => (Buffer.isBuffer(r) ? JSON.parse(r.toString()) : (typeof r === 'string' ? JSON.parse(r) : r));
+
 async function createProduct(req, res) {
   try {
     const { batchId, productName, unitsRequested, productId: clientProductId } = req.body;
@@ -40,17 +42,21 @@ async function createProduct(req, res) {
     const fabric = getFabricGateway();
 
     // 1. Submit CreateProduct to Fabric ledger (chaincode checks batch.status === 'APPROVED' and depletes mass balance)
-    const resultJson = await fabric.submitTransaction('CreateProduct', productId, batchId, productName, unitsRequested);
-    const productData = JSON.parse(resultJson);
+    const result = await fabric.submitTransaction('CreateProduct', productId, batchId, productName, unitsRequested);
+    const resObj = asObject(result);
+    const product = resObj.product || resObj;
+    const batch = resObj.batch || {};
+
+    const remainingBatchWeightMg = batch.remainingWeightMg !== undefined ? batch.remainingWeightMg : product.remainingBatchWeightMg;
 
     // Sync updated batch balance to Mongo cache if available
-    if (getMongoStatus()) {
+    if (getMongoStatus() && remainingBatchWeightMg !== undefined) {
       try {
         await BatchCache.findOneAndUpdate(
           { batchId },
           {
-            remainingWeightMg: productData.remainingBatchWeightMg,
-            remainingWeightKg: productData.remainingBatchWeightMg / 1000000
+            remainingWeightMg: remainingBatchWeightMg,
+            remainingWeightKg: remainingBatchWeightMg / 1000000
           }
         );
       } catch (cacheErr) {
@@ -64,7 +70,8 @@ async function createProduct(req, res) {
     return res.status(201).json({
       success: true,
       data: {
-        ...productData,
+        ...product,
+        remainingBatchWeightMg,
         qrCodeDataUrl
       }
     });

@@ -1,16 +1,16 @@
 # Graph Report - Laksh major project  (2026-10-04)
 
 ## Corpus Check
-- 134 files · ~782,823 words
+- 135 files · ~840,705 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 999 nodes · 1215 edges · 90 communities (63 shown, 18 thin omitted)
+- 931 nodes · 1155 edges · 88 communities (64 shown, 17 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 33 edges (avg confidence: 0.85)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `7c272450`
+- Built from commit: `30efb9a8`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -29,8 +29,12 @@
 - 2. Components
 - rules/graphify.md
 - workflows/graphify.md
-- phase 2 report 26_b200624c.md
-- phase 2 report 26_original_template_fae11deb.md
+- herbContract.test.js
+- capture_all_new_feature_screenshots.js
+- generate_test_pdfs.js
+- devDependencies
+- dependencies
+- scripts
 - Brag Plan: Root-to-Remedy
 - Audio reference
 - getFabricGateway
@@ -49,8 +53,8 @@
 - Step 1: Inspect the project
 - BatchCache.js
 - Rules
-- CHAPTER 6
-- CHAPTER 1
+- fabricConnection.js
+- upload.js
 - Music Cues: happy-beats-business-moves-vol-10-by-ende-dot-app
 - Music Cues: happy-beats-business-moves-vol-11-by-ende-dot-app
 - Music Cues: happy-beats-business-moves-vol-12-by-ende-dot-app
@@ -60,15 +64,11 @@
 - core.test.js
 - Karpathy-Inspired Claude Code Guidelines
 - cavecrew/SKILL.md
-- CHAPTER 3
 - Caveman Help
 - Rules
-- ANNEXURE
-- CHAPTER 4
 - build_full_report.py
 - README.md
 - Rules
-- LITERATURE SURVEY
 - brag
 - Caveman Compress
 - caveman-commit
@@ -112,19 +112,19 @@
 ## Surprising Connections (you probably didn't know these)
 - `_compress_file_locked()` --calls--> `validate()`  [EXTRACTED]
   .agents/skills/caveman-compress/scripts/compress.py → .agents/skills/caveman-compress/scripts/validate.py
-- `getAllBatches()` --calls--> `getMongoStatus()`  [EXTRACTED]
-  backend/controllers/batchController.js → backend/config/db.js
-- `getBatchById()` --calls--> `getMongoStatus()`  [EXTRACTED]
-  backend/controllers/batchController.js → backend/config/db.js
-- `registerBatch()` --calls--> `getMongoStatus()`  [EXTRACTED]
-  backend/controllers/batchController.js → backend/config/db.js
+- `login()` --calls--> `getMongoStatus()`  [EXTRACTED]
+  backend/controllers/authController.js → backend/config/db.js
+- `register()` --calls--> `getMongoStatus()`  [EXTRACTED]
+  backend/controllers/authController.js → backend/config/db.js
 - `uploadLabReport()` --calls--> `getMongoStatus()`  [EXTRACTED]
   backend/controllers/labController.js → backend/config/db.js
+- `createProduct()` --calls--> `getMongoStatus()`  [EXTRACTED]
+  backend/controllers/productController.js → backend/config/db.js
 
 ## Import Cycles
 - None detected.
 
-## Communities (90 total, 18 thin omitted)
+## Communities (88 total, 17 thin omitted)
 
 ### Community 0 - "compress.py"
 Cohesion: 0.06
@@ -132,15 +132,15 @@ Nodes (62): main(), Caveman Compress CLI Usage: caveman <filepath>, backup_dir_f
 
 ### Community 1 - "frontend/package.json"
 Cohesion: 0.07
-Nodes (27): dependencies, axios, html5-qrcode, lucide-react, react, react-dom, react-router-dom, devDependencies (+19 more)
+Nodes (26): dependencies, axios, html5-qrcode, lucide-react, react, react-dom, react-router-dom, devDependencies (+18 more)
 
 ### Community 2 - "App.jsx"
-Cohesion: 0.18
-Nodes (18): App(), ProtectedRoute(), Navbar(), ProvenanceCard(), QRScanner(), StatusBadge(), AuthContext, AuthProvider() (+10 more)
+Cohesion: 0.17
+Nodes (19): App(), ProtectedRoute(), Navbar(), ProvenanceCard(), QRScanner(), StatusBadge(), AuthContext, AuthProvider() (+11 more)
 
 ### Community 3 - "backend/package.json"
-Cohesion: 0.04
-Nodes (42): multer, storage, upload, author, dependencies, axios, bcryptjs, cors (+34 more)
+Cohesion: 0.05
+Nodes (39): author, dependencies, axios, bcryptjs, cors, dotenv, express, form-data (+31 more)
 
 ### Community 4 - "validate.py"
 Cohesion: 0.11
@@ -151,8 +151,8 @@ Cohesion: 0.05
 Nodes (37): 10. Hyphenated pairs everywhere, 11. Passive voice and missing subjects, 12. Overused AI words, 13. Inflated significance, 14. Vague connection or association, 15. Shallow -ing riders, 16. Sales language, 17. Borrowed authority (+29 more)
 
 ### Community 6 - "chaincode/package.json"
-Cohesion: 0.06
-Nodes (30): HerbContract, author, dependencies, fabric-contract-api, fabric-shim, description, devDependencies, chai (+22 more)
+Cohesion: 0.17
+Nodes (11): author, description, engineStrict, chai, mocha, license, main, name (+3 more)
 
 ### Community 7 - "server.js"
 Cohesion: 0.14
@@ -163,24 +163,40 @@ Cohesion: 0.15
 Nodes (14): updateTransport(), authenticateToken(), jwt, requireRole(), { authenticateToken, requireRole }, express, router, upload (+6 more)
 
 ### Community 9 - "productController.js"
-Cohesion: 0.22
-Nodes (9): BatchCache, createProduct(), { generateQR }, { getFabricGateway }, { getMongoStatus }, { v4: uuidv4 }, generateQR(), QRCode (+1 more)
+Cohesion: 0.21
+Nodes (10): asObject(), BatchCache, createProduct(), { generateQR }, { getFabricGateway }, { getMongoStatus }, { v4: uuidv4 }, generateQR() (+2 more)
 
 ### Community 10 - "labController.js"
-Cohesion: 0.16
-Nodes (13): asObject(), BatchCache, crypto, { getFabricGateway }, { getMongoStatus }, { parseCoAPdf }, uploadLabReport(), { uploadToIPFS } (+5 more)
+Cohesion: 0.13
+Nodes (17): asObject(), BatchCache, crypto, { getFabricGateway }, { getMongoStatus }, { parseCoAPdf }, uploadLabReport(), { uploadToIPFS } (+9 more)
 
 ### Community 11 - "2. Components"
 Cohesion: 0.17
 Nodes (11): 1. System overview, 2.1 React SPA (frontend), 2.2 Express API (backend), 2.3 Hyperledger Fabric (ledger + chaincode), 2.4 IPFS (document storage), 2.5 MongoDB (off-chain cache), 2. Components, 3. Data flow — worked example (register → verify) (+3 more)
 
-### Community 15 - "phase 2 report 26_b200624c.md"
-Cohesion: 0.04
-Nodes (45): 1.1 Overview, 1.2 Problem Statement, 1.3 Objectives, 1.4 Scope of the Study, 1.5 Disadvantages of Existing Systems, 1.6 Proposed System, 2.1 Literature Survey, 3.1 Functional Requirements (+37 more)
+### Community 14 - "herbContract.test.js"
+Cohesion: 0.17
+Nodes (9): HerbContract, evaluateLabResult(), chai, { evaluateLabResult, canCreateProduct }, HerbContract, sinon, sinonChai, sinon (+1 more)
 
-### Community 18 - "phase 2 report 26_original_template_fae11deb.md"
-Cohesion: 0.07
-Nodes (28): 2. Split data (70/15/15) with stratification, 3. Copy images into folders, ALGORITHMS, Bachelor of Engineering, Block 2, Block 3, Block 4, CERTIFICATES (+20 more)
+### Community 15 - "capture_all_new_feature_screenshots.js"
+Cohesion: 0.09
+Nodes (19): devDependencies, playwright, playwright, captureScreenshots(), { chromium }, COA_PDF_PATH, fs, loginAs() (+11 more)
+
+### Community 16 - "generate_test_pdfs.js"
+Cohesion: 0.29
+Nodes (5): failLines, fs, outDir, passLines, path
+
+### Community 17 - "devDependencies"
+Cohesion: 0.40
+Nodes (5): devDependencies, chai, mocha, sinon, sinon-chai
+
+### Community 18 - "dependencies"
+Cohesion: 0.67
+Nodes (3): dependencies, fabric-contract-api, fabric-shim
+
+### Community 19 - "scripts"
+Cohesion: 0.67
+Nodes (3): scripts, start, test
 
 ### Community 20 - "Brag Plan: Root-to-Remedy"
 Cohesion: 0.10
@@ -191,8 +207,8 @@ Cohesion: 0.12
 Nodes (17): Adding SFX elements, Asset paths, Audio-reactive visuals, Audio reference, Available tracks, Beat and cue sources, `casino/` — Card and chip sounds, `impact/` — Impact sounds (+9 more)
 
 ### Community 22 - "getFabricGateway"
-Cohesion: 0.15
-Nodes (17): getFabricGateway(), { MockLedgerAdapter }, seedDemoData(), BatchCache, getAllBatches(), getBatchById(), { getFabricGateway }, { getMongoStatus } (+9 more)
+Cohesion: 0.18
+Nodes (17): getMongoStatus(), getFabricGateway(), asObject(), BatchCache, getAllBatches(), getBatchById(), { getFabricGateway }, { getMongoStatus } (+9 more)
 
 ### Community 23 - "analyze_music_cues.py"
 Cohesion: 0.28
@@ -207,15 +223,15 @@ Cohesion: 0.15
 Nodes (13): /brag, Creative laws, Invocation dispatch (must happen first), Narration guidance, Output directory, Parsing the invocation, Skill directory, Step 1: Inspect the project (+5 more)
 
 ### Community 26 - "authController.js"
-Cohesion: 0.17
-Nodes (13): getMongoStatus(), bcrypt, { getMongoStatus }, jwt, { JWT_SECRET }, login(), MOCK_USERS, register() (+5 more)
+Cohesion: 0.16
+Nodes (12): bcrypt, { getMongoStatus }, jwt, { JWT_SECRET }, login(), MOCK_USERS, register(), User (+4 more)
 
 ### Community 27 - "verifyRoutes.js"
-Cohesion: 0.29
-Nodes (6): { getFabricGateway }, verifyProduct(), express, router, { verifyProduct }, express
+Cohesion: 0.28
+Nodes (7): asObject(), { getFabricGateway }, verifyProduct(), express, router, { verifyProduct }, express
 
 ### Community 28 - "Step 4: Validate, render, and deliver"
-Cohesion: 0.17
+Cohesion: 0.18
 Nodes (11): Bake the poster as frame 0, Example: Taxi for Taxis, Final output structure, Pick the poster frame, Preview, Render, Share copy by tone, Step 4: Validate, render, and deliver (+3 more)
 
 ### Community 30 - "Step 3: Hand off to Hyperframes"
@@ -250,13 +266,13 @@ Nodes (5): batchCacheSchema, mongoose, mongoose, userSchema, mongoose
 Cohesion: 0.09
 Nodes (20): caveman, Example output, How to invoke, See also, What it does, 1. Answer first, 2. Kill ceremony, 3. Short word (+12 more)
 
-### Community 40 - "CHAPTER 6"
-Cohesion: 0.29
-Nodes (7): AIM OF TESTING, CHAPTER 6, FUNCTIONAL TESTING, INTEGRATION TESTING, SYSTEM TESTING, TESTING PROCESS, UNIT TESTING
+### Community 40 - "fabricConnection.js"
+Cohesion: 0.22
+Nodes (4): { MockLedgerAdapter }, seedDemoData(), core, MockLedgerAdapter
 
-### Community 41 - "CHAPTER 1"
-Cohesion: 0.29
-Nodes (7): CHAPTER 1, Disadvantages of Existing System, Objectives, Overview, Problem Statement, Proposed System, Scope of the study
+### Community 41 - "upload.js"
+Cohesion: 0.33
+Nodes (4): multer, storage, upload, multer
 
 ### Community 44 - "Music Cues: happy-beats-business-moves-vol-10-by-ende-dot-app"
 Cohesion: 0.33
@@ -283,8 +299,8 @@ Cohesion: 0.36
 Nodes (13): bKey(), createProduct(), getBatch(), pKey(), R, registerBatch(), reqId(), reqNum() (+5 more)
 
 ### Community 50 - "core.test.js"
-Cohesion: 0.10
-Nodes (19): core, MockLedgerAdapter, extractMetrics(), FIELDS, parseCoAPdf(), biomassRequiredMg(), evaluateLabResult(), maxUnitsFromBalance() (+11 more)
+Cohesion: 0.18
+Nodes (13): biomassRequiredMg(), maxUnitsFromBalance(), parseKgToMg(), parseUnits(), { SPECIES_SPECS }, validateSpecies(), SPECIES_SPECS, assert (+5 more)
 
 ### Community 51 - "Karpathy-Inspired Claude Code Guidelines"
 Cohesion: 0.12
@@ -294,10 +310,6 @@ Nodes (15): 1. Think Before Coding, 2. Simplicity First, 3. Surgical Changes, 4.
 Cohesion: 0.14
 Nodes (12): cavecrew, Example chaining, How to invoke, Model overrides, See also, What it does, Auto-clarity (inherited), Chaining patterns (+4 more)
 
-### Community 54 - "CHAPTER 3"
-Cohesion: 0.50
-Nodes (4): BASIC OPERATIONAL REQUIREMENT, CHAPTER 3, FUNCTIONAL REQUIREMENT, NON FUNCTIONAL REQUIREMENT
-
 ### Community 57 - "Caveman Help"
 Cohesion: 0.14
 Nodes (12): caveman-help, Example output, How to invoke, See also, What it does, Caveman Help, Configure Default Mode, Deactivate (+4 more)
@@ -305,14 +317,6 @@ Nodes (12): caveman-help, Example output, How to invoke, See also, What it does,
 ### Community 58 - "Rules"
 Cohesion: 0.15
 Nodes (12): 1. Classical register, 2. Particles carry structure, 3. Each fact once, 4. Payload in original script, 5. Tool runs, 6. Never perform, Floor, megacave (+4 more)
-
-### Community 59 - "ANNEXURE"
-Cohesion: 0.67
-Nodes (3): ANNEXURE, Annexure A: Tools and Models Used, Annexure B: Datasets and Resources
-
-### Community 60 - "CHAPTER 4"
-Cohesion: 0.67
-Nodes (3): CHAPTER 4, DEVELOPMENT MODEL, FUNDAMENTAL DESIGN CONCEPTS
 
 ### Community 66 - "Rules"
 Cohesion: 0.15
@@ -379,24 +383,24 @@ Cohesion: 0.40
 Nodes (4): caveman-learn skill, Honesty, Install, What it does
 
 ## Knowledge Gaps
-- **588 isolated node(s):** `brag`, `name`, `version`, `license`, `private` (+583 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 688 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **18 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **520 isolated node(s):** `brag`, `name`, `version`, `license`, `private` (+515 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 619 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **17 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `MockLedgerAdapter` connect `core.test.js` to `getFabricGateway`?**
-  _High betweenness centrality (0.009) - this node is a cross-community bridge._
-- **Why does `getFabricGateway()` connect `getFabricGateway` to `server.js`, `labRoutes.js`, `productController.js`, `labController.js`, `core.test.js`, `verifyRoutes.js`?**
+- **Why does `MockLedgerAdapter` connect `fabricConnection.js` to `core.test.js`, `getFabricGateway`?**
+  _High betweenness centrality (0.008) - this node is a cross-community bridge._
+- **Why does `getFabricGateway()` connect `getFabricGateway` to `server.js`, `fabricConnection.js`, `productController.js`, `labController.js`, `labRoutes.js`, `verifyRoutes.js`?**
   _High betweenness centrality (0.007) - this node is a cross-community bridge._
-- **Why does `evaluateLabResult()` connect `core.test.js` to `chaincode/package.json`?**
-  _High betweenness centrality (0.005) - this node is a cross-community bridge._
+- **Why does `evaluateLabResult()` connect `herbContract.test.js` to `core.test.js`?**
+  _High betweenness centrality (0.007) - this node is a cross-community bridge._
 - **What connects `brag`, `name`, `version` to the rest of the system?**
-  _588 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _520 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `compress.py` be split into smaller, more focused modules?**
   _Cohesion score 0.05547785547785548 - nodes in this community are weakly interconnected._
 - **Should `frontend/package.json` be split into smaller, more focused modules?**
-  _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.07407407407407407 - nodes in this community are weakly interconnected._
 - **Should `backend/package.json` be split into smaller, more focused modules?**
-  _Cohesion score 0.043478260869565216 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.04878048780487805 - nodes in this community are weakly interconnected._

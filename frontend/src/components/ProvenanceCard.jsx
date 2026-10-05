@@ -3,7 +3,7 @@ import StatusBadge from './StatusBadge';
 import { MapPin, ShieldCheck, FileText, Calendar, Sprout, TestTube2, Factory, Truck, ExternalLink } from 'lucide-react';
 
 export default function ProvenanceCard({ data }) {
-  if (!data || !data.verified) {
+  if (!data || (!data.verified && !data.product && !data.batch)) {
     return (
       <div className="glass-card" style={{ textAlign: 'center', padding: '3rem' }}>
         <h3 style={{ color: 'var(--danger-primary)', marginBottom: '0.5rem' }}>Provenance Record Not Found</h3>

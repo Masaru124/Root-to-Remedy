@@ -18,9 +18,9 @@
     "semantic_hash": "3bc34c7619d479cd154bbe7c30c2a188"
   },
   "backend/controllers/batchController.js": {
-    "mtime": 1791000459.904946,
-    "seen": 1791003641.9113314,
-    "ast_hash": "98ccb22bd2d1295d54a2c5f97096a160",
+    "mtime": 1791121861.657029,
+    "seen": 1791122222.9546695,
+    "ast_hash": "38f7bc2c2cfb3dab452ec8897db5ba25",
     "semantic_hash": ""
   },
   "backend/controllers/labController.js": {
@@ -30,16 +30,16 @@
     "semantic_hash": ""
   },
   "backend/controllers/productController.js": {
-    "mtime": 1791000467.2977731,
-    "seen": 1791003641.911335,
-    "ast_hash": "af29cb95fdaf937c72f7db4a0e95a77a",
+    "mtime": 1791121869.9751582,
+    "seen": 1791122222.9546733,
+    "ast_hash": "895b7c47279c5455a12f46eb30b23f63",
     "semantic_hash": ""
   },
   "backend/controllers/verifyController.js": {
-    "mtime": 1787230284.9446414,
-    "seen": 1789044764.262327,
-    "ast_hash": "02a0f66d1a9389360f67141d5e51b4d3",
-    "semantic_hash": "02a0f66d1a9389360f67141d5e51b4d3"
+    "mtime": 1791121893.3867023,
+    "seen": 1791122222.954675,
+    "ast_hash": "223c6e968b6b62552f9684e96360642f",
+    "semantic_hash": ""
   },
   "backend/middleware/auth.js": {
     "mtime": 1787230213.517748,
@@ -66,10 +66,10 @@
     "semantic_hash": "3f34209bcf1d0991a7ff8826b9a3c120"
   },
   "backend/package.json": {
-    "mtime": 1787230123.7388277,
-    "seen": 1789044764.2623327,
-    "ast_hash": "9bafe7b969e479647c45f7cb9cc22a0b",
-    "semantic_hash": "9bafe7b969e479647c45f7cb9cc22a0b"
+    "mtime": 1791121198.1389537,
+    "seen": 1791122222.9546828,
+    "ast_hash": "c6fd7dcc892b49f676cde4b4fa6ca9bb",
+    "semantic_hash": ""
   },
   "backend/routes/authRoutes.js": {
     "mtime": 1787230236.42116,
@@ -174,10 +174,10 @@
     "semantic_hash": "fa135028ee57941d9336ca145f1cd550"
   },
   "frontend/src/components/ProvenanceCard.jsx": {
-    "mtime": 1787231796.1173651,
-    "seen": 1789044764.2623513,
-    "ast_hash": "0fe40d7d4ea2d7a011824bbd2ee6eb92",
-    "semantic_hash": "0fe40d7d4ea2d7a011824bbd2ee6eb92"
+    "mtime": 1791122107.042583,
+    "seen": 1791122222.954716,
+    "ast_hash": "885a0a01a2aa1ac54b911d1a2b803d06",
+    "semantic_hash": ""
   },
   "frontend/src/components/QRScanner.jsx": {
     "mtime": 1787232070.9594953,
@@ -216,9 +216,9 @@
     "semantic_hash": ""
   },
   "frontend/src/pages/LabPage.jsx": {
-    "mtime": 1791001504.7311344,
-    "seen": 1791003641.9113955,
-    "ast_hash": "0c17912fc99da693f088c20d594e6abe",
+    "mtime": 1791121912.871528,
+    "seen": 1791122222.9547267,
+    "ast_hash": "558bc4fac3da1e2e268f41f72f8a4a02",
     "semantic_hash": ""
   },
   "frontend/src/pages/LoginPage.jsx": {
@@ -228,9 +228,9 @@
     "semantic_hash": "b04341d82dca9af99e701fd080910194"
   },
   "frontend/src/pages/ManufacturerPage.jsx": {
-    "mtime": 1791001529.4873662,
-    "seen": 1791003641.911399,
-    "ast_hash": "2db7491297a0c0777fa4f43b7dde049c",
+    "mtime": 1791121969.8126163,
+    "seen": 1791122222.9547296,
+    "ast_hash": "ad82b6607a0e3d939147c698a385a845",
     "semantic_hash": ""
   },
   "frontend/src/services/api.js": {
@@ -371,12 +371,6 @@
     "ast_hash": "2906b929a01b39c773999367e2e41193",
     "semantic_hash": ""
   },
-  "build_weekly_reports.py": {
-    "mtime": 1789989455.8517592,
-    "seen": 1790341714.8198867,
-    "ast_hash": "2790ebedc62f7f7deebcda37b110fe62",
-    "semantic_hash": ""
-  },
   "scratch/build_full_report.py": {
     "mtime": 1790341547.883815,
     "seen": 1790341714.819946,
@@ -513,24 +507,6 @@
     "mtime": 1789990457.9087,
     "seen": 1790341714.820029,
     "ast_hash": "368881b049c0784dcb6a0f006474096f",
-    "semantic_hash": ""
-  },
-  "graphify-out/converted/phase 2 report 26_b200624c.md": {
-    "mtime": 1790342327.818925,
-    "seen": 1790342333.3154569,
-    "ast_hash": "1f64d17c6bf6c877c782af407ea3f429",
-    "semantic_hash": ""
-  },
-  "graphify-out/converted/phase 2 report 26_original_template_fae11deb.md": {
-    "mtime": 1790341707.662247,
-    "seen": 1790341714.8200386,
-    "ast_hash": "96a0e9886f696c6443a538240b455bf1",
-    "semantic_hash": ""
-  },
-  "graphify-out/converted/project weekly report_0ba535a1.md": {
-    "mtime": 1790341710.5463579,
-    "seen": 1790341714.8200405,
-    "ast_hash": "f85171b94ee53f3129b87bba5998d352",
     "semantic_hash": ""
   },
   "brag-output/brag-video.webp": {
@@ -2634,15 +2610,15 @@
     "semantic_hash": ""
   },
   "backend/utils/coaParser.js": {
-    "mtime": 1791000405.9703553,
-    "seen": 1791003641.911363,
-    "ast_hash": "3f995890bcaf634e9a70e45d3e387d09",
+    "mtime": 1791122436.0729084,
+    "seen": 1791122519.0510042,
+    "ast_hash": "f52644d4d90cf65a150c97beae4cf4de",
     "semantic_hash": ""
   },
   "chaincode/lib/core.js": {
-    "mtime": 1791000341.4473622,
-    "seen": 1791003641.9113698,
-    "ast_hash": "1364be3c782d39c64944a7e2f9573c52",
+    "mtime": 1791122098.1386526,
+    "seen": 1791122222.9547014,
+    "ast_hash": "08fc094a7c9baf636667d5f23d504047",
     "semantic_hash": ""
   },
   "chaincode/lib/speciesSpecs.js": {
@@ -2913,6 +2889,102 @@
     "mtime": 1790995480.7177145,
     "seen": 1791003641.9115164,
     "ast_hash": "0fcf3d3b783820fdd064244e95912b15",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1791121687.8224835,
+    "seen": 1791122222.9547346,
+    "ast_hash": "8cce926e4361679d2323861ab9955a7a",
+    "semantic_hash": ""
+  },
+  "scratch/generate_test_pdfs.js": {
+    "mtime": 1791121216.1233404,
+    "seen": 1791122222.9547427,
+    "ast_hash": "d831b950e2c6c855f059e4fa93f39279",
+    "semantic_hash": ""
+  },
+  "tests/e2e_playwright.js": {
+    "mtime": 1791122142.1443005,
+    "seen": 1791122222.954749,
+    "ast_hash": "8b1bce2524001d93315166021a0a377f",
+    "semantic_hash": ""
+  },
+  "scratch/test_coas/coa_fail.pdf": {
+    "mtime": 1791121226.6843681,
+    "seen": 1791122222.9548578,
+    "ast_hash": "49af1e73a5fbabc39bed07b807293985",
+    "semantic_hash": ""
+  },
+  "scratch/test_coas/coa_pass.pdf": {
+    "mtime": 1791121226.6833653,
+    "seen": 1791122222.9548595,
+    "ast_hash": "1f9635df4285e06dafad0522ee302478",
+    "semantic_hash": ""
+  },
+  "scratch/playwright_failure.png": {
+    "mtime": 1791122132.5704958,
+    "seen": 1791122222.9549682,
+    "ast_hash": "e4e3ed4072462da3d6f74ea2797eb38b",
+    "semantic_hash": ""
+  },
+  "scratch/capture_all_new_feature_screenshots.js": {
+    "mtime": 1791122457.7244425,
+    "seen": 1791122519.0510738,
+    "ast_hash": "99db8b378652610f59b19f3c01d536fe",
+    "semantic_hash": ""
+  },
+  "scratch/generate_official_coa.js": {
+    "mtime": 1791122380.6078982,
+    "seen": 1791122519.051081,
+    "ast_hash": "ae7ac1b08c3de7f11f58547f316c5d62",
+    "semantic_hash": ""
+  },
+  "scratch/official_ayush_coa.pdf": {
+    "mtime": 1791122401.476901,
+    "seen": 1791122519.0512233,
+    "ast_hash": "15a74dc4472a0b2c49bde7dd0f4d482b",
+    "semantic_hash": ""
+  },
+  "scratch/feature_screenshots/01_farmer_portal_species_weight.png": {
+    "mtime": 1791122469.2640152,
+    "seen": 1791122519.0512912,
+    "ast_hash": "833e2f51c5ce8eb45023f1838f886b58",
+    "semantic_hash": ""
+  },
+  "scratch/feature_screenshots/02_farmer_batch_registered.png": {
+    "mtime": 1791122469.4825926,
+    "seen": 1791122519.0512924,
+    "ast_hash": "bb978b2056d546fa977cdac12e04b73a",
+    "semantic_hash": ""
+  },
+  "scratch/feature_screenshots/03_lab_portal_coa_upload.png": {
+    "mtime": 1791122471.2573555,
+    "seen": 1791122519.0512936,
+    "ast_hash": "7dd6aecde13cb2739640274b0d732ae6",
+    "semantic_hash": ""
+  },
+  "scratch/feature_screenshots/04_lab_portal_verified_approved.png": {
+    "mtime": 1791122472.2717423,
+    "seen": 1791122519.051295,
+    "ast_hash": "cb148a5c6529d25ccac35ae2081f0499",
+    "semantic_hash": ""
+  },
+  "scratch/feature_screenshots/05_manufacturer_portal_mass_balance.png": {
+    "mtime": 1791122474.0937934,
+    "seen": 1791122519.0512965,
+    "ast_hash": "5614f5ffc0dbf546cbe22d27411bc44d",
+    "semantic_hash": ""
+  },
+  "scratch/feature_screenshots/06_manufacturer_product_minted_qr.png": {
+    "mtime": 1791122474.7916777,
+    "seen": 1791122519.051298,
+    "ast_hash": "639fe065ee5c0dd484fad6d09236ed4b",
+    "semantic_hash": ""
+  },
+  "scratch/feature_screenshots/07_consumer_provenance_audit.png": {
+    "mtime": 1791122476.1647103,
+    "seen": 1791122519.0512993,
+    "ast_hash": "f4b1e55ba2a63d87643dc702c76c836f",
     "semantic_hash": ""
   }
 }

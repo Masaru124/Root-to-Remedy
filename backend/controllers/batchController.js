@@ -3,6 +3,8 @@ const { getFabricGateway } = require('../config/fabricConnection');
 const BatchCache = require('../models/BatchCache');
 const { getMongoStatus } = require('../config/db');
 
+const asObject = r => (Buffer.isBuffer(r) ? JSON.parse(r.toString()) : (typeof r === 'string' ? JSON.parse(r) : r));
+
 async function registerBatch(req, res) {
   try {
     const { herbName, species, harvestDate, soilType, gpsLat, gpsLng, weightKg } = req.body;
@@ -18,7 +20,7 @@ async function registerBatch(req, res) {
     const fabric = getFabricGateway();
 
     // Call Fabric ledger (or Mock adapter)
-    const resultJson = await fabric.submitTransaction(
+    const result = await fabric.submitTransaction(
       'RegisterBatch',
       batchId,
       herbName,
@@ -30,7 +32,7 @@ async function registerBatch(req, res) {
       weightKg
     );
 
-    const batchData = JSON.parse(resultJson);
+    const batchData = asObject(result);
 
     // Sync to Mongo read cache asynchronously
     if (getMongoStatus()) {

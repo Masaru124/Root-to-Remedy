@@ -11,17 +11,17 @@
 const FIELDS = {
   purity: {
     value: /\bpurity\s*[:=]\s*(\d+(?:\.\d+)?)\s*%/gi,
-    label: /\bpurity\b/gi,
+    label: /\bpurity\s*[:=]/gi,
     name: 'Purity'
   },
   contamination: {
     value: /\bcontamination\s*[:=]\s*(\d+(?:\.\d+)?)(?![\d.])/gi,
-    label: /\bcontamination\b/gi,
+    label: /\bcontamination\s*[:=]/gi,
     name: 'Contamination'
   },
   coaWeightKg: {
     value: /\bbatch\s+quantity\s*[:=]\s*(\d+(?:\.\d+)?)\s*kg\b/gi,
-    label: /\bbatch\s+quantity\b/gi,
+    label: /\bbatch\s+quantity\s*[:=]/gi,
     name: 'Batch Quantity'
   }
 };
@@ -55,9 +55,21 @@ function extractMetrics(text) {
 }
 
 async function parseCoAPdf(buffer) {
-  const pdfParse = require('pdf-parse');
-  const data = await pdfParse(buffer);
-  return extractMetrics(data.text);
+  const pdfModule = require('pdf-parse');
+  let rawText = '';
+
+  if (typeof pdfModule === 'function') {
+    const data = await pdfModule(buffer);
+    rawText = data.text || '';
+  } else if (pdfModule && pdfModule.PDFParse) {
+    const parser = new pdfModule.PDFParse({ data: buffer });
+    const res = await parser.getText();
+    rawText = res?.text || (typeof res === 'string' ? res : '');
+  } else {
+    throw new Error('Unsupported pdf-parse module format.');
+  }
+
+  return extractMetrics(rawText);
 }
 
 module.exports = { extractMetrics, parseCoAPdf };
